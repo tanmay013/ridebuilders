@@ -1,0 +1,424 @@
+{
+  "brands": [
+    { "name": "maruti", "category": "car", "icon": "triangle" },
+    { "name": "hyundai", "category": "car", "icon": "asterisk" },
+    { "name": "tata", "category": "car", "icon": "hexagon" },
+    { "name": "mahindra", "category": "car", "icon": "bars" },
+    { "name": "honda", "category": "car", "icon": "chevron" },
+    { "name": "bajaj", "category": "bike", "icon": "circle" },
+    { "name": "ktm", "category": "bike", "icon": "squares" }
+  ],
+  "machines": [
+    { "id": 1,  "type": "car",  "eyebrow": "Economy",   "title": "Cars",  "count": 16, "image": "/economynew.png",                "href": "/cars",          "aspect": "4/5" },
+    { "id": 2,  "type": "bike", "eyebrow": "Cruiser",   "title": "Bikes", "count": 14, "image": "/cruiser.png",           "href": "/bikes",       "aspect": "3/4" },
+    { "id": 3,  "type": "car",  "eyebrow": "Exotic",    "title": "Cars",  "count": 8,  "image": "/exotic.png",                  "href": "/cars",          "aspect": "1/1" },
+    { "id": 4,  "type": "bike", "eyebrow": "Sport",     "title": "Bikes", "count": 18, "image": "/sports.png",             "href": "/bikes",    "aspect": "4/5" },
+    { "id": 5,  "type": "car",  "eyebrow": "SUV",       "title": "Cars",  "count": 12, "image": "/suv.png",         "href": "/cars",          "aspect": "3/4" },
+    { "id": 6,  "type": "bike", "eyebrow": "Adventure", "title": "Bikes", "count": 11, "image": "/adventure.png",         "href": "/bikes",     "aspect": "1/1" },
+    { "id": 7,  "type": "car",  "eyebrow": "Electric",  "title": "Cars",  "count": 10, "image": "/ev.png",     "href": "/cars",          "aspect": "4/5" },
+    { "id": 8,  "type": "bike", "eyebrow": "Electric",  "title": "Bikes", "count": 7,  "image": "/electricBike.png",          "href": "/bikes", "aspect": "3/4" },
+    { "id": 9,  "type": "car",  "eyebrow": "Sport",     "title": "Cars",  "count": 16, "image": "/sportscar.png",        "href": "/cars",          "aspect": "1/1" },
+    { "id": 10, "type": "bike", "eyebrow": "Naked",     "title": "Bikes", "count": 9,  "image": "/nakedbike.png",             "href": "/bikes",         "aspect": "4/5" },
+    { "id": 11, "type": "car",  "eyebrow": "Luxury",    "title": "Cars",  "count": 24, "image": "/luxoryCar.png",       "href": "/cars",          "aspect": "3/4" },
+    { "id": 12, "type": "bike", "eyebrow": "Tourer",    "title": "Bikes", "count": 6,  "image": "/tour.png",            "href": "/bikes",        "aspect": "1/1" }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Porsche 911 GT3",
+      "price": "₹2.4 Cr",
+      "image": "/posshegt3.png",
+      "category": "car",
+      "watermark": "GT3",
+      "specs": ["502 HP", "RWD", "3.4s 0–100"]
+    },
+    {
+      "id": 2,
+      "name": "Kawasaki Ninja H2",
+      "price": "₹35 L",
+      "image": "https://i.pinimg.com/736x/63/99/89/639989b4eb07bfdf91bdbd1af3f0f7b0.jpg",
+      "category": "bike",
+      "watermark": "H2",
+      "specs": ["310 HP", "Supercharged", "400+ km/h"]
+    },
+    {
+      "id": 3,
+      "name": "BMW R 1250 GS",
+      "price": "₹21 L",
+      "image": "https://i.pinimg.com/1200x/4b/31/ee/4b31ee03e9acd91e0141fab059e776e7.jpg",
+      "category": "bike",
+      "watermark": "GS",
+      "specs": ["136 HP", "Boxer engine", "Adventure"]
+    },
+    {
+      "id": 4,
+      "name": "Ferrari 296 GTB",
+      "price": "₹5.40 Cr",
+      "image": "https://i.pinimg.com/736x/59/3a/17/593a1737b189e2b9f9c612bf1292012b.jpg",
+      "category": "car",
+      "watermark": "296",
+      "specs": ["830 HP", "Hybrid", "0–100 in 2.9s"]
+    }
+  ],
+  "chooseSide": {
+    "eyebrow": "Cars vs Bikes",
+    "headline": "Choose your side.",
+    "description": "Two wheels or four — every machine has a story. Pick yours.",
+    "left": {
+      "label": "Four Wheels",
+      "title": "Cars",
+      "description": "From economy hatchbacks to hypercars — the full spectrum.",
+      "image": "https://i.pinimg.com/736x/37/cf/8f/37cf8f8c32e20e92f2e7ac1750637a07.jpg",
+      "href": "/cars"
+    },
+    "right": {
+      "label": "Two Wheels",
+      "title": "Bikes",
+      "description": "Cruisers, sportbikes, adventure tourers — every breed.",
+      "image": "https://i.pinimg.com/736x/3c/55/e5/3c55e523dcbf83c7110d4b331692e28d.jpg",
+      "href": "/bikes"
+    }
+  },
+  "whyCompare": {
+    "eyebrow": "Why Ridebuilders",
+    "headline": "Built for people who don't guess.",
+    "description": "Every spec verified, every review aggregated, every price tracked. So you can decide with confidence — not vibes.",
+    "features": [
+      {
+        "title": "Side-by-side comparisons",
+        "description": "Pit any two machines against each other — specs, performance, pricing — in one glance.",
+        "icon": "compare"
+      },
+      {
+        "title": "Verified specs",
+        "description": "Pulled from manufacturers, double-checked by humans. No marketing fluff, no fudged numbers.",
+        "icon": "shield"
+      },
+      {
+        "title": "360° views",
+        "description": "Rotate, zoom, inspect from every angle. See what you're getting before you ever sit in it.",
+        "icon": "rotate"
+      },
+      {
+        "title": "City-based pricing",
+        "description": "On-road costs in your city, refreshed weekly. Know the real number, not the brochure.",
+        "icon": "map"
+      }
+    ]
+  },
+  "trustStats": {
+    "eyebrow": "By the numbers",
+    "headline": "Trusted by riders. Loved by owners.",
+    "description": "A growing dataset, refreshed daily, built to be the source of truth on what's on the road.",
+    "stats": [
+      { "value": 12000, "suffix": "+", "label": "Vehicles tracked" },
+      { "value": 4, "suffix": "M+", "label": "Comparisons made" },
+      { "value": 850, "suffix": "k", "label": "Reviews aggregated" },
+      { "value": 99, "suffix": "%", "label": "Specs verified" }
+    ]
+  },
+  "cta": {
+    "headline": "Every machine tells a story.",
+    "description": "From daily rides to track monsters — discover, compare, and experience vehicles in a new way.",
+    "buttonLabel": "Start Exploring",
+    "buttonHref": "#explore",
+    "videoSrc": "/hero.webm"
+  },
+  "contact": {
+    "phone": "+91 80 1234 5678",
+    "email": "hello@ridebuilders.in",
+    "address": "Bengaluru, India"
+  },
+  "carsPage": {
+    "hero": {
+      "eyebrow": "Cars",
+      "headline": "Find your machine",
+      "description": "From daily drives to track monsters.",
+      "image": "/carplp.jpg"
+    },
+    "filters": [
+      {
+        "id": "brand",
+        "label": "Brand",
+        "value": "All",
+        "icon": "shield",
+        "options": ["All", "BMW", "Audi", "Mercedes", "Porsche", "Ferrari"]
+      },
+      {
+        "id": "price",
+        "label": "Price",
+        "value": "Any",
+        "icon": "price",
+        "options": ["Any", "< ₹20L", "₹20L - ₹50L", "₹50L - ₹1Cr", "> ₹1Cr"]
+      },
+      {
+        "id": "fuelType",
+        "label": "Fuel Type",
+        "value": "All",
+        "icon": "fuel",
+        "options": ["All", "Petrol", "Diesel", "Hybrid", "Electric"]
+      },
+      {
+        "id": "transmission",
+        "label": "Transmission",
+        "value": "All",
+        "icon": "gears",
+        "options": ["All", "Manual", "Automatic", "DCT", "CVT"]
+      },
+      {
+        "id": "bodyType",
+        "label": "Body Type",
+        "value": "All",
+        "icon": "body",
+        "options": ["All", "Sedan", "SUV", "Coupe", "Hatchback", "Convertible"]
+      }
+    ],
+    "totalResults": 128,
+    "compareBar": {
+      "left":  { "brand": "BMW",    "name": "M4 Competition", "image": "/cars/bmw-m4.png" },
+      "right": { "brand": "Ducati", "name": "Panigale V4 S",  "image": "/cars/ducati-panni.png" }
+    },
+    "featured": [
+      {
+        "id": "bmw-m4-competition",
+        "brand": "BMW",
+        "name": "M4 Competition",
+        "price": "₹92,50,000",
+        "hp": "510 hp",
+        "zero": "3.5 s",
+        "topSpeed": "290 km/h",
+        "image": "/cars/bmw-m4.png"
+      },
+      {
+        "id": "porsche-911-carrera-s-featured",
+        "brand": "Porsche",
+        "name": "911 Carrera S",
+        "price": "₹1,62,00,000",
+        "hp": "450 hp",
+        "zero": "3.7 s",
+        "topSpeed": "308 km/h",
+        "image": "/cars/911-carrera.jpg"
+      },
+      {
+        "id": "audi-rs-etron-gt",
+        "brand": "Audi",
+        "name": "RS e-tron GT",
+        "price": "₹1,72,00,000",
+        "hp": "646 hp",
+        "zero": "3.3 s",
+        "topSpeed": "250 km/h",
+        "image": "/cars/audi-rs-etron-gt.png"
+      }
+    ],
+    "all": [
+      { "id": "mercedes-c63-amg",          "brand": "Mercedes", "name": "C63 AMG",            "price": "₹86,00,000",   "hp": "469 hp", "zero": "4.0 s", "topSpeed": "250 km/h", "fuelType": "Petrol", "transmission": "Automatic", "bodyType": "Sedan", "drivetrain": "RWD", "modelYear": 2022, "image": "https://hips.hearstapps.com/hmg-prod/images/2023-mercedes-amg-c63-s-e-performance-118-65d7969b525e3.jpg?crop=0.742xw:0.628xh;0.207xw,0.204xh&resize=2048:*" },
+      { "id": "porsche-911-carrera-s",     "brand": "Porsche",        "name": "911 Carrera S",      "price": "₹1,62,00,000", "hp": "450 hp", "zero": "3.7 s", "topSpeed": "308 km/h", "fuelType": "Petrol", "transmission": "Automatic", "bodyType": "Coupe", "drivetrain": "RWD", "modelYear": 2023, "image": "https://imgd.aeplcdn.com/664x374/cw/ec/39232/Porsche-New-911-Exterior-153677.jpg?wm=1&q=80" },
+      { "id": "bmw-m2-competition",        "brand": "BMW",            "name": "M2 Competition",     "price": "₹65,00,000",   "hp": "410 hp", "zero": "4.2 s", "topSpeed": "250 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Coupe", "drivetrain": "RWD", "modelYear": 2021, "image": "https://r44performance.com/cdn/shop/articles/BMW-F87-M2-Competition-Modified.jpg?v=1710949620&width=1200" },
+      { "id": "jaguar-f-type-r",           "brand": "Jaguar",         "name": "F-Type R",           "price": "₹98,00,000",   "hp": "575 hp", "zero": "3.5 s", "topSpeed": "300 km/h", "fuelType": "Petrol", "transmission": "Automatic", "bodyType": "Coupe", "drivetrain": "RWD", "modelYear": 2020, "image": "https://s.wsj.net/public/resources/images/OD-BD321_RUMBLE_P_20140807135559.jpg" },
+      { "id": "toyota-supra-gr",           "brand": "Toyota",         "name": "Supra GR",           "price": "₹56,90,000",   "hp": "340 hp", "zero": "4.3 s", "topSpeed": "250 km/h", "fuelType": "Petrol", "transmission": "Automatic", "bodyType": "Coupe", "drivetrain": "RWD", "modelYear": 2022, "image": "https://hips.hearstapps.com/hmg-prod/images/2026-toyota-gr-supra-mkv-final-edition-106-67ed5d3eedce8.jpg?crop=1.00xw:0.855xh;0,0.0775xh&resize=2048:*" },
+      { "id": "nissan-gtr-premium",        "brand": "Nissan",         "name": "GT-R Premium",       "price": "₹2,12,00,000", "hp": "565 hp", "zero": "2.9 s", "topSpeed": "315 km/h", "fuelType": "Petrol", "transmission": "Automatic", "bodyType": "Coupe", "drivetrain": "AWD", "modelYear": 2019, "image": "https://media.ed.edmunds-media.com/nissan/gt-r/2024/oem/2024_nissan_gt-r_coupe_nismo_fq_oem_1_1280.jpg" },
+      { "id": "chevrolet-corvette",        "brand": "Chevrolet",      "name": "Corvette Stingray",  "price": "₹1,05,00,000", "hp": "495 hp", "zero": "3.0 s", "topSpeed": "312 km/h", "fuelType": "Petrol", "transmission": "Automatic", "bodyType": "Coupe", "drivetrain": "RWD", "modelYear": 2021, "image": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2024/03/763143-21.jpg?q=50&fit=crop&w=825&dpr=1.5" },
+      { "id": "ford-mustang-gt",           "brand": "Ford",           "name": "Mustang GT",         "price": "₹74,60,000",   "hp": "450 hp", "zero": "4.1 s", "topSpeed": "250 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Coupe", "drivetrain": "RWD", "modelYear": 2020, "image": "https://www.usnews.com/object/image/0000019b-0a66-dbed-adff-0a7612800000/2026-ford-mustang-front-angle-view-ak.jpg?update-time=1765406019919&size=responsiveGallery&format=webp" },
+      {"id": "audi-r8-v10-performance",    "brand": "Audi", "name": "R8 V10 Performance","price": "₹2,72,00,000", "hp": "602 hp","zero": "3.2 s","topSpeed": "331 km/h", "fuelType": "Petrol", "transmission": "Automatic","bodyType": "Coupe", "drivetrain": "AWD", "modelYear": 2023,"image": "https://www.luxurylifestylemag.co.uk/wp-content/uploads/2020/04/A1813694_large.jpg"
+      
+      }
+    ]
+  },
+  "bikesPage": {
+    "hero": {
+      "eyebrow": "Bikes",
+      "headline": "Find the perfect bike. \n Built for your ride.",
+      "description": "From city commuters to track-ready beasts.",
+      "image": "https://img.magnific.com/free-photo/man-racing-dirt-bike-fantasy-environment_23-2151500487.jpg?t=st=1778229572~exp=1778233172~hmac=3232c1e88ca85d559b0d6066772248aa1297f7ec03e8721b283a43f97361d710&w=2000"
+    },
+    "filters": [
+      {
+        "id": "brand",
+        "label": "Brand",
+        "value": "All",
+        "icon": "shield",
+        "options": ["All", "KTM", "Yamaha", "Kawasaki", "Ducati", "BMW", "Triumph", "Royal Enfield"]
+      },
+      {
+        "id": "price",
+        "label": "Price",
+        "value": "Any",
+        "icon": "price",
+        "options": ["Any", "< ₹2L", "₹2L - ₹5L", "₹5L - ₹10L", "> ₹10L"]
+      },
+      {
+        "id": "fuelType",
+        "label": "Fuel Type",
+        "value": "All",
+        "icon": "fuel",
+        "options": ["All", "Petrol", "Electric"]
+      },
+      {
+        "id": "transmission",
+        "label": "Transmission",
+        "value": "All",
+        "icon": "gears",
+        "options": ["All", "Manual", "Automatic"]
+      },
+      {
+        "id": "bodyType",
+        "label": "Body Type",
+        "value": "All",
+        "icon": "body",
+        "options": ["All", "Sport", "Naked", "Cruiser", "Adventure", "Tourer"]
+      }
+    ],
+    "totalResults": 96,
+    "all": [
+      { "id": "bmw-s1000rr", "brand": "BMW", "name": "S1000 RR", "price": "₹20,75,000", "hp": "210 hp", "zero": "3.1 s", "topSpeed": "303 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Sport", "drivetrain": "Chain", "modelYear": 2024, "image": "https://static-cdn.cars24.com/prod/vehicles/bmw/s-1000-rr/feature-image/image-1110-lTiZ0GAddr8Q0UQs.png"},
+      { "id": "ktm-390-duke", "brand": "KTM", "name": "390 Duke", "price": "₹3,10,000", "hp": "46 hp", "zero": "5.6 s", "topSpeed": "167 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Naked", "drivetrain": "Chain", "modelYear": 2024, "image": "https://i.pinimg.com/736x/02/11/79/0211792bfa254a1f203e56f3533668cc.jpg" },
+      { "id": "kawasaki-z900", "brand": "Kawasaki", "name": "Z900", "price": "₹9,29,000", "hp": "125 hp", "zero": "3.5 s", "topSpeed": "250 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Naked", "drivetrain": "Chain", "modelYear": 2022, "image": "https://images.unsplash.com/photo-1580310614729-ccd69652491d?q=80&w=1600&auto=format&fit=crop" },
+      { "id": "ducati-panigale-v4", "brand": "Ducati", "name": "Panigale V4", "price": "₹27,73,000", "hp": "215 hp", "zero": "3.0 s", "topSpeed": "299 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Sport", "drivetrain": "Chain", "modelYear": 2024, "image": "https://images.unsplash.com/photo-1588627541420-fce3f661b779?q=80&w=1600&auto=format&fit=crop" },
+      { "id": "bmw-gs-1250", "brand": "BMW", "name": "R 1250 GS", "price": "₹20,55,000", "hp": "136 hp", "zero": "3.6 s", "topSpeed": "220 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Adventure", "drivetrain": "Shaft", "modelYear": 2021, "image": "https://images.unsplash.com/photo-1558981001-5864b3250a69?q=80&w=1600&auto=format&fit=crop" },
+      { "id": "triumph-street-triple-rs", "brand": "Triumph", "name": "Street Triple RS", "price": "₹11,81,000", "hp": "123 hp", "zero": "3.8 s", "topSpeed": "250 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Naked", "drivetrain": "Chain", "modelYear": 2022, "image": "https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/dadd8oqv/knm/tvv/mmp/triumph-lanca-street-triple-765-rx-e-moto2-edition_3.webp" },
+      { "id": "royal-enfield-super-meteor-650", "brand": "Royal Enfield", "name": "Super Meteor 650", "price": "₹3,95,000", "hp": "47 hp", "zero": "6.1 s", "topSpeed": "165 km/h", "fuelType": "Petrol", "transmission": "Manual", "bodyType": "Cruiser", "drivetrain": "Chain", "modelYear": 2023, "image": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?q=80&w=1600&auto=format&fit=crop" },
+      { "id": "ather-450x", "brand": "Ather", "name": "450X", "price": "₹1,45,000", "hp": "8 hp", "zero": "3.3 s", "topSpeed": "90 km/h", "fuelType": "Electric", "transmission": "Automatic", "bodyType": "Tourer", "drivetrain": "Belt", "modelYear": 2024, "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/147925/450x-right-front-three-quarter.jpeg?isig=0&q=80" }
+    ]
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "About RideBuilders",
+      "headline": "Built by people\nwho live to drive.",
+      "description": "We're a small crew obsessed with cars, bikes, and the stories machines tell. RideBuilders exists to make every spec, every price, and every comparison — honest, beautiful, and fast.",
+      "image": "https://img.magnific.com/free-photo/traveling-with-off-road-car_23-2151472951.jpg?t=st=1778236056~exp=1778239656~hmac=bb15ff653cdf6a444c955296c207a4fe5ccb15beb72a95a367777bc0e5e1a080&w=2000"
+    },
+    "mission": {
+      "eyebrow": "Our Mission",
+      "headline": "Decode every machine on the road.",
+      "description": "From hatchbacks to hypercars, commuters to track weapons — our job is to gather, verify and present the truth about every vehicle, so you can choose with confidence and not from a brochure.",
+      "stats": [
+        { "label": "Founded", "value": "2026" },
+        { "label": "Based in", "value": "Gurgaon" },
+        { "label": "Vehicles", "value": "500+" }
+      ],
+      "image": "https://images.unsplash.com/photo-1547825407-2d060104b7f8?q=80&w=2400&auto=format&fit=crop"
+    },
+    "values": {
+      "eyebrow": "What we stand for",
+      "headline": "Truth, taste, and obsession.",
+      "description": "Four values that show up in every page, every spec sheet, every pixel.",
+      "items": [
+        {
+          "title": "Truthful specs",
+          "description": "Every number is verified at the source. No guesswork, no marketing fluff.",
+          "icon": "shield"
+        },
+        {
+          "title": "Independent reviews",
+          "description": "We don't sell cars. We don't take brand money. We just call it as we see it.",
+          "icon": "compass"
+        },
+        {
+          "title": "Beautiful by default",
+          "description": "Information should feel cinematic. We design like every page is a launch.",
+          "icon": "sparkle"
+        },
+        {
+          "title": "Built for enthusiasts",
+          "description": "We make the tool we wished existed. Made by people who actually ride.",
+          "icon": "heart"
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "By the numbers",
+      "headline": "A growing universe of machines.",
+      "description": "Updated daily, audited weekly, obsessed over constantly.",
+      "items": [
+        { "value": 12000, "suffix": "+", "label": "Vehicles tracked" },
+        { "value": 4, "suffix": "M+", "label": "Comparisons made" },
+        { "value": 850, "suffix": "k", "label": "Reviews aggregated" },
+        { "value": 99, "suffix": "%", "label": "Specs verified" }
+      ]
+    },
+    "timeline": {
+      "eyebrow": "Our story",
+      "headline": "Three years. One obsession.",
+      "description": "What started as a side-project to settle bar arguments turned into the most-trusted automotive comparison platform in the country.",
+      "milestones": [
+        {
+          "year": "2024",
+          "title": "Idea on a napkin",
+          "description": "Two friends sketched a comparison tool over chai. Domain bought the same evening."
+        },
+        {
+          "year": "2025",
+          "title": "First 1,000 vehicles",
+          "description": "Launched the public beta with verified specs for the first 1,000 cars and bikes."
+        },
+        {
+          "year": "2025",
+          "title": "Compare engine v2",
+          "description": "Introduced multi-vehicle comparison and best-value highlighting across categories."
+        },
+        {
+          "year": "2026",
+          "title": "12,000 machines, 4M comparisons",
+          "description": "Crossed 12k tracked vehicles and 4M comparisons across India and beyond."
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "Built by one",
+      "headline": "One developer. High torque.",
+      "description": "RideBuilders is designed, engineered and shipped by a single person — obsessed with cars, bikes and the craft of building products from scratch.",
+      "members": [
+        {
+          "name": "Tanmay Pandey",
+          "role": "Founder & Developer",
+          "bio": "Designs, engineers and ships every pixel of RideBuilders solo.",
+          "image": "https://tanmaypandey.com/_next/image?url=%2FprofileImage.png&w=828&q=75"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Cars. Bikes. Decoded — your guide to every machine on the road.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          { "label": "Cars", "href": "/cars" },
+          { "label": "Bikes", "href": "/bikes" },
+          { "label": "Compare", "href": "/compare" },
+          { "label": "Categories", "href": "#categories" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About", "href": "/about" },
+          { "label": "Careers", "href": "#careers" },
+          { "label": "Newsroom", "href": "#news" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Buying Guides", "href": "#guides" },
+          { "label": "Reviews", "href": "#reviews" },
+          { "label": "FAQ", "href": "#faq" },
+          { "label": "Sitemap", "href": "#sitemap" }
+        ]
+      }
+    ],
+    "social": [
+      { "name": "twitter", "href": "https://twitter.com" },
+      { "name": "instagram", "href": "https://instagram.com" },
+      { "name": "youtube", "href": "https://youtube.com" },
+      { "name": "linkedin", "href": "https://linkedin.com" }
+    ],
+    "legal": [
+      { "label": "Privacy", "href": "#privacy" },
+      { "label": "Terms", "href": "#terms" },
+      { "label": "Cookies", "href": "#cookies" }
+    ],
+    "copyright": "© 2026 ridebuilders. All rights reserved."
+  }
+}

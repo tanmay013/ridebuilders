@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --font-sans: var(--font-readex-pro);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-readex-pro), system-ui, -apple-system, sans-serif;
+  /* Cinematic base.
+     - Cool light source from the top (very faint blue-white).
+     - Warm undertone from the bottom (deep amber).
+     - Base color is a near-black with a tiny cool bias (#050608)
+       instead of pure #000 so the deep darks read as
+       "in shadow" rather than "off". */
+  background:
+    radial-gradient(ellipse 90% 60% at 50% 0%, rgba(140, 170, 220, 0.05), transparent 60%),
+    radial-gradient(ellipse 80% 70% at 50% 110%, rgba(60, 35, 25, 0.05), transparent 60%),
+    #050608;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-title {
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+}
