@@ -109,7 +109,10 @@ const BackgroundVideo: FC<BackgroundVideoProps> = ({
     document.addEventListener("visibilitychange", onVisible);
 
     const onPageShow = (e: PageTransitionEvent) => {
-      if (e.persisted) nudgePlay();
+      if (e.persisted) {
+        reveal();
+        nudgePlay();
+      }
     };
     window.addEventListener("pageshow", onPageShow);
 
@@ -124,7 +127,7 @@ const BackgroundVideo: FC<BackgroundVideoProps> = ({
       window.removeEventListener("pageshow", onPageShow);
       cancelAnimationFrame(raf);
     };
-  }, [currentSrc, nudgePlay]);
+  }, [currentSrc, nudgePlay, reveal]);
 
   return (
     <>

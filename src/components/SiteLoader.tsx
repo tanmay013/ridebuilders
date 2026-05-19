@@ -1,7 +1,7 @@
 "use client";
 
 import type { FC } from "react";
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const WORDMARK = "ridebuilders";
@@ -24,16 +24,52 @@ const Logo: FC = () => (
   </svg>
 );
 
+const SESSION_KEY = "rb-site-loaded";
+
 const SiteLoader: FC = () => {
+  // Always true on first render so SSR and hydration match. Session check runs in useEffect.
   const [isLoading, setIsLoading] = useState(true);
 
+  useLayoutEffect(() => {
+    try {
+      if (sessionStorage.getItem(SESSION_KEY) === "1") {
+        setIsLoading(false);
+      }
+    } catch {
+      /* private mode */
+    }
+  }, []);
+
+  // Never strand the user behind the loader after bfcache back/forward.
   useEffect(() => {
+    const onPageShow = (event: PageTransitionEvent) => {
+      if (event.persisted) setIsLoading(false);
+    };
+    window.addEventListener("pageshow", onPageShow);
+    return () => window.removeEventListener("pageshow", onPageShow);
+  }, []);
+
+  useEffect(() => {
+    if (!isLoading) return;
+    try {
+      if (sessionStorage.getItem(SESSION_KEY) === "1") return;
+    } catch {
+      /* private mode */
+    }
+
     const startTime = Date.now();
 
     const dismiss = () => {
       const elapsed = Date.now() - startTime;
       const remaining = Math.max(0, MIN_DURATION_MS - elapsed);
-      window.setTimeout(() => setIsLoading(false), remaining);
+      window.setTimeout(() => {
+        setIsLoading(false);
+        try {
+          sessionStorage.setItem(SESSION_KEY, "1");
+        } catch {
+          /* private mode */
+        }
+      }, remaining);
     };
 
     // Look for the hero <video> in the DOM. We give the page a tick to mount
@@ -82,6 +118,11 @@ const SiteLoader: FC = () => {
     // Hard safety: never strand the user on the loader.
     const safetyTimer = window.setTimeout(() => {
       setIsLoading(false);
+      try {
+        sessionStorage.setItem(SESSION_KEY, "1");
+      } catch {
+        /* private mode */
+      }
     }, SAFETY_TIMEOUT_MS);
 
     return () => {
@@ -89,7 +130,7 @@ const SiteLoader: FC = () => {
       window.clearTimeout(safetyTimer);
       cleanup?.();
     };
-  }, []);
+  }, [isLoading]);
 
   // Lock background scroll while the loader is up.
   useEffect(() => {

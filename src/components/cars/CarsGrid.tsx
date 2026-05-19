@@ -31,15 +31,11 @@ const cardVariants = {
     opacity: 0,
     y: 30,
     scale: 1,
-    boxShadow:
-      "0 30px 60px -20px rgba(0, 0, 0, 0.7), inset 0 0 0 1px rgba(255,255,255,0.05)",
   },
   rest: {
     opacity: 1,
     y: 0,
     scale: 1,
-    boxShadow:
-      "0 30px 60px -20px rgba(0, 0, 0, 0.7), inset 0 0 0 1px rgba(255,255,255,0.05)",
   },
 };
 
@@ -84,18 +80,6 @@ const arrowVariants = {
     transition: { duration: 0.2, ease },
   },
 };
-
-const accentPalette = [
-  {
-    glow: "rgba(239,68,68,0.28)",
-  },
-  {
-    glow: "rgba(59,130,246,0.28)",
-  },
-  {
-    glow: "rgba(255,255,255,0.24)",
-  },
-] as const;
 
 const BrandLogo: FC<{ brand: string }> = ({ brand }) => {
   if (brand.toLowerCase() === "bmw") {
@@ -155,8 +139,6 @@ const CarCard: FC<{ car: Car; index: number; basePath: string; isBikesPage: bool
   const bgY = useSpring(bgYRaw, { stiffness: 90, damping: 22, mass: 0.5 });
   const contentY = useSpring(contentYRaw, { stiffness: 90, damping: 22, mass: 0.5 });
 
-  const accent = accentPalette[index % accentPalette.length];
-  const hoverShadow = `0 50px 100px -20px ${accent.glow}, 0 30px 60px -25px rgba(0,0,0,0.85), inset 0 0 0 1px rgba(255,255,255,0.08)`;
   const specs = [
     { value: car.hp ?? "--", label: "Power", icon: <PowerIcon /> },
     { value: car.zero ?? "--", label: "0-100", icon: <ZeroIcon /> },
@@ -167,16 +149,10 @@ const CarCard: FC<{ car: Car; index: number; basePath: string; isBikesPage: bool
     <motion.a
       ref={cardRef}
       href={`${basePath}/${car.id}`}
-      className="group relative block w-full overflow-hidden rounded-[22px] bg-[#0a0a0a] text-slate-100"
+      className="group relative block w-full overflow-hidden rounded-[22px] bg-[#0a0a0a] text-slate-100 ring-1 ring-white/10 transition-all duration-300 hover:ring-2 hover:ring-white hover:shadow-[0_0_40px_10px_rgba(255,255,255,0.4),0_0_80px_20px_rgba(255,255,255,0.2)]"
       variants={cardVariants}
       initial="hidden"
       whileInView="rest"
-      whileHover={{
-        y: -10,
-        scale: 1.02,
-        boxShadow: hoverShadow,
-        transition: { duration: 0.6, ease },
-      }}
       viewport={{ once: true, amount: 0.15 }}
       transition={{
         duration: 0.6,

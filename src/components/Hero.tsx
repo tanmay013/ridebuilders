@@ -11,7 +11,7 @@ import RideBuildersLogo from "./RideBuildersLogo";
 const navLinks: { label: string; href: string }[] = [
   { label: "Home", href: "#home" },
   { label: "Models", href: "/cars" },
-  { label: "Specs", href: "#specs" },
+  { label: "Specs", href: "/specs" },
   { label: "About", href: "/about" },
 ];
 

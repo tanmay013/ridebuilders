@@ -126,7 +126,7 @@ const MissionSection: FC = () => {
             <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3 rounded-2xl border border-white/15 bg-black/40 px-4 py-3 backdrop-blur-xl">
               <span className="h-2 w-2 rounded-full bg-red-500" />
               <span className="text-xs font-medium tracking-wide text-white/85">
-                Verified spec lab · Bengaluru
+                Explore you dream rides.
               </span>
             </div>
           </div>

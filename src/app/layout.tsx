@@ -4,6 +4,7 @@ import "./globals.css";
 import SiteLoader from "@/components/SiteLoader";
 import ScrollProgress from "@/components/ScrollProgress";
 import BackgroundLayers from "@/components/BackgroundLayers";
+import NavigationRecovery from "@/components/NavigationRecovery";
 
 const readexPro = Readex_Pro({
   variable: "--font-readex-pro",
@@ -28,7 +29,7 @@ export default function RootLayout({
         <SiteLoader />
         <ScrollProgress />
         <BackgroundLayers />
-        {children}
+        <NavigationRecovery>{children}</NavigationRecovery>
       </body>
     </html>
   );
