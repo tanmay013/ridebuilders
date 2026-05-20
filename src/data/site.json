@@ -397,8 +397,8 @@
         "id": "maruti-suzuki-swift",
         "brand": "Maruti Suzuki",
         "name": "Swift",
-        "price": "₹6,49,000",
-        "hp": "80 hp",
+        "price": "₹5,79,000",
+        "hp": "80.46 bhp",
         "zero": "12.0 s",
         "topSpeed": "165 km/h",
         "fuelType": "Petrol",
@@ -413,29 +413,29 @@
         "brand": "Tata",
         "name": "Nexon",
         "price": "₹8,00,000",
-        "hp": "120 hp",
+        "hp": "120 bhp",
         "zero": "9.5 s",
         "topSpeed": "180 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "SUV",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/nexon/nexon-black.webp"
       },
       {
         "id": "bmw-m4-competition",
         "brand": "BMW",
         "name": "M4 Competition",
-        "price": "₹92,50,000",
-        "hp": "510 hp",
+        "price": "₹1.55 Cr",
+        "hp": "523 bhp",
         "zero": "3.5 s",
-        "topSpeed": "290 km/h",
+        "topSpeed": "250 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Coupe",
-        "drivetrain": "RWD",
-        "modelYear": 2024,
+        "drivetrain": "AWD",
+        "modelYear": 2025,
         "image": "/cars/bmw-m4.png"
       }
     ],
@@ -444,8 +444,8 @@
         "id": "maruti-suzuki-alto-k10",
         "brand": "Maruti Suzuki",
         "name": "Alto K10",
-        "price": "₹4,99,000",
-        "hp": "67 hp",
+        "price": "₹3,70,000",
+        "hp": "66.62 bhp",
         "zero": "14.5 s",
         "topSpeed": "150 km/h",
         "fuelType": "Petrol",
@@ -459,8 +459,8 @@
         "id": "maruti-suzuki-wagonr",
         "brand": "Maruti Suzuki",
         "name": "WagonR",
-        "price": "₹5,99,000",
-        "hp": "67 hp",
+        "price": "₹5,79,000",
+        "hp": "68.5 bhp",
         "zero": "13.8 s",
         "topSpeed": "152 km/h",
         "fuelType": "Petrol",
@@ -474,8 +474,8 @@
         "id": "maruti-suzuki-swift",
         "brand": "Maruti Suzuki",
         "name": "Swift",
-        "price": "₹6,49,000",
-        "hp": "80 hp",
+        "price": "₹5,79,000",
+        "hp": "80.46 bhp",
         "zero": "12.0 s",
         "topSpeed": "165 km/h",
         "fuelType": "Petrol",
@@ -490,7 +490,7 @@
         "brand": "Tata",
         "name": "Tiago",
         "price": "₹5,20,000",
-        "hp": "86 hp",
+        "hp": "85 bhp",
         "zero": "12.5 s",
         "topSpeed": "160 km/h",
         "fuelType": "Petrol",
@@ -504,8 +504,8 @@
         "id": "hyundai-grand-i10-nios",
         "brand": "Hyundai",
         "name": "Grand i10 Nios",
-        "price": "₹6,10,000",
-        "hp": "83 hp",
+        "price": "₹5,55,000",
+        "hp": "82 bhp",
         "zero": "12.2 s",
         "topSpeed": "165 km/h",
         "fuelType": "Petrol",
@@ -519,9 +519,9 @@
         "id": "renault-kwid",
         "brand": "Renault",
         "name": "Kwid",
-        "price": "₹4,70,000",
-        "hp": "68 hp",
-        "zero": "14.0 s",
+        "price": "₹4,30,000",
+        "hp": "67 bhp",
+        "zero": "16.56 s",
         "topSpeed": "155 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
@@ -534,8 +534,8 @@
         "id": "tata-punch",
         "brand": "Tata",
         "name": "Punch",
-        "price": "₹6,00,000",
-        "hp": "87 hp",
+        "price": "₹5,60,000",
+        "hp": "87 bhp",
         "zero": "12.8 s",
         "topSpeed": "160 km/h",
         "fuelType": "Petrol",
@@ -549,8 +549,8 @@
         "id": "hyundai-exter",
         "brand": "Hyundai",
         "name": "Exter",
-        "price": "₹6,13,000",
-        "hp": "84 hp",
+        "price": "₹5,99,000",
+        "hp": "82 bhp",
         "zero": "12.5 s",
         "topSpeed": "165 km/h",
         "fuelType": "Petrol",
@@ -564,15 +564,15 @@
         "id": "maruti-suzuki-brezza",
         "brand": "Maruti Suzuki",
         "name": "Brezza",
-        "price": "₹8,34,000",
-        "hp": "103 hp",
+        "price": "₹8,50,000",
+        "hp": "102 bhp",
         "zero": "10.5 s",
         "topSpeed": "170 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "SUV",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/brezza/brezza-white.webp"
       },
       {
@@ -580,134 +580,134 @@
         "brand": "Tata",
         "name": "Nexon",
         "price": "₹8,00,000",
-        "hp": "120 hp",
+        "hp": "120 bhp",
         "zero": "9.5 s",
         "topSpeed": "180 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "SUV",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/nexon/nexon-black.webp"
       },
       {
         "id": "kia-sonet",
         "brand": "Kia",
         "name": "Sonet",
-        "price": "₹7,99,000",
-        "hp": "120 hp",
+        "price": "₹7,30,000",
+        "hp": "120 bhp",
         "zero": "9.8 s",
         "topSpeed": "180 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "SUV",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/sonet/sonet-blue.webp"
       },
       {
         "id": "mahindra-xuv-3xo",
         "brand": "Mahindra",
         "name": "XUV 3XO",
-        "price": "₹7,80,000",
-        "hp": "111 hp",
+        "price": "₹7,99,000",
+        "hp": "111 bhp",
         "zero": "9.2 s",
         "topSpeed": "180 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "SUV",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/3xo/3xo-yellow.webp"
       },
       {
         "id": "honda-city",
         "brand": "Honda",
         "name": "City",
-        "price": "₹12,34,000",
-        "hp": "121 hp",
+        "price": "₹12,04,000",
+        "hp": "119 bhp",
         "zero": "10.2 s",
         "topSpeed": "190 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "Sedan",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/city/city-white.webp"
       },
       {
         "id": "hyundai-verna",
         "brand": "Hyundai",
         "name": "Verna",
-        "price": "₹11,11,000",
-        "hp": "160 hp",
+        "price": "₹10,98,000",
+        "hp": "160 bhp",
         "zero": "8.1 s",
         "topSpeed": "200 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Sedan",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/verna/verna-black.webp"
       },
       {
         "id": "volkswagen-virtus",
         "brand": "Volkswagen",
         "name": "Virtus",
-        "price": "₹11,21,000",
-        "hp": "175 hp",
-        "zero": "7.5 s",
-        "topSpeed": "210 km/h",
+        "price": "₹10,50,000",
+        "hp": "114 bhp",
+        "zero": "9.0 s",
+        "topSpeed": "190 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "Sedan",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/virtus/virtus-carbon-grey.webp"
       },
       {
         "id": "skoda-slavia",
         "brand": "Skoda",
         "name": "Slavia",
-        "price": "₹10,99,000",
-        "hp": "150 hp",
-        "zero": "7.8 s",
-        "topSpeed": "205 km/h",
+        "price": "₹10,00,000",
+        "hp": "114 bhp",
+        "zero": "9.0 s",
+        "topSpeed": "190 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "Sedan",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/slavia/slavia-silver.webp"
       },
       {
         "id": "mahindra-scorpio-n",
         "brand": "Mahindra",
         "name": "Scorpio N",
-        "price": "₹13,50,000",
-        "hp": "200 hp",
-        "zero": "7.8 s",
-        "topSpeed": "195 km/h",
+        "price": "₹13,49,000",
+        "hp": "175 bhp",
+        "zero": "10.0 s",
+        "topSpeed": "165 km/h",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "bodyType": "SUV",
         "drivetrain": "RWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/scorpio/scorpio-black.webp"
       },
       {
         "id": "mahindra-xuv700",
         "brand": "Mahindra",
         "name": "XUV700",
-        "price": "₹14,49,000",
-        "hp": "200 hp",
-        "zero": "7.5 s",
-        "topSpeed": "200 km/h",
+        "price": "₹13,66,000",
+        "hp": "182 bhp",
+        "zero": "9.5 s",
+        "topSpeed": "190 km/h",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "bodyType": "SUV",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/xuv700/xuv700-blue.webp"
       },
       {
@@ -715,29 +715,29 @@
         "brand": "Tata",
         "name": "Harrier",
         "price": "₹15,00,000",
-        "hp": "170 hp",
-        "zero": "8.5 s",
-        "topSpeed": "195 km/h",
+        "hp": "170 bhp",
+        "zero": "10.5 s",
+        "topSpeed": "180 km/h",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "bodyType": "SUV",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/harrier/harrier-silver.webp"
       },
       {
         "id": "toyota-fortuner",
         "brand": "Toyota",
         "name": "Fortuner",
-        "price": "₹33,43,000",
-        "hp": "204 hp",
-        "zero": "7.8 s",
+        "price": "₹34,76,000",
+        "hp": "201 bhp",
+        "zero": "10.8 s",
         "topSpeed": "190 km/h",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "bodyType": "SUV",
         "drivetrain": "RWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/fortuner/fortuner-gold.webp"
       },
       {
@@ -745,149 +745,149 @@
         "brand": "BYD",
         "name": "Seal",
         "price": "₹41,00,000",
-        "hp": "308 hp",
-        "zero": "3.8 s",
+        "hp": "313 bhp",
+        "zero": "5.9 s",
         "topSpeed": "180 km/h",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "bodyType": "Sedan",
-        "drivetrain": "FWD",
-        "modelYear": 2024,
+        "drivetrain": "RWD",
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/seal/seal-grey.webp"
       },
       {
         "id": "mercedes-benz-c-class",
         "brand": "Mercedes-Benz",
         "name": "C-Class",
-        "price": "₹57,00,000",
-        "hp": "258 hp",
+        "price": "₹61,00,000",
+        "hp": "258 bhp",
         "zero": "6.0 s",
         "topSpeed": "250 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Sedan",
         "drivetrain": "RWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/CClass/CClass-white.webp"
       },
       {
         "id": "audi-a4",
         "brand": "Audi",
         "name": "A4",
-        "price": "₹45,98,000",
-        "hp": "190 hp",
-        "zero": "7.3 s",
+        "price": "₹46,99,000",
+        "hp": "201 bhp",
+        "zero": "7.1 s",
         "topSpeed": "241 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Sedan",
         "drivetrain": "FWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/audia4/audia4-black.webp"
       },
       {
         "id": "bmw-m340i",
         "brand": "BMW",
         "name": "M340i",
-        "price": "₹62,90,000",
-        "hp": "387 hp",
-        "zero": "4.4 s",
+        "price": "₹74,90,000",
+        "hp": "374 bhp",
+        "zero": "4.39 s",
         "topSpeed": "250 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Sedan",
-        "drivetrain": "RWD",
-        "modelYear": 2024,
+        "drivetrain": "AWD",
+        "modelYear": 2025,
         "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/m340i/m340i-black.webp"
       },
       {
         "id": "mercedes-amg-c43",
         "brand": "Mercedes-Benz",
         "name": "AMG C43",
-        "price": "₹87,00,000",
-        "hp": "408 hp",
+        "price": "₹98,00,000",
+        "hp": "402 bhp",
         "zero": "4.6 s",
         "topSpeed": "250 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Sedan",
         "drivetrain": "AWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/14801/mercedes-amg-c43-right-front-three-quarter.jpeg?wm=1&q=80"
       },
       {
         "id": "porsche-911-carrera",
         "brand": "Porsche",
         "name": "911 Carrera",
-        "price": "₹1.69",
-        "hp": "385 hp",
-        "zero": "4.2 s",
-        "topSpeed": "293 km/h",
+        "price": "₹2.00 Cr",
+        "hp": "380 bhp",
+        "zero": "4.1 s",
+        "topSpeed": "294 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Coupe",
         "drivetrain": "RWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://imgd.aeplcdn.com/664x374/cw/ec/39232/Porsche-New-911-Exterior-153677.jpg?wm=1&q=80"
       },
       {
         "id": "bmw-m4-competition",
         "brand": "BMW",
         "name": "M4 Competition",
-        "price": "₹92,50,000",
-        "hp": "510 hp",
+        "price": "₹1.55 Cr",
+        "hp": "523 bhp",
         "zero": "3.5 s",
-        "topSpeed": "290 km/h",
+        "topSpeed": "250 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Coupe",
-        "drivetrain": "RWD",
-        "modelYear": 2024,
+        "drivetrain": "AWD",
+        "modelYear": 2025,
         "image": "/cars/bmw-m4.png"
       },
       {
         "id": "lamborghini-urus",
         "brand": "Lamborghini",
         "name": "Urus",
-        "price": "₹4.18",
-        "hp": "657 hp",
-        "zero": "3.3 s",
-        "topSpeed": "305 km/h",
-        "fuelType": "Petrol",
+        "price": "₹4.47 Cr",
+        "hp": "789 bhp",
+        "zero": "3.4 s",
+        "topSpeed": "312 km/h",
+        "fuelType": "Hybrid",
         "transmission": "Automatic",
         "bodyType": "SUV",
         "drivetrain": "AWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1600&q=80"
       },
       {
         "id": "range-rover",
         "brand": "Land Rover",
         "name": "Range Rover",
-        "price": "₹2.32",
-        "hp": "395 hp",
-        "zero": "5.8 s",
-        "topSpeed": "225 km/h",
-        "fuelType": "Petrol",
+        "price": "₹2.31 Cr",
+        "hp": "350 bhp",
+        "zero": "5.7 s",
+        "topSpeed": "261 km/h",
+        "fuelType": "Diesel",
         "transmission": "Automatic",
         "bodyType": "SUV",
         "drivetrain": "AWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1600&q=80"
       },
       {
         "id": "ferrari-roma",
         "brand": "Ferrari",
         "name": "Roma",
-        "price": "₹3.76",
-        "hp": "620 hp",
+        "price": "₹3.76 Cr",
+        "hp": "612 bhp",
         "zero": "3.4 s",
         "topSpeed": "320 km/h",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "bodyType": "Coupe",
         "drivetrain": "RWD",
-        "modelYear": 2024,
+        "modelYear": 2025,
         "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1600&q=80"
       }
     ],
@@ -1098,15 +1098,15 @@
       "maruti-suzuki-alto-k10": {
         "tagline": "India's favourite city hatch. Smarter K10.",
         "about": "The Alto K10 is built for tight city streets and tight budgets. A peppy 1.0L K10C engine, light kerb weight and Maruti's service footprint make it the default first car for millions.",
-        "showroomPrice": "₹4,99,000",
-        "onRoadPrice": "₹5,76,345",
-        "priceRangeMin": "₹4.59 L",
-        "priceRangeMax": "₹5.89 L",
+        "showroomPrice": "₹3,70,000",
+        "onRoadPrice": "₹4,45,000",
+        "priceRangeMin": "₹3.70 L",
+        "priceRangeMax": "₹5.45 L",
         "videoUrl": "https://youtu.be/wW-0ZiG09QI",
         "videoLabel": "Alto K10 — Official walkaround",
         "highlights": [
-          "67 PS K10C",
-          "24.4 km/l ARAI",
+          "66.62 bhp K10C",
+          "24.39 kmpl ARAI",
           "AMT & CNG",
           "Hatchback FWD"
         ],
@@ -1171,12 +1171,12 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.0L K10C Dual Jet petrol",
+            "value": "998 cc K10C Dual Jet petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "67 PS @ 5500 rpm",
+            "value": "66.62 bhp @ 5500 rpm",
             "icon": "power"
           },
           {
@@ -1196,7 +1196,7 @@
           },
           {
             "label": "Mileage",
-            "value": "24.39 km/l (ARAI petrol)",
+            "value": "24.39 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -1220,30 +1220,30 @@
             "name": "Std (O) MT",
             "transmission": "5-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹4,99,000",
-            "onRoadPrice": "₹5,76,345"
+            "showroomPrice": "₹3,70,000",
+            "onRoadPrice": "₹4,45,000"
           },
           {
             "name": "VXi MT",
             "transmission": "5-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹5,93,810",
-            "onRoadPrice": "₹6,85,851",
+            "showroomPrice": "₹4,70,000",
+            "onRoadPrice": "₹5,55,000",
             "highlight": true
           },
           {
             "name": "VXi AMT",
             "transmission": "5-speed AMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,53,690",
-            "onRoadPrice": "₹7,55,012"
+            "showroomPrice": "₹4,95,000",
+            "onRoadPrice": "₹5,85,000"
           },
           {
             "name": "VXi+ CNG",
             "transmission": "5-speed Manual",
             "fuel": "CNG",
-            "showroomPrice": "₹7,18,560",
-            "onRoadPrice": "₹8,29,937"
+            "showroomPrice": "₹5,32,000",
+            "onRoadPrice": "₹6,30,000"
           }
         ],
         "expertReview": {
@@ -1327,7 +1327,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Alto K10?",
-            "a": "Ex-showroom starts around ₹4,99,000. On-road in Delhi is typically ₹5,76,345 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹3.70 Lakh. On-road prices typically start around ₹4.45 Lakh; top petrol AMT and CNG variants cost more depending on city, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -1350,15 +1350,16 @@
       "maruti-suzuki-wagonr": {
         "tagline": "Tall-boy space. City-smart efficiency.",
         "about": "WagonR's boxy silhouette isn't just styling — it translates to headroom, visibility and a surprisingly usable cabin for families on a budget. Available with petrol and S-CNG, it's the practical Maruti many grow up with.",
-        "showroomPrice": "₹5,99,000",
-        "onRoadPrice": "₹6,91,845",
-        "priceRangeMin": "₹5.51 L",
-        "priceRangeMax": "₹7.07 L",
+        "showroomPrice": "₹5,79,000",
+        "onRoadPrice": "₹6,68,745",
+        "priceRangeMin": "₹5.79 L",
+        "priceRangeMax": "₹7.50 L",
         "videoUrl": "https://youtu.be/muxEUa4nA6I",
         "videoLabel": "WagonR — Official walkaround",
         "highlights": [
           "Tall-boy cabin",
           "CNG option",
+          "6 airbags standard",
           "Easy ingress",
           "Maruti service"
         ],
@@ -1385,7 +1386,7 @@
             "tint": "#b8bcc4",
             "blend": "multiply",
             "tintOpacity": 0.45,
-             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-silver-dark.webp"
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-silver-dark.webp"
           },
           {
             "name": "Pearl Metallic Gallant Red",
@@ -1393,7 +1394,7 @@
             "tint": "#c41e2a",
             "blend": "multiply",
             "tintOpacity": 0.45,
-             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-red.webp"
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-red.webp"
           },
           {
             "name": "Pearl Metallic Poolside Blue",
@@ -1401,7 +1402,7 @@
             "tint": "#2c5aa0",
             "blend": "multiply",
             "tintOpacity": 0.45,
-             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-blue.webp"
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-blue.webp"
           },
           {
             "name": "Metallic Magma Grey",
@@ -1409,7 +1410,7 @@
             "tint": "#1a1b1e",
             "blend": "multiply",
             "tintOpacity": 0.45,
-             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-black.webp"
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-black.webp"
           },
           {
             "name": "Magma Grey with Black Roof",
@@ -1417,7 +1418,7 @@
             "tint": "#1a1b1e",
             "blend": "multiply",
             "tintOpacity": 0.45,
-             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-dark-grey-black.webp"
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-dark-grey-black.webp"
           },
           {
             "name": "Peral Metallic Nutmeg Brown",
@@ -1425,7 +1426,7 @@
             "tint": "#1a1b1e",
             "blend": "multiply",
             "tintOpacity": 0.45,
-             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-brown.webp"
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-brown.webp"
           },
           {
             "name": "Metallic Galant Red with Black Roof",
@@ -1433,23 +1434,23 @@
             "tint": "#c41e2a",
             "blend": "multiply",
             "tintOpacity": 0.45,
-             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-red-black.webp"
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/wagonr/wagonr-red-black.webp"
           }
         ],
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.0L / 1.2L K-Series petrol",
+            "value": "998 cc / 1197 cc K-Series petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "67–90 PS",
+            "value": "68.5-90.95 bhp",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "89–113 Nm",
+            "value": "91.1-113.7 Nm",
             "icon": "torque"
           },
           {
@@ -1464,7 +1465,7 @@
           },
           {
             "label": "Mileage",
-            "value": "25.19 km/l (1.0L ARAI)",
+            "value": "24.35-25.19 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -1485,26 +1486,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
+            "name": "LXi 1.0 MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹5,63,060",
-            "onRoadPrice": "₹6,50,334"
+            "showroomPrice": "₹5,79,000",
+            "onRoadPrice": "₹6,68,745"
           },
           {
-            "name": "Mid",
+            "name": "VXi 1.0 MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹5,99,000",
-            "onRoadPrice": "₹6,91,845",
+            "showroomPrice": "₹6,29,000",
+            "onRoadPrice": "₹7,26,495",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "ZXi+ 1.2 AMT",
+            "transmission": "5-speed AMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,70,880",
-            "onRoadPrice": "₹7,74,866"
+            "showroomPrice": "₹7,50,000",
+            "onRoadPrice": "₹8,66,250"
           }
         ],
         "expertReview": {
@@ -1588,7 +1589,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of WagonR?",
-            "a": "Ex-showroom starts around ₹5,99,000. On-road in Delhi is typically ₹6,91,845 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹5.79 Lakh. On-road pricing typically starts around ₹6.69 Lakh; higher 1.2L, AMT and CNG variants cost more depending on city and insurance."
           },
           {
             "q": "Is there a waiting period?",
@@ -1611,17 +1612,17 @@
       "maruti-suzuki-swift": {
         "tagline": "The hatch India grew up with.",
         "about": "Swift balances fun handling, frugal engines and Maruti reliability in a package that still feels relevant. The 1.2L Z-Series engine is responsive in the city, and the cabin has matured with better tech and safety kit on upper trims.",
-        "showroomPrice": "₹6,49,000",
-        "onRoadPrice": "₹7,49,595",
-        "priceRangeMin": "₹5.97 L",
-        "priceRangeMax": "₹7.66 L",
+        "showroomPrice": "₹5,79,000",
+        "onRoadPrice": "₹6,69,000",
+        "priceRangeMin": "₹5.79 L",
+        "priceRangeMax": "₹8.80 L",
         "videoUrl": "https://youtu.be/DxLsTIG73I4",
         "videoLabel": "Swift — Official walkaround",
         "highlights": [
           "Z-Series 1.2L",
           "Sporty chassis",
           "AMT available",
-          "5-star safety (selected)"
+          "6 airbags standard"
         ],
         "colors": [
           {
@@ -1673,12 +1674,12 @@
             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/swift/swift-blue-black.webp"
           },
           {
-             "name": "Pearl Arctic White with Bluish Black Roof",
-             "hex": "#f5f5f5",
-             "tint": "#f5f5f5",
-             "blend": "screen",
-             "tintOpacity": 0.15,
-              "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/swift/swift-white-black.webp"
+            "name": "Pearl Arctic White with Bluish Black Roof",
+            "hex": "#f5f5f5",
+            "tint": "#f5f5f5",
+            "blend": "screen",
+            "tintOpacity": 0.15,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/swift/swift-white-black.webp"
           },
           {
             "name": "Bluish Black",
@@ -1692,12 +1693,12 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.2L Z-Series petrol",
+            "value": "1197 cc Z-Series petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "80 PS @ 5700 rpm",
+            "value": "80.46 bhp @ 5700 rpm",
             "icon": "power"
           },
           {
@@ -1717,7 +1718,7 @@
           },
           {
             "label": "Mileage",
-            "value": "24.8 km/l (ARAI)",
+            "value": "24.8-25.75 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -1738,26 +1739,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
+            "name": "LXi MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,10,060",
-            "onRoadPrice": "₹7,04,619"
+            "showroomPrice": "₹5,79,000",
+            "onRoadPrice": "₹6,69,000"
           },
           {
-            "name": "Mid",
+            "name": "VXi MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,49,000",
-            "onRoadPrice": "₹7,49,595",
+            "showroomPrice": "₹7,29,000",
+            "onRoadPrice": "₹8,42,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "ZXi+ AMT",
+            "transmission": "5-speed AMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹7,26,880",
-            "onRoadPrice": "₹8,39,546"
+            "showroomPrice": "₹8,80,000",
+            "onRoadPrice": "₹10,16,000"
           }
         ],
         "expertReview": {
@@ -1841,7 +1842,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Swift?",
-            "a": "Ex-showroom starts around ₹6,49,000. On-road in Delhi is typically ₹7,49,595 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹5.79 Lakh. On-road prices typically start around ₹6.69 Lakh; higher ZXi, ZXi+ and AMT variants vary by city, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -1929,17 +1930,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.2L Revotron petrol",
+            "value": "1199 cc Revotron petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "86 PS @ 6000 rpm",
+            "value": "85 bhp @ 6000 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "113 Nm @ 5500 rpm",
+            "value": "113 Nm @ 3300 rpm",
             "icon": "torque"
           },
           {
@@ -1954,7 +1955,7 @@
           },
           {
             "label": "Mileage",
-            "value": "19.6 km/l (ARAI)",
+            "value": "19.0 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -1975,14 +1976,14 @@
         ],
         "variants": [
           {
-            "name": "Base",
+            "name": "XE MT",
             "transmission": "Manual",
             "fuel": "Petrol",
             "showroomPrice": "₹4,88,800",
             "onRoadPrice": "₹5,64,564"
           },
           {
-            "name": "Mid",
+            "name": "XM MT",
             "transmission": "Manual",
             "fuel": "Petrol",
             "showroomPrice": "₹5,20,000",
@@ -1990,11 +1991,11 @@
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "XZ+ AMT",
+            "transmission": "5-speed AMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹5,82,400",
-            "onRoadPrice": "₹6,72,672"
+            "showroomPrice": "₹7,90,000",
+            "onRoadPrice": "₹8,99,000"
           }
         ],
         "expertReview": {
@@ -2101,15 +2102,16 @@
       "hyundai-grand-i10-nios": {
         "tagline": "Compact outside. Premium inside.",
         "about": "Grand i10 Nios targets buyers who want Hyundai polish in a city hatch. Cabin quality, feature-rich variants and a smooth 1.2L petrol make it feel a class above basic commuters, with CNG for fleet and budget-conscious users.",
-        "showroomPrice": "₹6,10,000",
-        "onRoadPrice": "₹7,04,550",
-        "priceRangeMin": "₹5.61 L",
-        "priceRangeMax": "₹7.20 L",
+        "showroomPrice": "₹5,55,000",
+        "onRoadPrice": "₹6,57,000",
+        "priceRangeMin": "₹5.55 L",
+        "priceRangeMax": "₹7.92 L",
         "videoUrl": "https://youtu.be/SzWkT_-Gaoc",
         "videoLabel": "Grand i10 Nios — Official walkaround",
         "highlights": [
           "Premium cabin",
           "8\" touchscreen",
+          "6 airbags standard",
           "CNG trim",
           "Projector headlamps"
         ],
@@ -2137,7 +2139,8 @@
             "blend": "screen",
             "tintOpacity": 0.15,
             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/i10/i10-white-black.webp"
-          }, {
+          },
+          {
             "name": "Titan Grey",
             "hex": "#1a1b1e",
             "tint": "#1a1b1e",
@@ -2181,12 +2184,12 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.2L Kappa petrol",
+            "value": "1197 cc Kappa petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "83 PS @ 6000 rpm",
+            "value": "82 bhp @ 6000 rpm",
             "icon": "power"
           },
           {
@@ -2206,7 +2209,7 @@
           },
           {
             "label": "Mileage",
-            "value": "20.7 km/l (ARAI)",
+            "value": "16-18 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -2227,26 +2230,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
+            "name": "Era MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹5,73,400",
-            "onRoadPrice": "₹6,62,277"
+            "showroomPrice": "₹5,55,000",
+            "onRoadPrice": "₹6,57,000"
           },
           {
-            "name": "Mid",
+            "name": "Magna MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,10,000",
-            "onRoadPrice": "₹7,04,550",
+            "showroomPrice": "₹6,64,000",
+            "onRoadPrice": "₹7,67,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "Asta AMT",
+            "transmission": "5-speed AMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,83,200",
-            "onRoadPrice": "₹7,89,096"
+            "showroomPrice": "₹7,92,000",
+            "onRoadPrice": "₹9,15,000"
           }
         ],
         "expertReview": {
@@ -2330,7 +2333,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Grand i10 Nios?",
-            "a": "Ex-showroom starts around ₹6,10,000. On-road in Delhi is typically ₹7,04,550 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹5.55 Lakh. On-road prices typically start around ₹6.57 Lakh; higher Sportz, Asta, AMT and CNG variants cost more depending on city and insurance."
           },
           {
             "q": "Is there a waiting period?",
@@ -2353,10 +2356,10 @@
       "renault-kwid": {
         "tagline": "SUV attitude. Hatchback price.",
         "about": "Kwid's raised stance and SUV-inspired cladding helped redefine the entry segment. Light, frugal and easy to own, it appeals to first-time buyers who want something that looks tougher than a traditional hatch.",
-        "showroomPrice": "₹4,70,000",
-        "onRoadPrice": "₹5,42,850",
-        "priceRangeMin": "₹4.32 L",
-        "priceRangeMax": "₹5.55 L",
+        "showroomPrice": "₹4,30,000",
+        "onRoadPrice": "₹5,07,000",
+        "priceRangeMin": "₹4.30 L",
+        "priceRangeMax": "₹5.99 L",
         "videoUrl": "https://youtu.be/NY9LGwPIYXM",
         "videoLabel": "Kwid — Official walkaround",
         "highlights": [
@@ -2418,12 +2421,12 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.0L SCe petrol",
+            "value": "999 cc SCe petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "68 PS @ 5500 rpm",
+            "value": "67 bhp @ 5500 rpm",
             "icon": "power"
           },
           {
@@ -2433,7 +2436,7 @@
           },
           {
             "label": "0 - 100 km/h",
-            "value": "14.0 s",
+            "value": "16.56 s",
             "icon": "zero"
           },
           {
@@ -2443,7 +2446,7 @@
           },
           {
             "label": "Mileage",
-            "value": "22.0 km/l (ARAI)",
+            "value": "22.0 kmpl (ARAI)",
             "icon": "fuel"
           },
           {
@@ -2464,26 +2467,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
+            "name": "Authentic MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹4,41,800",
-            "onRoadPrice": "₹5,10,279"
+            "showroomPrice": "₹4,30,000",
+            "onRoadPrice": "₹5,07,000"
           },
           {
-            "name": "Mid",
+            "name": "RXL (O) MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹4,70,000",
-            "onRoadPrice": "₹5,42,850",
+            "showroomPrice": "₹4,99,000",
+            "onRoadPrice": "₹5,85,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "Climber AMT",
+            "transmission": "5-speed AMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹5,26,400",
-            "onRoadPrice": "₹6,07,992"
+            "showroomPrice": "₹5,99,000",
+            "onRoadPrice": "₹7,02,000"
           }
         ],
         "expertReview": {
@@ -2567,7 +2570,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Kwid?",
-            "a": "Ex-showroom starts around ₹4,70,000. On-road in Delhi is typically ₹5,42,850 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹4.30 Lakh. On-road prices typically start around ₹5.07 Lakh; Climber and AMT variants cost more depending on city, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -2590,10 +2593,10 @@
       "tata-punch": {
         "tagline": "Micro SUV. Maximum safety.",
         "about": "Punch packs Tata's safety focus into a compact footprint. Five-star Global NCAP rating, upright stance and a practical cabin make it a top pick for city families who want SUV style without full SUV running costs.",
-        "showroomPrice": "₹6,00,000",
-        "onRoadPrice": "₹6,93,000",
-        "priceRangeMin": "₹5.52 L",
-        "priceRangeMax": "₹7.08 L",
+        "showroomPrice": "₹5,60,000",
+        "onRoadPrice": "₹6,47,000",
+        "priceRangeMin": "₹5.60 L",
+        "priceRangeMax": "₹10.55 L",
         "videoUrl": "https://youtu.be/smpE8K2ylPw?list=RDsmpE8K2ylPw",
         "videoLabel": "Punch — Official walkaround",
         "highlights": [
@@ -2663,17 +2666,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.2L Revotron petrol",
+            "value": "1199 cc Revotron petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "87 PS",
+            "value": "87 bhp @ 6000 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "115 Nm",
+            "value": "115 Nm @ 3250 rpm",
             "icon": "torque"
           },
           {
@@ -2688,7 +2691,7 @@
           },
           {
             "label": "Mileage",
-            "value": "20.09 km/l (ARAI)",
+            "value": "20.09 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -2709,26 +2712,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
+            "name": "Pure MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹5,64,000",
-            "onRoadPrice": "₹6,51,420"
+            "showroomPrice": "₹5,60,000",
+            "onRoadPrice": "₹6,47,000"
           },
           {
-            "name": "Mid",
+            "name": "Accomplished MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,00,000",
-            "onRoadPrice": "₹6,93,000",
+            "showroomPrice": "₹7,70,000",
+            "onRoadPrice": "₹8,89,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "Creative+ AMT",
+            "transmission": "5-speed AMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,72,000",
-            "onRoadPrice": "₹7,76,160"
+            "showroomPrice": "₹10,55,000",
+            "onRoadPrice": "₹12,18,000"
           }
         ],
         "expertReview": {
@@ -2812,7 +2815,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Punch?",
-            "a": "Ex-showroom starts around ₹6,00,000. On-road in Delhi is typically ₹6,93,000 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹5.60 Lakh. On-road prices typically start around ₹6.47 Lakh; Accomplished, Creative, AMT and CNG variants cost more depending on city and insurance."
           },
           {
             "q": "Is there a waiting period?",
@@ -2835,10 +2838,10 @@
       "hyundai-exter": {
         "tagline": "Think SUV. Live smart.",
         "about": "Exter brings Hyundai's feature playbook to the micro-SUV class — sunroof on top trims, connected tech and a cheerful design language aimed at young urban buyers.",
-        "showroomPrice": "₹6,13,000",
-        "onRoadPrice": "₹7,08,015",
-        "priceRangeMin": "₹5.64 L",
-        "priceRangeMax": "₹7.23 L",
+        "showroomPrice": "₹5,99,000",
+        "onRoadPrice": "₹6,92,000",
+        "priceRangeMin": "₹5.99 L",
+        "priceRangeMax": "₹10.51 L",
         "videoUrl": "https://youtu.be/9CWXu1KYmDw",
         "videoLabel": "Exter — Official walkaround",
         "highlights": [
@@ -2900,12 +2903,12 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.2L Kappa petrol",
+            "value": "1197 cc Kappa petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "84 PS",
+            "value": "82 bhp @ 6000 rpm",
             "icon": "power"
           },
           {
@@ -2925,7 +2928,7 @@
           },
           {
             "label": "Mileage",
-            "value": "19.4 km/l (ARAI)",
+            "value": "19.2 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -2946,26 +2949,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
+            "name": "EX MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹5,76,220",
-            "onRoadPrice": "₹6,65,534"
+            "showroomPrice": "₹5,99,000",
+            "onRoadPrice": "₹6,92,000"
           },
           {
-            "name": "Mid",
+            "name": "SX MT",
             "transmission": "Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,13,000",
-            "onRoadPrice": "₹7,08,015",
+            "showroomPrice": "₹8,24,000",
+            "onRoadPrice": "₹9,52,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "SX(O) Connect AMT",
+            "transmission": "5-speed AMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹6,86,560",
-            "onRoadPrice": "₹7,92,977"
+            "showroomPrice": "₹10,51,000",
+            "onRoadPrice": "₹12,14,000"
           }
         ],
         "expertReview": {
@@ -3049,7 +3052,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Exter?",
-            "a": "Ex-showroom starts around ₹6,13,000. On-road in Delhi is typically ₹7,08,015 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹5.99 Lakh. On-road prices typically start around ₹6.92 Lakh; SX, SX(O), AMT and CNG variants cost more depending on city and insurance."
           },
           {
             "q": "Is there a waiting period?",
@@ -3072,17 +3075,17 @@
       "maruti-suzuki-brezza": {
         "tagline": "Compact SUV. Maruti peace of mind.",
         "about": "Brezza pairs a willing 1.5L petrol with Maruti efficiency and resale. It's the safe family SUV choice — easy to service, frugal and now better equipped with tech and safety updates.",
-        "showroomPrice": "₹8,34,000",
-        "onRoadPrice": "₹9,63,270",
-        "priceRangeMin": "₹7.67 L",
-        "priceRangeMax": "₹9.84 L",
+        "showroomPrice": "₹8,50,000",
+        "onRoadPrice": "₹9,23,000",
+        "priceRangeMin": "₹8.50 L",
+        "priceRangeMax": "₹14.00 L",
         "videoUrl": "https://youtu.be/b2jXyTPmHUo",
         "videoLabel": "Brezza — Official walkaround",
         "highlights": [
-          "1.5L K15C",
-          "Mild hybrid option",
-          "All-wheel disc brakes",
-          "SmartPlay Pro"
+          "1498 cc petrol",
+          "17.38-19.89 kmpl",
+          "6 airbags",
+          "HUD and 360 camera"
         ],
         "colors": [
           {
@@ -3145,17 +3148,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.5L K15C Dual Jet petrol",
+            "value": "1498 cc K15C Smart Hybrid petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "103 PS",
+            "value": "102 bhp @ 6000 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "136.8 Nm",
+            "value": "137 Nm @ 4400 rpm",
             "icon": "torque"
           },
           {
@@ -3170,7 +3173,7 @@
           },
           {
             "label": "Mileage",
-            "value": "22.8 km/l (mild hybrid ARAI)",
+            "value": "17.38-19.89 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -3180,7 +3183,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed MT / 6-speed TC",
+            "value": "5-speed MT / 6-speed AT",
             "icon": "gears"
           },
           {
@@ -3191,26 +3194,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
+            "name": "LXi MT",
+            "transmission": "5-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹7,83,960",
-            "onRoadPrice": "₹9,05,474"
+            "showroomPrice": "₹8,50,000",
+            "onRoadPrice": "₹9,23,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "VXi MT",
+            "transmission": "5-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹8,34,000",
-            "onRoadPrice": "₹9,63,270",
+            "showroomPrice": "₹9,85,000",
+            "onRoadPrice": "₹11,35,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "ZXi+ AT",
+            "transmission": "6-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹9,34,080",
-            "onRoadPrice": "₹10,78,862"
+            "showroomPrice": "₹14,00,000",
+            "onRoadPrice": "₹14,94,000"
           }
         ],
         "expertReview": {
@@ -3294,7 +3297,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Brezza?",
-            "a": "Ex-showroom starts around ₹8,34,000. On-road in Delhi is typically ₹9,63,270 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹8.50 L. On-road pricing typically starts around ₹9,23,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -3319,15 +3322,15 @@
         "about": "Nexon helped change the conversation around safety in mass-market SUVs. Bold design, petrol/diesel/CNG and electric powertrains, plus a 5-star rating make it a segment icon.",
         "showroomPrice": "₹8,00,000",
         "onRoadPrice": "₹9,24,000",
-        "priceRangeMin": "₹7.36 L",
-        "priceRangeMax": "₹9.44 L",
+        "priceRangeMin": "₹8.00 L",
+        "priceRangeMax": "₹15.60 L",
         "videoUrl": "https://youtu.be/uT2drw7r61w",
         "videoLabel": "Nexon — Official walkaround",
         "highlights": [
-          "5-star GNCAP",
-          "Turbo petrol",
-          "EV available",
-          "ADAS on top trims"
+          "5-star safety",
+          "6 airbags standard",
+          "Turbo petrol / diesel / CNG",
+          "208 mm clearance"
         ],
         "colors": [
           {
@@ -3390,17 +3393,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.2L Revotron turbo / 1.5L diesel",
+            "value": "1199 cc turbo petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "120 PS (turbo petrol)",
+            "value": "120 bhp @ 5500 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "170 Nm",
+            "value": "170 Nm @ 1750-4000 rpm",
             "icon": "torque"
           },
           {
@@ -3415,7 +3418,7 @@
           },
           {
             "label": "Mileage",
-            "value": "17.4 km/l (turbo MT ARAI)",
+            "value": "17.01 kmpl (ARAI petrol)",
             "icon": "fuel"
           },
           {
@@ -3425,7 +3428,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed MT / 7-speed DCA",
+            "value": "5-speed MT / 6-speed MT / AMT / 7-speed DCT",
             "icon": "gears"
           },
           {
@@ -3436,26 +3439,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
-            "fuel": "Petrol",
-            "showroomPrice": "₹7,52,000",
-            "onRoadPrice": "₹8,68,560"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "Smart MT",
+            "transmission": "5-speed Manual",
             "fuel": "Petrol",
             "showroomPrice": "₹8,00,000",
-            "onRoadPrice": "₹9,24,000",
+            "onRoadPrice": "₹9,24,000"
+          },
+          {
+            "name": "Pure Plus MT",
+            "transmission": "6-speed Manual",
+            "fuel": "Petrol",
+            "showroomPrice": "₹9,80,000",
+            "onRoadPrice": "₹11,32,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "Fearless Plus S DCT",
+            "transmission": "7-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹8,96,000",
-            "onRoadPrice": "₹10,34,880"
+            "showroomPrice": "₹15,60,000",
+            "onRoadPrice": "₹16,98,000"
           }
         ],
         "expertReview": {
@@ -3539,7 +3542,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Nexon?",
-            "a": "Ex-showroom starts around ₹8,00,000. On-road in Delhi is typically ₹9,24,000 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹8.00 L. On-road pricing typically starts around ₹9,24,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -3562,17 +3565,17 @@
       "kia-sonet": {
         "tagline": "Bold design. Loaded with tech.",
         "about": "Sonet brought big-SUV features to the compact class — ventilated seats, multiple turbo engines, ADAS on higher trims and a cabin that feels premium for the price.",
-        "showroomPrice": "₹7,99,000",
-        "onRoadPrice": "₹9,22,845",
-        "priceRangeMin": "₹7.35 L",
-        "priceRangeMax": "₹9.43 L",
+        "showroomPrice": "₹7,30,000",
+        "onRoadPrice": "₹8,43,000",
+        "priceRangeMin": "₹7.30 L",
+        "priceRangeMax": "₹14.09 L",
         "videoUrl": "https://youtu.be/l9KO2HukVww",
         "videoLabel": "Sonet — Official walkaround",
         "highlights": [
-          "Turbo GDI",
-          "ADAS",
-          "Ventilated seats",
-          "6 airbags standard"
+          "Level 1 ADAS",
+          "10.25-inch touchscreen",
+          "6 airbags",
+          "385 litres boot"
         ],
         "colors": [
           {
@@ -3635,17 +3638,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.2L NA / 1.0L turbo / 1.5L diesel",
+            "value": "998 cc turbo petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "120 PS (1.0L turbo)",
+            "value": "120 bhp @ 6000 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "172 Nm",
+            "value": "172 Nm @ 1500-4000 rpm",
             "icon": "torque"
           },
           {
@@ -3660,7 +3663,7 @@
           },
           {
             "label": "Mileage",
-            "value": "18.2 km/l (turbo iMT ARAI)",
+            "value": "18.6-24.1 kmpl (ARAI)",
             "icon": "fuel"
           },
           {
@@ -3670,7 +3673,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed MT / iMT / DCT / AT",
+            "value": "5-speed MT / 6-speed iMT / 7-speed DCT",
             "icon": "gears"
           },
           {
@@ -3681,26 +3684,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
+            "name": "HTE 1.2 MT",
+            "transmission": "5-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹7,51,060",
-            "onRoadPrice": "₹8,67,474"
+            "showroomPrice": "₹7,30,000",
+            "onRoadPrice": "₹8,43,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "HTX 1.0 iMT",
+            "transmission": "6-speed iMT",
             "fuel": "Petrol",
-            "showroomPrice": "₹7,99,000",
-            "onRoadPrice": "₹9,22,845",
+            "showroomPrice": "₹11,50,000",
+            "onRoadPrice": "₹13,28,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "GTX+ 1.0 DCT",
+            "transmission": "7-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹8,94,880",
-            "onRoadPrice": "₹10,33,586"
+            "showroomPrice": "₹14,09,000",
+            "onRoadPrice": "₹16,27,000"
           }
         ],
         "expertReview": {
@@ -3784,7 +3787,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Sonet?",
-            "a": "Ex-showroom starts around ₹7,99,000. On-road in Delhi is typically ₹9,22,845 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹7.30 L. On-road pricing typically starts around ₹8,43,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -3807,17 +3810,17 @@
       "mahindra-xuv-3xo": {
         "tagline": "Everything other SUVs forgot.",
         "about": "XUV 3XO disrupted the compact SUV space with segment-first features, punchy turbo petrol and diesel options, and a cabin that feels like a larger Mahindra.",
-        "showroomPrice": "₹7,80,000",
-        "onRoadPrice": "₹9,00,900",
-        "priceRangeMin": "₹7.18 L",
-        "priceRangeMax": "₹9.20 L",
+        "showroomPrice": "₹7,99,000",
+        "onRoadPrice": "₹8,37,000",
+        "priceRangeMin": "₹7.99 L",
+        "priceRangeMax": "₹15.80 L",
         "videoUrl": "https://youtu.be/N7x7V6dY84U",
         "videoLabel": "XUV 3XO — Official walkaround",
         "highlights": [
-          "Twin-scroll turbo",
-          "Panoramic sunroof",
-          "ADAS L2",
-          "Best-in-class space"
+          "Level 2 ADAS",
+          "10.25-inch displays",
+          "5-star BNCAP",
+          "364 litres boot"
         ],
         "colors": [
           {
@@ -3880,17 +3883,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.2L Turbo MPi / 1.5L Turbo diesel",
+            "value": "1197 cc turbo petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "111–130 PS",
+            "value": "111 bhp @ 5000 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "200–300 Nm",
+            "value": "200 Nm @ 1500-3500 rpm",
             "icon": "torque"
           },
           {
@@ -3905,7 +3908,7 @@
           },
           {
             "label": "Mileage",
-            "value": "19.95 km/l (diesel ARAI)",
+            "value": "20.1 kmpl (ARAI petrol MT)",
             "icon": "fuel"
           },
           {
@@ -3915,7 +3918,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed MT / AT",
+            "value": "6-speed MT / 6-speed AT",
             "icon": "gears"
           },
           {
@@ -3926,26 +3929,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
+            "name": "MX1 Petrol MT",
+            "transmission": "6-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹7,33,200",
-            "onRoadPrice": "₹8,46,846"
+            "showroomPrice": "₹7,99,000",
+            "onRoadPrice": "₹8,37,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "AX5 Petrol MT",
+            "transmission": "6-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹7,80,000",
-            "onRoadPrice": "₹9,00,900",
+            "showroomPrice": "₹11,72,000",
+            "onRoadPrice": "₹13,53,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "AX7 L TGDi AT",
+            "transmission": "6-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹8,73,600",
-            "onRoadPrice": "₹10,09,008"
+            "showroomPrice": "₹15,80,000",
+            "onRoadPrice": "₹17,63,000"
           }
         ],
         "expertReview": {
@@ -4029,7 +4032,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of XUV 3XO?",
-            "a": "Ex-showroom starts around ₹7,80,000. On-road in Delhi is typically ₹9,00,900 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹7.99 L. On-road pricing typically starts around ₹8,37,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -4052,17 +4055,17 @@
       "honda-city": {
         "tagline": "The sedan benchmark. Refined as ever.",
         "about": "City remains the default midsize sedan for comfort, space and Honda reliability. Strong rear seat, smooth CVT and a hybrid option on top trims keep it competitive against SUVs.",
-        "showroomPrice": "₹12,34,000",
-        "onRoadPrice": "₹14,25,270",
-        "priceRangeMin": "₹11.35 L",
-        "priceRangeMax": "₹14.56 L",
+        "showroomPrice": "₹12,04,000",
+        "onRoadPrice": "₹13,50,000",
+        "priceRangeMin": "₹12.04 L",
+        "priceRangeMax": "₹16.75 L",
         "videoUrl": "https://youtu.be/Z9plOSWJ0A0",
         "videoLabel": "City — Official walkaround",
         "highlights": [
-          "Hybrid e:HEV",
-          "Honda Sensing",
-          "Spacious rear",
-          "CVT smooth"
+          "1.5L i-VTEC",
+          "Honda Sensing ADAS",
+          "506 litres boot",
+          "6 airbags"
         ],
         "colors": [
           {
@@ -4117,17 +4120,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.5L i-VTEC petrol / 1.5L hybrid",
+            "value": "1498 cc i-VTEC petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "121 PS (petrol)",
+            "value": "119 bhp @ 6600 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "145 Nm",
+            "value": "145 Nm @ 4300 rpm",
             "icon": "torque"
           },
           {
@@ -4142,7 +4145,7 @@
           },
           {
             "label": "Mileage",
-            "value": "27.32 km/l (hybrid ARAI)",
+            "value": "17.8 kmpl MT / 18.4 kmpl CVT",
             "icon": "fuel"
           },
           {
@@ -4152,7 +4155,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed MT / CVT",
+            "value": "6-speed MT / 7-step CVT",
             "icon": "gears"
           },
           {
@@ -4163,26 +4166,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
+            "name": "SV MT",
+            "transmission": "6-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹11,59,960",
-            "onRoadPrice": "₹13,39,754"
+            "showroomPrice": "₹12,04,000",
+            "onRoadPrice": "₹13,50,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "VX MT",
+            "transmission": "6-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹12,34,000",
-            "onRoadPrice": "₹14,25,270",
+            "showroomPrice": "₹13,92,000",
+            "onRoadPrice": "₹15,80,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "ZX CVT",
+            "transmission": "7-step CVT",
             "fuel": "Petrol",
-            "showroomPrice": "₹13,82,080",
-            "onRoadPrice": "₹15,96,302"
+            "showroomPrice": "₹16,75,000",
+            "onRoadPrice": "₹18,95,000"
           }
         ],
         "expertReview": {
@@ -4266,7 +4269,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of City?",
-            "a": "Ex-showroom starts around ₹12,34,000. On-road in Delhi is typically ₹14,25,270 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹12.04 L. On-road pricing typically starts around ₹13,50,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -4289,17 +4292,17 @@
       "hyundai-verna": {
         "tagline": "Sedan redefined. Turbo charged.",
         "about": "Latest Verna brings dramatic styling, a powerful 1.5L turbo petrol and Level 2 ADAS to the midsize class — challenging City on tech and performance.",
-        "showroomPrice": "₹11,11,000",
-        "onRoadPrice": "₹12,83,205",
-        "priceRangeMin": "₹10.22 L",
-        "priceRangeMax": "₹13.11 L",
+        "showroomPrice": "₹10,98,000",
+        "onRoadPrice": "₹12,50,000",
+        "priceRangeMin": "₹10.98 L",
+        "priceRangeMax": "₹17.58 L",
         "videoUrl": "https://youtu.be/UmO1ICc1i7s",
         "videoLabel": "Verna — Official walkaround",
         "highlights": [
-          "160 PS turbo",
-          "ADAS L2",
-          "Ambient lighting",
-          "Ventilated seats"
+          "160 bhp turbo petrol",
+          "5-star GNCAP",
+          "ADAS",
+          "528 litres boot"
         ],
         "colors": [
           {
@@ -4354,17 +4357,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.5L MPi / 1.5L Turbo GDi",
+            "value": "1482 cc turbo GDi petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "160 PS (turbo)",
+            "value": "160 bhp @ 5500 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "253 Nm",
+            "value": "253 Nm @ 1500-3500 rpm",
             "icon": "torque"
           },
           {
@@ -4379,7 +4382,7 @@
           },
           {
             "label": "Mileage",
-            "value": "20.6 km/l (1.5 NA ARAI)",
+            "value": "18.6 kmpl (ARAI)",
             "icon": "fuel"
           },
           {
@@ -4389,7 +4392,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed MT / 7-speed DCT / IVT",
+            "value": "6-speed MT / CVT / 7-speed DCT",
             "icon": "gears"
           },
           {
@@ -4400,26 +4403,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "EX 1.5 MPI MT",
+            "transmission": "6-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹10,44,340",
-            "onRoadPrice": "₹12,06,213"
+            "showroomPrice": "₹10,98,000",
+            "onRoadPrice": "₹12,50,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Automatic",
+            "name": "SX(O) Turbo MT",
+            "transmission": "6-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹11,11,000",
-            "onRoadPrice": "₹12,83,205",
+            "showroomPrice": "₹15,99,000",
+            "onRoadPrice": "₹17,58,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Automatic",
+            "name": "SX(O) Turbo DCT",
+            "transmission": "7-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹12,44,320",
-            "onRoadPrice": "₹14,37,190"
+            "showroomPrice": "₹17,42,000",
+            "onRoadPrice": "₹19,50,000"
           }
         ],
         "expertReview": {
@@ -4503,7 +4506,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Verna?",
-            "a": "Ex-showroom starts around ₹11,11,000. On-road in Delhi is typically ₹12,83,205 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹10.98 L. On-road pricing typically starts around ₹12,50,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -4526,16 +4529,16 @@
       "volkswagen-virtus": {
         "tagline": "German engineering. Indian roads.",
         "about": "Virtus shares its MQB-A0-IN platform with Slavia and offers one of the best driving experiences in the class. The 1.5L TSI is a highlight for enthusiasts.",
-        "showroomPrice": "₹11,21,000",
-        "onRoadPrice": "₹12,94,755",
-        "priceRangeMin": "₹10.31 L",
-        "priceRangeMax": "₹13.23 L",
+        "showroomPrice": "₹10,50,000",
+        "onRoadPrice": "₹11,56,000",
+        "priceRangeMin": "₹10.50 L",
+        "priceRangeMax": "₹19.00 L",
         "videoUrl": "https://youtu.be/RQqR81EOJR0",
         "videoLabel": "Virtus — Official walkaround",
         "highlights": [
-          "1.5L TSI 175 PS",
-          "GT trim",
-          "Solid build",
+          "Turbo petrol engines",
+          "5-star GNCAP",
+          "521 litres boot",
           "6 airbags"
         ],
         "colors": [
@@ -4599,32 +4602,32 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.0L TSI / 1.5L TSI",
+            "value": "999 cc TSI petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "175 PS (1.5 TSI)",
+            "value": "114 bhp @ 5000-5500 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "250 Nm",
+            "value": "178 Nm @ 1750-4500 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "7.5 s",
+            "value": "9.0 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "210 km/h",
+            "value": "190 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "18.4 km/l (1.0 TSI ARAI)",
+            "value": "18.7-20.8 kmpl (ARAI)",
             "icon": "fuel"
           },
           {
@@ -4634,7 +4637,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed MT / 7-speed DSG",
+            "value": "6-speed MT / 6-speed AT / 7-speed DCT",
             "icon": "gears"
           },
           {
@@ -4645,26 +4648,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
+            "name": "Comfortline 1.0 TSI MT",
+            "transmission": "6-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹10,53,740",
-            "onRoadPrice": "₹12,17,070"
+            "showroomPrice": "₹10,50,000",
+            "onRoadPrice": "₹11,56,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "Highline 1.0 TSI AT",
+            "transmission": "6-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹11,21,000",
-            "onRoadPrice": "₹12,94,755",
+            "showroomPrice": "₹14,88,000",
+            "onRoadPrice": "₹16,50,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "GT Plus Sport 1.5 TSI DSG",
+            "transmission": "7-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹12,55,520",
-            "onRoadPrice": "₹14,50,126"
+            "showroomPrice": "₹19,00,000",
+            "onRoadPrice": "₹21,50,000"
           }
         ],
         "expertReview": {
@@ -4748,7 +4751,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Virtus?",
-            "a": "Ex-showroom starts around ₹11,21,000. On-road in Delhi is typically ₹12,94,755 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹10.50 L. On-road pricing typically starts around ₹11,56,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -4771,17 +4774,17 @@
       "skoda-slavia": {
         "tagline": "Simply clever. Seriously spacious.",
         "about": "Slavia prioritises rear-seat space and comfort while sharing VW group's excellent turbo petrol engines. A polished alternative for sedan buyers who want European feel.",
-        "showroomPrice": "₹10,99,000",
-        "onRoadPrice": "₹12,69,345",
-        "priceRangeMin": "₹10.11 L",
-        "priceRangeMax": "₹12.97 L",
+        "showroomPrice": "₹10,00,000",
+        "onRoadPrice": "₹11,76,000",
+        "priceRangeMin": "₹10.00 L",
+        "priceRangeMax": "₹17.99 L",
         "videoUrl": "https://youtu.be/m9bTI8SzO7M",
         "videoLabel": "Slavia — Official walkaround",
         "highlights": [
-          "Largest boot in class",
-          "1.5L TSI",
-          "Comfort-oriented tune",
-          "6 airbags"
+          "Turbo petrol engines",
+          "5-star GNCAP",
+          "521 litres boot",
+          "Electric sunroof"
         ],
         "colors": [
           {
@@ -4836,32 +4839,32 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "1.0L TSI / 1.5L TSI",
+            "value": "999 cc TSI petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "150 PS (1.5 TSI)",
+            "value": "114 bhp @ 5000-5500 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "250 Nm",
+            "value": "178 Nm @ 1750-4500 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "7.8 s",
+            "value": "9.0 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "205 km/h",
+            "value": "190 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "19.1 km/l (1.0 TSI ARAI)",
+            "value": "18.73-20.32 kmpl (ARAI)",
             "icon": "fuel"
           },
           {
@@ -4871,7 +4874,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed MT / 7-speed DSG",
+            "value": "6-speed MT / 6-speed AT / 7-speed DCT",
             "icon": "gears"
           },
           {
@@ -4882,26 +4885,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
+            "name": "Classic 1.0 TSI MT",
+            "transmission": "6-speed Manual",
             "fuel": "Petrol",
-            "showroomPrice": "₹10,33,060",
-            "onRoadPrice": "₹11,93,184"
+            "showroomPrice": "₹10,00,000",
+            "onRoadPrice": "₹11,76,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "Signature 1.0 TSI AT",
+            "transmission": "6-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹10,99,000",
-            "onRoadPrice": "₹12,69,345",
+            "showroomPrice": "₹14,99,000",
+            "onRoadPrice": "₹17,20,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "Monte Carlo 1.5 TSI DSG",
+            "transmission": "7-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹12,30,880",
-            "onRoadPrice": "₹14,21,666"
+            "showroomPrice": "₹17,99,000",
+            "onRoadPrice": "₹21,47,000"
           }
         ],
         "expertReview": {
@@ -4985,7 +4988,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Slavia?",
-            "a": "Ex-showroom starts around ₹10,99,000. On-road in Delhi is typically ₹12,69,345 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹10.00 L. On-road pricing typically starts around ₹11,76,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -5008,17 +5011,17 @@
       "mahindra-scorpio-n": {
         "tagline": "Big attitude. Bigger capability.",
         "about": "Scorpio N modernises the iconic name with turbo petrol and diesel, 4x4 options, ADAS and a feature-rich cabin while keeping body-on-frame toughness for bad roads.",
-        "showroomPrice": "₹13,50,000",
-        "onRoadPrice": "₹15,59,250",
-        "priceRangeMin": "₹12.42 L",
-        "priceRangeMax": "₹15.93 L",
+        "showroomPrice": "₹13,49,000",
+        "onRoadPrice": "₹16,20,000",
+        "priceRangeMin": "₹13.49 L",
+        "priceRangeMax": "₹24.95 L",
         "videoUrl": "https://youtu.be/_WC0IxiRQVA",
         "videoLabel": "Scorpio N — Official walkaround",
         "highlights": [
-          "mHawk diesel",
-          "4x4 AT",
-          "ADAS",
-          "7 seats"
+          "2.2L mHawk diesel",
+          "5-star GNCAP",
+          "6/7 seats",
+          "4WD available"
         ],
         "colors": [
           {
@@ -5049,32 +5052,32 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "2.2L mHawk diesel / 2.0L Turbo petrol",
+            "value": "2184 cc mHawk diesel",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "175–200 PS",
+            "value": "175 bhp @ 3500 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "370–420 Nm",
+            "value": "370 Nm MT / 400 Nm AT",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "7.8 s",
+            "value": "10.0 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "195 km/h",
+            "value": "165 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "15.4 km/l (diesel RWD ARAI)",
+            "value": "14.6 kmpl (diesel AT)",
             "icon": "fuel"
           },
           {
@@ -5095,26 +5098,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
+            "name": "Z2 Diesel MT",
+            "transmission": "6-speed Manual",
             "fuel": "Diesel",
-            "showroomPrice": "₹12,69,000",
-            "onRoadPrice": "₹14,65,695"
+            "showroomPrice": "₹13,49,000",
+            "onRoadPrice": "₹16,20,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "Z8 Diesel MT",
+            "transmission": "6-speed Manual",
             "fuel": "Diesel",
-            "showroomPrice": "₹13,50,000",
-            "onRoadPrice": "₹15,59,250",
+            "showroomPrice": "₹19,50,000",
+            "onRoadPrice": "₹23,40,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "Z8 L Diesel AT 4WD",
+            "transmission": "6-speed Automatic",
             "fuel": "Diesel",
-            "showroomPrice": "₹15,12,000",
-            "onRoadPrice": "₹17,46,360"
+            "showroomPrice": "₹24,95,000",
+            "onRoadPrice": "₹30,42,000"
           }
         ],
         "expertReview": {
@@ -5198,7 +5201,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Scorpio N?",
-            "a": "Ex-showroom starts around ₹13,50,000. On-road in Delhi is typically ₹15,59,250 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹13.49 L. On-road pricing typically starts around ₹16,20,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -5221,17 +5224,17 @@
       "mahindra-xuv700": {
         "tagline": "Tech that thinks ahead.",
         "about": "XUV700 brought ADAS, powerful turbo engines and a premium cabin to the mainstream SUV space. Still a top pick for families who want space, features and performance.",
-        "showroomPrice": "₹14,49,000",
-        "onRoadPrice": "₹16,73,595",
-        "priceRangeMin": "₹13.33 L",
-        "priceRangeMax": "₹17.10 L",
+        "showroomPrice": "₹13,66,000",
+        "onRoadPrice": "₹15,78,000",
+        "priceRangeMin": "₹13.66 L",
+        "priceRangeMax": "₹24.92 L",
         "videoUrl": "https://youtu.be/gLKqMOEDi7c",
         "videoLabel": "XUV700 — Official walkaround",
         "highlights": [
-          "ADAS L2",
-          "Twin-turbo diesel",
-          "Alexa integration",
-          "3 screens"
+          "2.2L mHawk diesel",
+          "Level 2 ADAS",
+          "5-star BNCAP",
+          "Panoramic sunroof"
         ],
         "colors": [
           {
@@ -5262,32 +5265,32 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "2.0L Turbo petrol / 2.2L mHawk diesel",
+            "value": "2184 cc mHawk diesel",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "200 PS (petrol)",
+            "value": "182 bhp @ 3500 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "380 Nm",
+            "value": "450 Nm @ 1750-2800 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "7.5 s",
+            "value": "9.5 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "200 km/h",
+            "value": "190 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "17.0 km/l (diesel ARAI)",
+            "value": "16.57 kmpl (ARAI diesel)",
             "icon": "fuel"
           },
           {
@@ -5308,26 +5311,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "MX Diesel MT",
+            "transmission": "6-speed Manual",
             "fuel": "Diesel",
-            "showroomPrice": "₹13,62,060",
-            "onRoadPrice": "₹15,73,179"
+            "showroomPrice": "₹13,66,000",
+            "onRoadPrice": "₹15,78,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Automatic",
+            "name": "AX7 Diesel AT",
+            "transmission": "6-speed Automatic",
             "fuel": "Diesel",
-            "showroomPrice": "₹14,49,000",
-            "onRoadPrice": "₹16,73,595",
+            "showroomPrice": "₹20,40,000",
+            "onRoadPrice": "₹23,56,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Automatic",
+            "name": "AX7 L Diesel AT AWD",
+            "transmission": "6-speed Automatic",
             "fuel": "Diesel",
-            "showroomPrice": "₹16,22,880",
-            "onRoadPrice": "₹18,74,426"
+            "showroomPrice": "₹24,92,000",
+            "onRoadPrice": "₹28,78,000"
           }
         ],
         "expertReview": {
@@ -5411,7 +5414,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of XUV700?",
-            "a": "Ex-showroom starts around ₹14,49,000. On-road in Delhi is typically ₹16,73,595 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹13.66 L. On-road pricing typically starts around ₹15,78,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -5435,16 +5438,16 @@
         "tagline": "Land Rover attitude. Tata price.",
         "about": "Harrier's imposing design and OMEGA architecture give it serious road presence. Diesel-only, focused on comfort and safety for families stepping up from compact SUVs.",
         "showroomPrice": "₹15,00,000",
-        "onRoadPrice": "₹17,32,500",
-        "priceRangeMin": "₹13.80 L",
-        "priceRangeMax": "₹17.70 L",
+        "onRoadPrice": "₹15,33,000",
+        "priceRangeMin": "₹15.00 L",
+        "priceRangeMax": "₹26.69 L",
         "videoUrl": "https://youtu.be/wpLuwS6maQY",
         "videoLabel": "Harrier — Official walkaround",
         "highlights": [
-          "Land Rover design cues",
-          "170 PS diesel",
-          "5-star safety",
-          "Panoramic sunroof"
+          "2.0L Kryotec diesel",
+          "5-star BNCAP",
+          "12.3-inch touchscreen",
+          "445 litres boot"
         ],
         "colors": [
           {
@@ -5491,32 +5494,32 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "2.0L Kryotec diesel",
+            "value": "1956 cc Kryotec diesel",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "170 PS",
+            "value": "170 bhp @ 3750 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "350 Nm",
+            "value": "350 Nm @ 1750-2500 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "8.5 s",
+            "value": "10.5 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "195 km/h",
+            "value": "180 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "16.8 km/l (ARAI)",
+            "value": "16.8 kmpl (ARAI diesel)",
             "icon": "fuel"
           },
           {
@@ -5537,26 +5540,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Manual",
-            "fuel": "Diesel",
-            "showroomPrice": "₹14,10,000",
-            "onRoadPrice": "₹16,28,550"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Manual",
+            "name": "Smart MT",
+            "transmission": "6-speed Manual",
             "fuel": "Diesel",
             "showroomPrice": "₹15,00,000",
-            "onRoadPrice": "₹17,32,500",
+            "onRoadPrice": "₹15,33,000"
+          },
+          {
+            "name": "Adventure Plus AT",
+            "transmission": "6-speed Automatic",
+            "fuel": "Diesel",
+            "showroomPrice": "₹22,00,000",
+            "onRoadPrice": "₹25,40,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Manual",
+            "name": "Fearless Plus AT",
+            "transmission": "6-speed Automatic",
             "fuel": "Diesel",
-            "showroomPrice": "₹16,80,000",
-            "onRoadPrice": "₹19,40,400"
+            "showroomPrice": "₹26,69,000",
+            "onRoadPrice": "₹30,82,000"
           }
         ],
         "expertReview": {
@@ -5640,7 +5643,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Harrier?",
-            "a": "Ex-showroom starts around ₹15,00,000. On-road in Delhi is typically ₹17,32,500 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹15.00 L. On-road pricing typically starts around ₹15,33,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -5663,16 +5666,16 @@
       "toyota-fortuner": {
         "tagline": "The king of Indian SUVs.",
         "about": "Fortuner dominates the premium ladder-frame segment with bulletproof reliability, strong resale and genuine 4x4 credibility. Updated interiors and features keep it relevant.",
-        "showroomPrice": "₹33,43,000",
-        "onRoadPrice": "₹38,61,165",
-        "priceRangeMin": "₹30.76 L",
-        "priceRangeMax": "₹39.45 L",
+        "showroomPrice": "₹34,76,000",
+        "onRoadPrice": "₹40,15,000",
+        "priceRangeMin": "₹34.76 L",
+        "priceRangeMax": "₹50.46 L",
         "videoUrl": "https://youtu.be/Oevz3XCqtB4",
         "videoLabel": "Fortuner — Official walkaround",
         "highlights": [
-          "2.8L diesel",
-          "4x4",
-          "Legendary resale",
+          "2.8L turbo diesel",
+          "7 airbags",
+          "2WD / 4WD",
           "7 seats"
         ],
         "colors": [
@@ -5712,22 +5715,22 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "2.7L petrol / 2.8L diesel",
+            "value": "2755 cc turbo diesel",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "204 PS (diesel)",
+            "value": "201 bhp @ 3400 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "500 Nm",
+            "value": "500 Nm @ 1600-2800 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "7.8 s",
+            "value": "10.8 s",
             "icon": "zero"
           },
           {
@@ -5737,7 +5740,7 @@
           },
           {
             "label": "Mileage",
-            "value": "12.4 km/l (diesel ARAI)",
+            "value": "14.2-14.6 kmpl (ARAI diesel)",
             "icon": "fuel"
           },
           {
@@ -5747,7 +5750,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-speed AT",
+            "value": "6-speed MT / 6-speed AT",
             "icon": "gears"
           },
           {
@@ -5758,26 +5761,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "4x2 Diesel MT",
+            "transmission": "6-speed Manual",
             "fuel": "Diesel",
-            "showroomPrice": "₹31,42,420",
-            "onRoadPrice": "₹36,29,495"
+            "showroomPrice": "₹34,76,000",
+            "onRoadPrice": "₹40,15,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Automatic",
+            "name": "4x2 Diesel AT",
+            "transmission": "6-speed Automatic",
             "fuel": "Diesel",
-            "showroomPrice": "₹33,43,000",
-            "onRoadPrice": "₹38,61,165",
+            "showroomPrice": "₹41,63,000",
+            "onRoadPrice": "₹48,08,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Automatic",
+            "name": "GR-S 4x4 Diesel AT",
+            "transmission": "6-speed Automatic",
             "fuel": "Diesel",
-            "showroomPrice": "₹37,44,160",
-            "onRoadPrice": "₹43,24,505"
+            "showroomPrice": "₹50,46,000",
+            "onRoadPrice": "₹62,47,000"
           }
         ],
         "expertReview": {
@@ -5861,7 +5864,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Fortuner?",
-            "a": "Ex-showroom starts around ₹33,43,000. On-road in Delhi is typically ₹38,61,165 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹34.76 L. On-road pricing typically starts around ₹40,15,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -5885,16 +5888,16 @@
         "tagline": "Electric sedan. Performance first.",
         "about": "BYD Seal brings blade-battery tech and striking design to the premium EV sedan space. Instant torque, long range and a feature-rich cabin challenge European rivals on value.",
         "showroomPrice": "₹41,00,000",
-        "onRoadPrice": "₹47,35,500",
-        "priceRangeMin": "₹37.72 L",
-        "priceRangeMax": "₹48.38 L",
+        "onRoadPrice": "₹47,36,000",
+        "priceRangeMin": "₹41.00 L",
+        "priceRangeMax": "₹53.15 L",
         "videoUrl": "https://youtu.be/heXMDCoPjHA",
         "videoLabel": "Seal — Official walkaround",
         "highlights": [
-          "Blade battery",
-          "Up to 650 km range",
-          "Dual motor AWD",
-          "Fast charge"
+          "82.56 kWh battery",
+          "650 km range",
+          "150 kW DC charging",
+          "Rotating touchscreen"
         ],
         "colors": [
           {
@@ -5933,22 +5936,22 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "Electric dual motor / single motor",
+            "value": "82.56 kWh Blade battery",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "308 PS (AWD Performance)",
+            "value": "313 bhp",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "520 Nm",
+            "value": "360 Nm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "3.8 s",
+            "value": "5.9 s",
             "icon": "zero"
           },
           {
@@ -5958,7 +5961,7 @@
           },
           {
             "label": "Mileage",
-            "value": "650 km (ARAI range)",
+            "value": "650 km range (claimed)",
             "icon": "fuel"
           },
           {
@@ -5968,7 +5971,7 @@
           },
           {
             "label": "Transmission",
-            "value": "Single-speed reduction gear",
+            "value": "Single-speed automatic",
             "icon": "gears"
           },
           {
@@ -5979,26 +5982,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
-            "fuel": "Electric",
-            "showroomPrice": "₹38,54,000",
-            "onRoadPrice": "₹44,51,370"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Automatic",
+            "name": "Dynamic RWD",
+            "transmission": "Single-speed Automatic",
             "fuel": "Electric",
             "showroomPrice": "₹41,00,000",
-            "onRoadPrice": "₹47,35,500",
+            "onRoadPrice": "₹47,36,000"
+          },
+          {
+            "name": "Premium RWD",
+            "transmission": "Single-speed Automatic",
+            "fuel": "Electric",
+            "showroomPrice": "₹45,70,000",
+            "onRoadPrice": "₹52,78,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Automatic",
+            "name": "Performance AWD",
+            "transmission": "Single-speed Automatic",
             "fuel": "Electric",
-            "showroomPrice": "₹45,92,000",
-            "onRoadPrice": "₹53,03,760"
+            "showroomPrice": "₹53,15,000",
+            "onRoadPrice": "₹61,39,000"
           }
         ],
         "expertReview": {
@@ -6082,7 +6085,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Seal?",
-            "a": "Ex-showroom starts around ₹41,00,000. On-road in Delhi is typically ₹47,35,500 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹41.00 L. On-road pricing typically starts around ₹47,36,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -6105,17 +6108,17 @@
       "mercedes-benz-c-class": {
         "tagline": "The executive standard.",
         "about": "C-Class blends S-Class-inspired tech with compact executive dimensions. Cabin quality, MBUX and refined petrol/diesel options keep it central to the luxury sedan market.",
-        "showroomPrice": "₹57,00,000",
-        "onRoadPrice": "₹65,83,500",
-        "priceRangeMin": "₹52.44 L",
-        "priceRangeMax": "₹67.26 L",
+        "showroomPrice": "₹61,00,000",
+        "onRoadPrice": "₹70,46,000",
+        "priceRangeMin": "₹61.00 L",
+        "priceRangeMax": "₹68.00 L",
         "videoUrl": "https://youtu.be/H8RS128dvq0",
         "videoLabel": "C-Class — Official walkaround",
         "highlights": [
-          "MBUX",
-          "Mild hybrid",
-          "Premium cabin",
-          "ADAS"
+          "48V mild hybrid",
+          "9G-TRONIC",
+          "7 airbags",
+          "Luxury sedan"
         ],
         "colors": [
           {
@@ -6154,17 +6157,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "2.0L turbo petrol / diesel",
+            "value": "1999 cc turbo petrol mild-hybrid",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "258 PS (C300)",
+            "value": "258 bhp @ 5800 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "400 Nm",
+            "value": "400 Nm @ 2000-3200 rpm",
             "icon": "torque"
           },
           {
@@ -6179,7 +6182,7 @@
           },
           {
             "label": "Mileage",
-            "value": "15.5 km/l (claimed)",
+            "value": "15-16.9 kmpl (petrol)",
             "icon": "fuel"
           },
           {
@@ -6189,7 +6192,7 @@
           },
           {
             "label": "Transmission",
-            "value": "9G-TRONIC",
+            "value": "9-speed automatic",
             "icon": "gears"
           },
           {
@@ -6200,26 +6203,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "C 200",
+            "transmission": "9-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹53,58,000",
-            "onRoadPrice": "₹61,88,490"
+            "showroomPrice": "₹61,00,000",
+            "onRoadPrice": "₹70,46,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹57,00,000",
-            "onRoadPrice": "₹65,83,500",
+            "name": "C 220d",
+            "transmission": "9-speed Automatic",
+            "fuel": "Diesel",
+            "showroomPrice": "₹62,85,000",
+            "onRoadPrice": "₹72,60,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Automatic",
+            "name": "C 300 AMG Line",
+            "transmission": "9-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹63,84,000",
-            "onRoadPrice": "₹73,73,520"
+            "showroomPrice": "₹68,00,000",
+            "onRoadPrice": "₹78,54,000"
           }
         ],
         "expertReview": {
@@ -6303,7 +6306,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of C-Class?",
-            "a": "Ex-showroom starts around ₹57,00,000. On-road in Delhi is typically ₹65,83,500 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹61.00 L. On-road pricing typically starts around ₹70,46,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -6326,17 +6329,17 @@
       "audi-a4": {
         "tagline": "Vorsprung durch Technik. Refined.",
         "about": "A4 offers understated luxury, excellent interiors and quattro availability in a package that's easier to live with than larger sedans. A balanced German choice.",
-        "showroomPrice": "₹45,98,000",
-        "onRoadPrice": "₹53,10,690",
-        "priceRangeMin": "₹42.30 L",
-        "priceRangeMax": "₹54.26 L",
+        "showroomPrice": "₹46,99,000",
+        "onRoadPrice": "₹54,95,000",
+        "priceRangeMin": "₹46.99 L",
+        "priceRangeMax": "₹57.11 L",
         "videoUrl": "https://youtu.be/nDiDcNZPrCs",
         "videoLabel": "A4 — Official walkaround",
         "highlights": [
-          "Virtual Cockpit",
-          "quattro",
-          "Matrix LED",
-          "Premium audio"
+          "2.0L TFSI",
+          "7-speed DCT",
+          "460 litres boot",
+          "FWD sedan"
         ],
         "colors": [
           {
@@ -6383,22 +6386,22 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "2.0L TFSI",
+            "value": "1984 cc TFSI petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "190 PS",
+            "value": "201 bhp @ 4200-6000 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "320 Nm",
+            "value": "320 Nm @ 1450-4200 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "7.3 s",
+            "value": "7.1 s",
             "icon": "zero"
           },
           {
@@ -6408,7 +6411,7 @@
           },
           {
             "label": "Mileage",
-            "value": "17.4 km/l (ARAI)",
+            "value": "14.1-17.4 kmpl",
             "icon": "fuel"
           },
           {
@@ -6418,7 +6421,7 @@
           },
           {
             "label": "Transmission",
-            "value": "7-speed S tronic",
+            "value": "7-speed DCT automatic",
             "icon": "gears"
           },
           {
@@ -6429,26 +6432,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "Premium 40 TFSI",
+            "transmission": "7-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹43,22,120",
-            "onRoadPrice": "₹49,92,049"
+            "showroomPrice": "₹46,99,000",
+            "onRoadPrice": "₹54,95,000"
           },
           {
-            "name": "Mid",
-            "transmission": "Automatic",
+            "name": "Premium Plus 40 TFSI",
+            "transmission": "7-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹45,98,000",
-            "onRoadPrice": "₹53,10,690",
+            "showroomPrice": "₹52,00,000",
+            "onRoadPrice": "₹60,84,000",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Automatic",
+            "name": "Technology 40 TFSI",
+            "transmission": "7-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹51,49,760",
-            "onRoadPrice": "₹59,47,973"
+            "showroomPrice": "₹57,11,000",
+            "onRoadPrice": "₹65,06,000"
           }
         ],
         "expertReview": {
@@ -6532,7 +6535,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of A4?",
-            "a": "Ex-showroom starts around ₹45,98,000. On-road in Delhi is typically ₹53,10,690 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹46.99 L. On-road pricing typically starts around ₹54,95,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -6555,17 +6558,17 @@
       "bmw-m340i": {
         "tagline": "M Performance. Everyday usable.",
         "about": "M340i is the sweet spot for drivers who want near-M3 pace with four-door practicality. Inline-six turbo, xDrive grip and M Sport chassis make it a cult favourite.",
-        "showroomPrice": "₹62,90,000",
-        "onRoadPrice": "₹72,64,950",
-        "priceRangeMin": "₹57.87 L",
-        "priceRangeMax": "₹74.22 L",
+        "showroomPrice": "₹74,90,000",
+        "onRoadPrice": "₹76,90,000",
+        "priceRangeMin": "₹74.90 L",
+        "priceRangeMax": "₹74.90 L",
         "videoUrl": "https://youtu.be/FVJji2LvhII",
         "videoLabel": "M340i — Official walkaround",
         "highlights": [
-          "387 PS B58",
-          "xDrive",
-          "M Sport brakes",
-          "Launch control"
+          "3.0L inline-six",
+          "xDrive AWD",
+          "Adaptive M Suspension",
+          "480 litres boot"
         ],
         "colors": [
           {
@@ -6604,22 +6607,22 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "3.0L B58 inline-six turbo",
+            "value": "2998 cc inline-six turbo petrol mild-hybrid",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "387 PS",
+            "value": "374 bhp @ 5500-6500 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "500 Nm",
+            "value": "500 Nm @ 1900-5000 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "4.4 s",
+            "value": "4.39 s",
             "icon": "zero"
           },
           {
@@ -6629,7 +6632,7 @@
           },
           {
             "label": "Mileage",
-            "value": "11.4 km/l (ARAI)",
+            "value": "13.02 kmpl",
             "icon": "fuel"
           },
           {
@@ -6639,7 +6642,7 @@
           },
           {
             "label": "Transmission",
-            "value": "8-speed Steptronic Sport",
+            "value": "8-speed automatic",
             "icon": "gears"
           },
           {
@@ -6650,26 +6653,12 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "M340i xDrive",
+            "transmission": "8-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹59,12,600",
-            "onRoadPrice": "₹68,29,053"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹62,90,000",
-            "onRoadPrice": "₹72,64,950",
+            "showroomPrice": "₹74,90,000",
+            "onRoadPrice": "₹76,90,000",
             "highlight": true
-          },
-          {
-            "name": "Top",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹70,44,800",
-            "onRoadPrice": "₹81,36,744"
           }
         ],
         "expertReview": {
@@ -6753,7 +6742,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of M340i?",
-            "a": "Ex-showroom starts around ₹62,90,000. On-road in Delhi is typically ₹72,64,950 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹74.90 L. On-road pricing typically starts around ₹76,90,000; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -6776,17 +6765,17 @@
       "mercedes-amg-c43": {
         "tagline": "AMG soul. Sedan practicality.",
         "about": "C43 brings AMG power to the C-Class with a potent four-cylinder hybrid assist and 4MATIC AWD. Faster, louder and firmer than standard C-Class — but still dailyable.",
-        "showroomPrice": "₹87,00,000",
-        "onRoadPrice": "₹1",
-        "priceRangeMin": "₹80.04 L",
-        "priceRangeMax": "₹1.03 Cr",
+        "showroomPrice": "₹98,00,000",
+        "onRoadPrice": "₹1.13 Cr",
+        "priceRangeMin": "₹98.00 L",
+        "priceRangeMax": "₹98.00 L",
         "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
         "videoLabel": "AMG C43 — Official walkaround",
         "highlights": [
-          "AMG Performance 4MATIC",
-          "408 PS",
-          "AMG Ride Control",
-          "Burmester"
+          "AMG 4MATIC",
+          "500 Nm torque",
+          "Burmester audio",
+          "Rear-wheel steering"
         ],
         "colors": [
           {
@@ -6821,17 +6810,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "2.0L turbo + electric assist (AMG)",
+            "value": "1991 cc AMG turbo petrol mild-hybrid",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "408 PS",
+            "value": "402 bhp @ 6750 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "500 Nm",
+            "value": "500 Nm @ 5000 rpm",
             "icon": "torque"
           },
           {
@@ -6846,7 +6835,7 @@
           },
           {
             "label": "Mileage",
-            "value": "11.8 km/l (claimed)",
+            "value": "10 kmpl",
             "icon": "fuel"
           },
           {
@@ -6856,7 +6845,7 @@
           },
           {
             "label": "Transmission",
-            "value": "9G-TRONIC AMG",
+            "value": "9-speed automatic",
             "icon": "gears"
           },
           {
@@ -6867,26 +6856,12 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "AMG C 43 4MATIC",
+            "transmission": "9-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹81,78,000",
-            "onRoadPrice": "₹94,45,590"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹87,00,000",
-            "onRoadPrice": "₹1",
+            "showroomPrice": "₹98,00,000",
+            "onRoadPrice": "₹1.13 Cr",
             "highlight": true
-          },
-          {
-            "name": "Top",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹97,44,000",
-            "onRoadPrice": "₹1.13"
           }
         ],
         "expertReview": {
@@ -6970,7 +6945,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of AMG C43?",
-            "a": "Ex-showroom starts around ₹87,00,000. On-road in Delhi is typically ₹1 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹98.00 L. On-road pricing typically starts around ₹1.13 Cr; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -6993,17 +6968,17 @@
       "porsche-911-carrera": {
         "tagline": "The sports car reference.",
         "about": "911 needs no introduction — rear-engine layout, timeless silhouette and daily usability that few supercars match. Carrera is the pure entry to the legend.",
-        "showroomPrice": "₹1.69",
-        "onRoadPrice": "₹1.95",
-        "priceRangeMin": "₹1.55 Cr",
-        "priceRangeMax": "₹1.99 Cr",
+        "showroomPrice": "₹2.00 Cr",
+        "onRoadPrice": "₹2.28 Cr",
+        "priceRangeMin": "₹2.00 Cr",
+        "priceRangeMax": "₹2.00 Cr",
         "videoUrl": "https://www.youtube.com/watch?v=mAr0lDe7Vbo",
         "videoLabel": "911 Carrera — Official walkaround",
         "highlights": [
-          "Flat-six",
-          "PDK",
-          "Rear-engine",
-          "Iconic design"
+          "2981 cc flat-six",
+          "8-speed PDK",
+          "RWD",
+          "294 km/h top speed"
         ],
         "colors": [
           {
@@ -7038,32 +7013,32 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "3.0L twin-turbo flat-six",
+            "value": "2981 cc twin-turbo flat-six petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "385 PS",
+            "value": "380 bhp @ 6500 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "450 Nm",
+            "value": "450 Nm @ 1950 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "4.2 s",
+            "value": "4.1 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "293 km/h",
+            "value": "294 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "10.5 km/l (claimed)",
+            "value": "10.64 kmpl",
             "icon": "fuel"
           },
           {
@@ -7073,7 +7048,7 @@
           },
           {
             "label": "Transmission",
-            "value": "8-speed PDK",
+            "value": "8-speed PDK automatic",
             "icon": "gears"
           },
           {
@@ -7084,26 +7059,12 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "911 Carrera",
+            "transmission": "8-speed PDK",
             "fuel": "Petrol",
-            "showroomPrice": "₹1.59",
-            "onRoadPrice": "₹1.83"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹1.69",
-            "onRoadPrice": "₹1.95",
+            "showroomPrice": "₹2.00 Cr",
+            "onRoadPrice": "₹2.28 Cr",
             "highlight": true
-          },
-          {
-            "name": "Top",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹1.89",
-            "onRoadPrice": "₹2.19"
           }
         ],
         "expertReview": {
@@ -7187,7 +7148,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of 911 Carrera?",
-            "a": "Ex-showroom starts around ₹1.69. On-road in Delhi is typically ₹1.95 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹2.00 Cr. On-road pricing typically starts around ₹2.28 Cr; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -7210,17 +7171,17 @@
       "bmw-m4-competition": {
         "tagline": "Track-bred fury. Road-legal manners.",
         "about": "M4 Competition is a precision instrument — twin-turbo straight-six, sharp chassis and polarising design. Loud, quick and unapologetically focused.",
-        "showroomPrice": "₹92,50,000",
-        "onRoadPrice": "₹1.07",
-        "priceRangeMin": "₹85.10 L",
-        "priceRangeMax": "₹1.09 Cr",
+        "showroomPrice": "₹1.55 Cr",
+        "onRoadPrice": "₹1.76 Cr",
+        "priceRangeMin": "₹1.55 Cr",
+        "priceRangeMax": "₹1.55 Cr",
         "videoUrl": "https://www.youtube.com/watch?v=Lt7N9-9-N8U",
         "videoLabel": "M4 Competition — Official walkaround",
         "highlights": [
-          "503 BHP",
-          "0-100 in 3.5 s",
-          "M Steptronic",
-          "RWD / xDrive"
+          "523 bhp inline-six",
+          "xDrive AWD",
+          "3.5 s 0-100",
+          "440 litres boot"
         ],
         "colors": [
           {
@@ -7255,17 +7216,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "3.0L twin-turbo inline-six",
+            "value": "2993 cc twin-turbo inline-six petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "510 PS",
+            "value": "523 bhp @ 6250 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "650 Nm",
+            "value": "650 Nm @ 2750-5730 rpm",
             "icon": "torque"
           },
           {
@@ -7275,12 +7236,12 @@
           },
           {
             "label": "Top Speed",
-            "value": "290 km/h",
+            "value": "250 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "9.8 km/l (claimed)",
+            "value": "9.9 kmpl",
             "icon": "fuel"
           },
           {
@@ -7290,7 +7251,7 @@
           },
           {
             "label": "Transmission",
-            "value": "8-speed M Steptronic",
+            "value": "8-speed automatic",
             "icon": "gears"
           },
           {
@@ -7301,26 +7262,12 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "M4 Competition xDrive",
+            "transmission": "8-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹86,95,000",
-            "onRoadPrice": "₹1"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹92,50,000",
-            "onRoadPrice": "₹1.07",
+            "showroomPrice": "₹1.55 Cr",
+            "onRoadPrice": "₹1.76 Cr",
             "highlight": true
-          },
-          {
-            "name": "Top",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹1.04",
-            "onRoadPrice": "₹1.2"
           }
         ],
         "expertReview": {
@@ -7404,7 +7351,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of M4 Competition?",
-            "a": "Ex-showroom starts around ₹92,50,000. On-road in Delhi is typically ₹1.07 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹1.55 Cr. On-road pricing typically starts around ₹1.76 Cr; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -7427,17 +7374,17 @@
       "lamborghini-urus": {
         "tagline": "Super SUV. Unmistakable.",
         "about": "Urus proves Lamborghini DNA works in an SUV body — V8 twin-turbo fury, four seats and everyday usability that Huracán can't match.",
-        "showroomPrice": "₹4.18",
-        "onRoadPrice": "₹4.83",
-        "priceRangeMin": "₹3.85 Cr",
-        "priceRangeMax": "₹4.93 Cr",
+        "showroomPrice": "₹4.47 Cr",
+        "onRoadPrice": "₹5.16 Cr",
+        "priceRangeMin": "₹4.47 Cr",
+        "priceRangeMax": "₹4.47 Cr",
         "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
         "videoLabel": "Urus — Official walkaround",
         "highlights": [
-          "657 PS V8",
-          "AWD",
-          "Active aero",
-          "Luxury cabin"
+          "Urus SE plug-in hybrid",
+          "789 bhp",
+          "59 km EV range",
+          "AWD"
         ],
         "colors": [
           {
@@ -7472,37 +7419,37 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "4.0L twin-turbo V8",
+            "value": "3996 cc twin-turbo V8 plug-in hybrid",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "657 PS",
+            "value": "789 bhp @ 6000 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "850 Nm",
+            "value": "800 Nm @ 2250 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "3.3 s",
+            "value": "3.4 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "305 km/h",
+            "value": "312 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "7.8 km/l (claimed)",
+            "value": "20.4 kmpl combined",
             "icon": "fuel"
           },
           {
             "label": "Fuel Type",
-            "value": "Petrol",
+            "value": "Hybrid",
             "icon": "fueltype"
           },
           {
@@ -7518,26 +7465,12 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹3.93",
-            "onRoadPrice": "₹4.54"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹4.18",
-            "onRoadPrice": "₹4.83",
+            "name": "Urus SE 4WD",
+            "transmission": "8-speed Automatic",
+            "fuel": "Hybrid",
+            "showroomPrice": "₹4.47 Cr",
+            "onRoadPrice": "₹5.16 Cr",
             "highlight": true
-          },
-          {
-            "name": "Top",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹4.68",
-            "onRoadPrice": "₹5.41"
           }
         ],
         "expertReview": {
@@ -7621,7 +7554,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Urus?",
-            "a": "Ex-showroom starts around ₹4.18. On-road in Delhi is typically ₹4.83 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹4.47 Cr. On-road pricing typically starts around ₹5.16 Cr; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -7644,17 +7577,17 @@
       "range-rover": {
         "tagline": "Above and beyond.",
         "about": "Range Rover defines luxury SUV motoring — commanding presence, pillow-soft ride and a cabin that rivals flagship sedans. New generation adds sharper tech and plug-in options.",
-        "showroomPrice": "₹2.32",
-        "onRoadPrice": "₹2.68",
-        "priceRangeMin": "₹2.13 Cr",
-        "priceRangeMax": "₹2.74 Cr",
+        "showroomPrice": "₹2.31 Cr",
+        "onRoadPrice": "₹2.67 Cr",
+        "priceRangeMin": "₹2.31 Cr",
+        "priceRangeMax": "₹4.25 Cr",
         "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
         "videoLabel": "Range Rover — Official walkaround",
         "highlights": [
-          "Air suspension",
-          "Meridian audio",
-          "Rear executive seats",
-          "Terrain Response"
+          "3.0L mild-hybrid diesel",
+          "AWD",
+          "818 litres boot",
+          "Luxury SUV"
         ],
         "colors": [
           {
@@ -7689,37 +7622,37 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "3.0L inline-six mild hybrid / V8",
+            "value": "2997 cc six-cylinder diesel mild-hybrid",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "395 PS (P400)",
+            "value": "350 bhp",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "550 Nm",
+            "value": "700 Nm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "5.8 s",
+            "value": "5.7 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "225 km/h",
+            "value": "261 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "10.2 km/l (claimed)",
+            "value": "13.16 kmpl",
             "icon": "fuel"
           },
           {
             "label": "Fuel Type",
-            "value": "Petrol",
+            "value": "Diesel",
             "icon": "fueltype"
           },
           {
@@ -7735,26 +7668,26 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹2.18",
-            "onRoadPrice": "₹2.52"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹2.32",
-            "onRoadPrice": "₹2.68",
+            "name": "HSE 3.0 Diesel",
+            "transmission": "8-speed Automatic",
+            "fuel": "Diesel",
+            "showroomPrice": "₹2.31 Cr",
+            "onRoadPrice": "₹2.67 Cr",
             "highlight": true
           },
           {
-            "name": "Top",
-            "transmission": "Automatic",
+            "name": "Autobiography 3.0 Petrol",
+            "transmission": "8-speed Automatic",
             "fuel": "Petrol",
-            "showroomPrice": "₹2.6",
-            "onRoadPrice": "₹3"
+            "showroomPrice": "₹2.75 Cr",
+            "onRoadPrice": "₹3.18 Cr"
+          },
+          {
+            "name": "SV 4.4 Petrol",
+            "transmission": "8-speed Automatic",
+            "fuel": "Petrol",
+            "showroomPrice": "₹4.25 Cr",
+            "onRoadPrice": "₹4.91 Cr"
           }
         ],
         "expertReview": {
@@ -7838,7 +7771,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Range Rover?",
-            "a": "Ex-showroom starts around ₹2.32. On-road in Delhi is typically ₹2.68 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹2.31 Cr. On-road pricing typically starts around ₹2.67 Cr; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
@@ -7861,17 +7794,17 @@
       "ferrari-roma": {
         "tagline": "La Nuova Dolce Vita.",
         "about": "Roma is Ferrari's elegant front-engined GT — 3.9L twin-turbo V8, gorgeous proportions and a more relaxed character than mid-engine models. Grand touring in the truest sense.",
-        "showroomPrice": "₹3.76",
-        "onRoadPrice": "₹4.34",
-        "priceRangeMin": "₹3.46 Cr",
-        "priceRangeMax": "₹4.44 Cr",
+        "showroomPrice": "₹3.76 Cr",
+        "onRoadPrice": "₹4.09 Cr",
+        "priceRangeMin": "₹3.56 Cr",
+        "priceRangeMax": "₹3.76 Cr",
         "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
         "videoLabel": "Roma — Official walkaround",
         "highlights": [
-          "620 CV V8",
+          "3855 cc V8",
           "8-speed DCT",
-          "GT comfort",
-          "Timeless design"
+          "320 km/h top speed",
+          "RWD grand tourer"
         ],
         "colors": [
           {
@@ -7906,17 +7839,17 @@
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "3.9L twin-turbo V8",
+            "value": "3855 cc twin-turbo V8 petrol",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "620 PS",
+            "value": "612 bhp @ 5750 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "760 Nm",
+            "value": "760 Nm @ 3000 rpm",
             "icon": "torque"
           },
           {
@@ -7931,7 +7864,7 @@
           },
           {
             "label": "Mileage",
-            "value": "8.4 km/l (claimed)",
+            "value": "8.9 kmpl",
             "icon": "fuel"
           },
           {
@@ -7941,7 +7874,7 @@
           },
           {
             "label": "Transmission",
-            "value": "8-speed F1 DCT",
+            "value": "8-speed DCT automatic",
             "icon": "gears"
           },
           {
@@ -7952,26 +7885,12 @@
         ],
         "variants": [
           {
-            "name": "Base",
-            "transmission": "Automatic",
+            "name": "Roma Coupe",
+            "transmission": "8-speed DCT",
             "fuel": "Petrol",
-            "showroomPrice": "₹3.53",
-            "onRoadPrice": "₹4.08"
-          },
-          {
-            "name": "Mid",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹3.76",
-            "onRoadPrice": "₹4.34",
+            "showroomPrice": "₹3.76 Cr",
+            "onRoadPrice": "₹4.09 Cr",
             "highlight": true
-          },
-          {
-            "name": "Top",
-            "transmission": "Automatic",
-            "fuel": "Petrol",
-            "showroomPrice": "₹4.21",
-            "onRoadPrice": "₹4.86"
           }
         ],
         "expertReview": {
@@ -8055,7 +7974,7 @@
         "faqs": [
           {
             "q": "What is the on-road price of Roma?",
-            "a": "Ex-showroom starts around ₹3.76. On-road in Delhi is typically ₹4.34 for the base trim; top variants cost more depending on insurance and accessories."
+            "a": "Ex-showroom starts around ₹3.56 Cr. On-road pricing typically starts around ₹4.09 Cr; higher variants cost more depending on city, registration, insurance and accessories."
           },
           {
             "q": "Is there a waiting period?",
