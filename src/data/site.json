@@ -436,7 +436,7 @@
         "bodyType": "Coupe",
         "drivetrain": "AWD",
         "modelYear": 2025,
-        "image": "/cars/bmw-m4.png"
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-white.webp" 
       }
     ],
     "all": [
@@ -813,7 +813,7 @@
         "bodyType": "Sedan",
         "drivetrain": "AWD",
         "modelYear": 2025,
-        "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/14801/mercedes-amg-c43-right-front-three-quarter.jpeg?wm=1&q=80"
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/amgc43/amgc43-black.webp"
       },
       {
         "id": "porsche-911-carrera",
@@ -828,7 +828,7 @@
         "bodyType": "Coupe",
         "drivetrain": "RWD",
         "modelYear": 2025,
-        "image": "https://imgd.aeplcdn.com/664x374/cw/ec/39232/Porsche-New-911-Exterior-153677.jpg?wm=1&q=80"
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/carrera911/carrera911-black.webp"
       },
       {
         "id": "bmw-m4-competition",
@@ -843,7 +843,7 @@
         "bodyType": "Coupe",
         "drivetrain": "AWD",
         "modelYear": 2025,
-        "image": "/cars/bmw-m4.png"
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-white.webp"
       },
       {
         "id": "lamborghini-urus",
@@ -858,7 +858,7 @@
         "bodyType": "SUV",
         "drivetrain": "AWD",
         "modelYear": 2025,
-        "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1600&q=80"
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/urus/urus-yellow.webp"
       },
       {
         "id": "range-rover",
@@ -873,7 +873,7 @@
         "bodyType": "SUV",
         "drivetrain": "AWD",
         "modelYear": 2025,
-        "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1600&q=80"
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/velar/velar-black.webp"
       },
       {
         "id": "ferrari-roma",
@@ -888,7 +888,7 @@
         "bodyType": "Coupe",
         "drivetrain": "RWD",
         "modelYear": 2025,
-        "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1600&q=80"
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/roma/roma-black.webp"
       }
     ],
     "detailDefaults": {
@@ -6769,7 +6769,7 @@
         "onRoadPrice": "₹1.13 Cr",
         "priceRangeMin": "₹98.00 L",
         "priceRangeMax": "₹98.00 L",
-        "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
+        "videoUrl": "https://youtu.be/M1dNxviW05U",
         "videoLabel": "AMG C43 — Official walkaround",
         "highlights": [
           "AMG 4MATIC",
@@ -6779,32 +6779,44 @@
         ],
         "colors": [
           {
-            "name": "Pearl White",
+            "name": "Polar White",
             "hex": "#f5f5f5",
             "tint": "#f5f5f5",
             "blend": "screen",
-            "tintOpacity": 0.15
+            "tintOpacity": 0.15,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/amgc43/amgc43-white.webp"
           },
           {
-            "name": "Metallic Black",
+            "name": "Graphite Grey Magno",
             "hex": "#1a1b1e",
             "tint": "#1a1b1e",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/amgc43/amgc43-black.webp"
           },
           {
-            "name": "Silver",
+            "name": "Hi Tech Silver",
             "hex": "#b8bcc4",
             "tint": "#b8bcc4",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/amgc43/amgc43-silver.webp"
           },
           {
-            "name": "Red",
+            "name": "Patagonia Red Bright",
             "hex": "#c41e2a",
             "tint": "#c41e2a",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/amgc43/amgc43-red.webp"
+          },
+          {
+            "name": "Spectral Blue",
+            "hex": "#2c5aa0",
+            "tint": "#2c5aa0",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/amgc43/amgc43-blue.webp"
           }
         ],
         "keySpecs": [
@@ -6972,7 +6984,7 @@
         "onRoadPrice": "₹2.28 Cr",
         "priceRangeMin": "₹2.00 Cr",
         "priceRangeMax": "₹2.00 Cr",
-        "videoUrl": "https://www.youtube.com/watch?v=mAr0lDe7Vbo",
+        "videoUrl": "https://youtu.be/OUPQGEwO6hA",
         "videoLabel": "911 Carrera — Official walkaround",
         "highlights": [
           "2981 cc flat-six",
@@ -6982,32 +6994,36 @@
         ],
         "colors": [
           {
-            "name": "Pearl White",
-            "hex": "#f5f5f5",
-            "tint": "#f5f5f5",
-            "blend": "screen",
-            "tintOpacity": 0.15
-          },
-          {
-            "name": "Metallic Black",
+            "name": "Jet Black Metallic",
             "hex": "#1a1b1e",
             "tint": "#1a1b1e",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/carrera911/carrera911-black.webp"
           },
           {
-            "name": "Silver",
+            "name": "GT Silver Metallic",
             "hex": "#b8bcc4",
             "tint": "#b8bcc4",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/carrera911/carrera911-silver.webp"
           },
           {
-            "name": "Red",
+            "name": "Guards Red",
             "hex": "#c41e2a",
             "tint": "#c41e2a",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/carrera911/carrera911-red.webp"
+          },
+          {
+            "name": "Gentian Blue Metallic",
+            "hex": "#2c5aa0",
+            "tint": "#2c5aa0",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/carrera911/carrera911-blue.webp"
           }
         ],
         "keySpecs": [
@@ -7175,7 +7191,7 @@
         "onRoadPrice": "₹1.76 Cr",
         "priceRangeMin": "₹1.55 Cr",
         "priceRangeMax": "₹1.55 Cr",
-        "videoUrl": "https://www.youtube.com/watch?v=Lt7N9-9-N8U",
+        "videoUrl": "https://youtu.be/qMMl7g9QbZA",
         "videoLabel": "M4 Competition — Official walkaround",
         "highlights": [
           "523 bhp inline-six",
@@ -7185,32 +7201,36 @@
         ],
         "colors": [
           {
-            "name": "Pearl White",
+            "name": "Alpine White",
             "hex": "#f5f5f5",
             "tint": "#f5f5f5",
             "blend": "screen",
-            "tintOpacity": 0.15
+            "tintOpacity": 0.15,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-white.webp"
           },
           {
-            "name": "Metallic Black",
-            "hex": "#1a1b1e",
-            "tint": "#1a1b1e",
-            "blend": "multiply",
-            "tintOpacity": 0.45
-          },
-          {
-            "name": "Silver",
-            "hex": "#b8bcc4",
-            "tint": "#b8bcc4",
-            "blend": "multiply",
-            "tintOpacity": 0.45
-          },
-          {
-            "name": "Red",
+            "name": "Toronto Red Metallic",
             "hex": "#c41e2a",
             "tint": "#c41e2a",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-red.webp"
+          },
+          {
+            "name": "Portimao Blue Metallic",
+            "hex": "#2c5aa0",
+            "tint": "#2c5aa0",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-blue.webp"
+          },
+          {
+            "name": "Sao Paulo Yellow Metallic",
+            "hex": "#e6b800",
+            "tint": "#e6b800",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-yellow.webp"
           }
         ],
         "keySpecs": [
@@ -7378,7 +7398,7 @@
         "onRoadPrice": "₹5.16 Cr",
         "priceRangeMin": "₹4.47 Cr",
         "priceRangeMax": "₹4.47 Cr",
-        "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
+        "videoUrl": "https://youtu.be/sKPItaB5beY",
         "videoLabel": "Urus — Official walkaround",
         "highlights": [
           "Urus SE plug-in hybrid",
@@ -7388,32 +7408,44 @@
         ],
         "colors": [
           {
-            "name": "Pearl White",
+            "name": "Bianco Icarus",
             "hex": "#f5f5f5",
             "tint": "#f5f5f5",
             "blend": "screen",
-            "tintOpacity": 0.15
+            "tintOpacity": 0.15,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/urus/urus-white.webp"
           },
           {
-            "name": "Metallic Black",
+            "name": "Marrone Alcestis",
             "hex": "#1a1b1e",
             "tint": "#1a1b1e",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/urus/urus-black.webp"
           },
           {
-            "name": "Silver",
-            "hex": "#b8bcc4",
-            "tint": "#b8bcc4",
-            "blend": "multiply",
-            "tintOpacity": 0.45
-          },
-          {
-            "name": "Red",
+            "name": "Arancio",
             "hex": "#c41e2a",
             "tint": "#c41e2a",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/urus/urus-red.webp"
+          },
+          {
+            "name": "Giallo Auge",
+            "hex": "#e6b800",
+            "tint": "#e6b800",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/urus/urus-yellow.webp"
+          },
+          {
+            "name": "Blu Aegir",
+            "hex": "#2c5aa0",
+            "tint": "#2c5aa0",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/urus/urus-blue.webp"
           }
         ],
         "keySpecs": [
@@ -7581,7 +7613,7 @@
         "onRoadPrice": "₹2.67 Cr",
         "priceRangeMin": "₹2.31 Cr",
         "priceRangeMax": "₹4.25 Cr",
-        "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
+        "videoUrl": "https://youtu.be/OmbWEKpko78",
         "videoLabel": "Range Rover — Official walkaround",
         "highlights": [
           "3.0L mild-hybrid diesel",
@@ -7591,32 +7623,36 @@
         ],
         "colors": [
           {
-            "name": "Pearl White",
+            "name": "Fuji White",
             "hex": "#f5f5f5",
             "tint": "#f5f5f5",
             "blend": "screen",
-            "tintOpacity": 0.15
+            "tintOpacity": 0.15,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/velar/velar-white.webp"
           },
           {
-            "name": "Metallic Black",
+            "name": "Santorini Black Metallic",
             "hex": "#1a1b1e",
             "tint": "#1a1b1e",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/velar/velar-black.webp"
           },
           {
-            "name": "Silver",
+            "name": "Arroios Grey",
             "hex": "#b8bcc4",
             "tint": "#b8bcc4",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/velar/velar-silver.webp"
           },
           {
-            "name": "Red",
-            "hex": "#c41e2a",
-            "tint": "#c41e2a",
+            "name": "Varesine Blue Metallic",
+            "hex": "#2c5aa0",
+            "tint": "#2c5aa0",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/velar/velar-blue.webp"
           }
         ],
         "keySpecs": [
@@ -7798,7 +7834,7 @@
         "onRoadPrice": "₹4.09 Cr",
         "priceRangeMin": "₹3.56 Cr",
         "priceRangeMax": "₹3.76 Cr",
-        "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
+        "videoUrl": "https://youtu.be/OpIz-reZeEY",
         "videoLabel": "Roma — Official walkaround",
         "highlights": [
           "3855 cc V8",
@@ -7808,32 +7844,44 @@
         ],
         "colors": [
           {
-            "name": "Pearl White",
-            "hex": "#f5f5f5",
-            "tint": "#f5f5f5",
-            "blend": "screen",
-            "tintOpacity": 0.15
-          },
-          {
-            "name": "Metallic Black",
+            "name": "Nero Daytona",
             "hex": "#1a1b1e",
             "tint": "#1a1b1e",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/roma/roma-black.webp"
           },
           {
-            "name": "Silver",
+            "name": "Grigio Ingrid",
             "hex": "#b8bcc4",
             "tint": "#b8bcc4",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/roma/roma-grey.webp"
           },
           {
-            "name": "Red",
+            "name": "Rosso Scuderia",
             "hex": "#c41e2a",
             "tint": "#c41e2a",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/roma/roma-red.webp"
+          },
+          {
+            "name": "Blu Pozzi",
+            "hex": "#2c5aa0",
+            "tint": "#2c5aa0",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/roma/roma-blue.webp"
+          },
+          {
+            "name": "Giallo Modena",
+            "hex": "#e6b800",
+            "tint": "#e6b800",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/roma/roma-yellow.webp"
           }
         ],
         "keySpecs": [
@@ -9275,7 +9323,7 @@
         "excerpt": "The limited-run CS gets weight cuts, fresh damper tune and a sharper electronics package. Worth the premium over the Competition?",
         "date": "May 12, 2026",
         "readTime": "5 min read",
-        "image": "https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?q=80&w=1600&auto=format&fit=crop",
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-white.webp",
         "author": "Karan Sahgal"
       },
       {
@@ -9305,7 +9353,7 @@
         "excerpt": "Highway, hill and city. The benchmark sports car remains the benchmark for genuinely good reasons.",
         "date": "Apr 29, 2026",
         "readTime": "10 min read",
-        "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop",
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/carrera911/carrera911-black.webp",
         "author": "Naina Iyer"
       },
       {

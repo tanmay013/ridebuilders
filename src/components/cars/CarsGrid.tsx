@@ -1,7 +1,7 @@
 "use client";
 
 import type { FC } from "react";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import siteData from "@/data/site.json";
 import type { CarsFilterValues } from "./CarsFilterBar";
@@ -23,6 +23,8 @@ interface Car {
 }
 
 type PageKey = "carsPage" | "bikesPage";
+
+const PAGE_SIZE = 12;
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -352,6 +354,7 @@ const CarsGrid: FC<CarsGridProps> = ({
   const cardsY = useTransform(sectionProgress, [0, 1], ["28px", "-10px"]);
 
   const [view, setView] = useState<"grid" | "list">("grid");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const filteredCars = useMemo(() => {
     return allCars.filter((car) => {
       const selectedBrand = filterValues.brand ?? "All";
@@ -402,6 +405,16 @@ const CarsGrid: FC<CarsGridProps> = ({
       return true;
     });
   }, [allCars, filterValues]);
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [filterValues, pageKey]);
+
+  const visibleCars = useMemo(
+    () => filteredCars.slice(0, visibleCount),
+    [filteredCars, visibleCount]
+  );
+  const hasMore = visibleCount < filteredCars.length;
 
   return (
     <motion.section
@@ -469,7 +482,7 @@ const CarsGrid: FC<CarsGridProps> = ({
               : "flex flex-col gap-4"
           }
         >
-          {filteredCars.map((car, i) => (
+          {visibleCars.map((car, i) => (
             <CarCard
               key={car.id}
               car={car}
@@ -480,32 +493,38 @@ const CarsGrid: FC<CarsGridProps> = ({
           ))}
         </motion.div>
 
-        {/* Load more */}
-        <motion.div
-          className="mt-10 md:mt-12 flex justify-center"
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.4 }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        >
-          <button
-            type="button"
-            className="group inline-flex items-center gap-2.5 px-6 py-3 text-sm md:text-base text-white/85 hover:text-white transition-colors"
+        {hasMore && (
+          <motion.div
+            className="mt-10 md:mt-12 flex justify-center"
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.4 }}
+            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
           >
-            Load More
-            <motion.span
-              aria-hidden
-              className="text-red-500"
-              initial={{ y: 0 }}
-              animate={{ y: [0, 3, 0] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            <button
+              type="button"
+              onClick={() =>
+                setVisibleCount((count) =>
+                  Math.min(count + PAGE_SIZE, filteredCars.length)
+                )
+              }
+              className="group inline-flex items-center gap-2.5 px-6 py-3 text-sm md:text-base text-white/85 hover:text-white transition-colors"
             >
-              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 5v14M6 13l6 6 6-6" />
-              </svg>
-            </motion.span>
-          </button>
-        </motion.div>
+              Load More
+              <motion.span
+                aria-hidden
+                className="text-red-500"
+                initial={{ y: 0 }}
+                animate={{ y: [0, 3, 0] }}
+                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 5v14M6 13l6 6 6-6" />
+                </svg>
+              </motion.span>
+            </button>
+          </motion.div>
+        )}
       </div>
     </motion.section>
   );
