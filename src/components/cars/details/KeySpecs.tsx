@@ -1,15 +1,12 @@
 "use client";
 
 import type { FC, ReactNode } from "react";
-import { useRef } from "react";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import type { CarDetail } from "./carDetail";
+import { isFilledSpecValue } from "./carDetail";
 
 interface KeySpecsProps {
   detail: CarDetail;
 }
-
-const easeOut = [0.16, 1, 0.3, 1] as const;
 
 const Icon: FC<{ children: ReactNode }> = ({ children }) => (
   <svg
@@ -86,34 +83,19 @@ const specIcons: Record<string, ReactNode> = {
 };
 
 const KeySpecs: FC<KeySpecsProps> = ({ detail }) => {
-  const sectionRef = useRef<HTMLElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start end", "end start"],
-  });
-  const smooth = useSpring(scrollYProgress, {
-    stiffness: 110,
-    damping: 28,
-    mass: 0.4,
-  });
-  const headingY = useTransform(smooth, [0, 1], [25, -25]);
-  const gridY = useTransform(smooth, [0, 1], [16, -16]);
+  const visibleSpecs = detail.keySpecs.filter((spec) =>
+    isFilledSpecValue(spec.value)
+  );
+
+  if (visibleSpecs.length === 0) return null;
 
   return (
     <section
-      ref={sectionRef}
       id="specs"
       className="relative bg-black px-6 py-20 md:px-10 md:py-28 lg:px-16"
     >
       <div className="mx-auto max-w-7xl">
-        <motion.div
-          className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-end"
-          style={{ y: headingY }}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.4 }}
-          transition={{ duration: 0.7, ease: easeOut }}
-        >
+        <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-end animate-fade-in">
           <div className="max-w-2xl">
             <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-red-500">
               Key specifications
@@ -128,25 +110,14 @@ const KeySpecs: FC<KeySpecsProps> = ({ detail }) => {
           <p className="max-w-md text-sm text-white/55 md:text-right md:text-base">
             Verified from the manufacturer&apos;s spec sheet. Real-world performance can vary with conditions and trim.
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          style={{ y: gridY }}
-          className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 md:mt-14 lg:grid-cols-3 md:gap-4"
-        >
-          {detail.keySpecs.map((spec, i) => (
-            <motion.div
+        <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 md:mt-14 lg:grid-cols-3 md:gap-4">
+          {visibleSpecs.map((spec, i) => (
+            <div
               key={spec.label}
-              initial={{ opacity: 0, y: 22 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{
-                duration: 0.6,
-                delay: 0.05 + (i % 6) * 0.06,
-                ease: easeOut,
-              }}
-              whileHover={{ y: -3 }}
-              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-5 ring-1 ring-white/5 transition-colors hover:bg-white/[0.05] hover:ring-white/15 md:p-6"
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-5 ring-1 ring-white/5 transition-all duration-300 hover:bg-white/[0.05] hover:ring-white/15 hover:-translate-y-1 md:p-6 animate-fade-in-up"
+              style={{ animationDelay: `${(i % 6) * 60}ms` }}
             >
               <div
                 className="pointer-events-none absolute -inset-px opacity-0 transition-opacity duration-500 group-hover:opacity-100"
@@ -171,9 +142,9 @@ const KeySpecs: FC<KeySpecsProps> = ({ detail }) => {
               >
                 {spec.value}
               </p>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

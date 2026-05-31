@@ -12,8 +12,8 @@ interface ComparePick {
 }
 
 const compareBar = siteData.carsPage.compareBar as {
-  left: ComparePick;
-  right: ComparePick;
+  left: ComparePick | null;
+  right: ComparePick | null;
 };
 
 const Slot: FC<{ pick: ComparePick; onRemove: () => void }> = ({ pick, onRemove }) => (
@@ -78,19 +78,9 @@ const CompareBar: FC = () => {
             </div>
 
             {/* VS circle */}
-            <motion.div
-              className="hidden md:flex h-12 w-12 items-center justify-center rounded-full ring-2 ring-red-500/70"
-              animate={{
-                boxShadow: [
-                  "0 0 0px rgba(239,68,68,0.0)",
-                  "0 0 16px rgba(239,68,68,0.45)",
-                  "0 0 0px rgba(239,68,68,0.0)",
-                ],
-              }}
-              transition={{ duration: 2.4, repeat: Infinity, ease: "easeInOut" }}
-            >
+            <div className="hidden md:flex h-12 w-12 items-center justify-center rounded-full ring-2 ring-red-500/70">
               <span className="text-red-500 text-sm font-bold tracking-tight">VS</span>
-            </motion.div>
+            </div>
 
             {/* Right pick */}
             <div className="px-2">

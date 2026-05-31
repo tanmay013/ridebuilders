@@ -37,3 +37,65 @@ body {
   letter-spacing: -0.04em;
   line-height: 0.95;
 }
+
+/* Lightweight CSS animations (GPU-accelerated, no JS overhead) */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1.08);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1.02);
+    opacity: 0.85;
+  }
+}
+
+.animate-hero-zoom {
+  animation: hero-zoom 1s ease-out forwards;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+    box-shadow: 0 0 0px rgba(215, 46, 46, 0.35);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.25);
+    opacity: 1;
+    box-shadow: 0 0 18px rgba(215, 46, 46, 0.7);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2.4s ease-in-out infinite;
+}

@@ -1,7 +1,6 @@
 "use client";
 
 import type { FC } from "react";
-import { motion } from "framer-motion";
 import siteData from "@/data/site.json";
 
 interface FeaturedCar {
@@ -44,36 +43,28 @@ const FeaturedCard: FC<CardProps> = ({ car, size, delay = 0 }) => {
   const isBig = size === "big";
 
   return (
-    <motion.a
+    <a
       href={`/cars/${car.id}`}
-      className={`group relative block h-full w-full overflow-hidden rounded-3xl bg-neutral-950 ring-1 ring-white/[0.07] hover:ring-white/20 transition-all`}
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 0.85, delay, ease: [0.16, 1, 0.3, 1] }}
+      className="group relative block h-full w-full overflow-hidden rounded-3xl bg-neutral-950 ring-1 ring-white/[0.07] hover:ring-white/20 transition-all animate-fade-in-up"
+      style={{ animationDelay: `${delay * 1000}ms` }}
     >
-      {/* Fallback */}
       <div className="absolute inset-0 bg-gradient-to-br from-neutral-900 via-black to-black" />
 
-      {/* Photo */}
       <img
         src={car.image}
         alt={car.name}
         loading="lazy"
         decoding="async"
-        className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+        className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
         onError={(e) => {
           (e.currentTarget as HTMLImageElement).style.opacity = "0";
         }}
       />
 
-      {/* Bottom-up legibility gradient */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
 
-      {/* Featured badge */}
       <StarBadge />
 
-      {/* Bottom labels + arrow */}
       <div
         className={`absolute bottom-0 left-0 right-0 flex items-end justify-between gap-4 ${
           isBig ? "p-7 md:p-8" : "p-5 md:p-6"
@@ -96,26 +87,22 @@ const FeaturedCard: FC<CardProps> = ({ car, size, delay = 0 }) => {
         </div>
         <ArrowCircle size={isBig ? "lg" : "sm"} />
       </div>
-    </motion.a>
+    </a>
   );
 };
 
 const FeaturedCars: FC = () => {
   const [bigCar, ...smallCars] = featured;
-  // Defensive — if featured shorter than 3, just render what we have
   const small = smallCars.slice(0, 2);
 
   return (
     <section className="px-6 md:px-10 lg:px-16 mt-8 md:mt-10">
       <div className="max-w-7xl mx-auto">
-        {/* Asymmetric grid: 1 big card on the left, 2 stacked on the right */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
-          {/* Big card */}
           <div className="md:row-span-2 min-h-[420px] md:min-h-0">
             <FeaturedCard car={bigCar} size="big" delay={0.05} />
           </div>
 
-          {/* Two small cards stacked */}
           {small.map((car, i) => (
             <div key={car.id} className="aspect-[16/10] md:aspect-auto">
               <FeaturedCard car={car} size="small" delay={0.15 + i * 0.08} />

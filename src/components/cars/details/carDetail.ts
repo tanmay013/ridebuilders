@@ -42,6 +42,15 @@ export interface CarSpec {
   icon: string;
 }
 
+export const isFilledSpecValue = (value?: string): boolean => {
+  if (!value) return false;
+  const v = value.trim();
+  return v.length > 0 && v !== "—" && v !== "-" && v !== "–";
+};
+
+export const filterFilledSpecs = (specs: CarSpec[]): CarSpec[] =>
+  specs.filter((spec) => isFilledSpecValue(spec.value));
+
 export interface CarVariant {
   name: string;
   transmission: string;
@@ -194,11 +203,13 @@ const deriveSpecsFromBasic = (basic: CarBasic): CarSpec[] => [
 ];
 
 const mergeSpecs = (defaultSpecs: CarSpec[], basicSpecs: CarSpec[]): CarSpec[] =>
-  defaultSpecs.map((spec) => {
-    if (spec.value && spec.value !== "—") return spec;
-    const fromBasic = basicSpecs.find((s) => s.label === spec.label);
-    return fromBasic && fromBasic.value !== "—" ? fromBasic : spec;
-  });
+  filterFilledSpecs(
+    defaultSpecs.map((spec) => {
+      if (isFilledSpecValue(spec.value)) return spec;
+      const fromBasic = basicSpecs.find((s) => s.label === spec.label);
+      return fromBasic && isFilledSpecValue(fromBasic.value) ? fromBasic : spec;
+    })
+  );
 
 const resolveBasic = (carmodel: string): CarBasic | null => {
   const found = allBasics.find((c) => c.id === carmodel);
@@ -263,7 +274,9 @@ export const getCarDetail = (carmodel: string): CarDetail | null => {
       (override.colors as CarColor[]) ??
       (defaults.colors as CarColor[]) ??
       [],
-    keySpecs: overrideSpecs ?? mergeSpecs(defaultSpecs, derivedSpecs),
+    keySpecs: filterFilledSpecs(
+      overrideSpecs ?? mergeSpecs(defaultSpecs, derivedSpecs)
+    ),
     variants: (override.variants as CarVariant[]) ?? buildDefaultVariants(basic),
     expertReview:
       (override.expertReview as ExpertReview) ??

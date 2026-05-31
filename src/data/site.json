@@ -436,7 +436,7 @@
         "bodyType": "Coupe",
         "drivetrain": "AWD",
         "modelYear": 2025,
-        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-white.webp" 
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-white.webp"
       }
     ],
     "all": [
@@ -8059,13 +8059,13 @@
         "icon": "shield",
         "options": [
           "All",
-          "KTM",
-          "Yamaha",
-          "Kawasaki",
-          "Ducati",
           "BMW",
-          "Triumph",
-          "Royal Enfield"
+          "Bajaj",
+          "Honda",
+          "Kawasaki",
+          "Royal Enfield",
+          "TVS",
+          "Yamaha"
         ]
       },
       {
@@ -8110,137 +8110,318 @@
         "icon": "body",
         "options": [
           "All",
-          "Sport",
-          "Naked",
+          "Commuter",
           "Cruiser",
-          "Adventure",
-          "Tourer"
+          "Naked",
+          "Scooter",
+          "Sport",
+          "Street",
+          "Cafe Racer"
         ]
       }
     ],
-    "totalResults": 96,
+    "totalResults": 11,
     "all": [
       {
-        "id": "bmw-s1000rr",
-        "brand": "BMW",
-        "name": "S1000 RR",
-        "price": "₹20,75,000",
-        "hp": "210 hp",
-        "zero": "3.1 s",
-        "topSpeed": "303 km/h",
+        "id": "bajaj-pulsar-n160",
+        "brand": "Bajaj",
+        "name": "Pulsar N160",
+        "price": "₹1,16,501",
+        "hp": "16 hp",
+        "zero": "9.8 s",
+        "topSpeed": "118 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
-        "bodyType": "Sport",
+        "bodyType": "Street",
         "drivetrain": "Chain",
         "modelYear": 2024,
-        "image": "https://static-cdn.cars24.com/prod/vehicles/bmw/s-1000-rr/feature-image/image-1110-lTiZ0GAddr8Q0UQs.png"
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/pulsarn16/white.webp"
       },
       {
-        "id": "ktm-390-duke",
-        "brand": "KTM",
-        "name": "390 Duke",
-        "price": "₹3,10,000",
-        "hp": "46 hp",
-        "zero": "5.6 s",
-        "topSpeed": "167 km/h",
-        "fuelType": "Petrol",
-        "transmission": "Manual",
-        "bodyType": "Naked",
-        "drivetrain": "Chain",
-        "modelYear": 2024,
-        "image": "https://i.pinimg.com/736x/02/11/79/0211792bfa254a1f203e56f3533668cc.jpg"
-      },
-      {
-        "id": "kawasaki-z900",
-        "brand": "Kawasaki",
-        "name": "Z900",
-        "price": "₹9,29,000",
-        "hp": "125 hp",
-        "zero": "3.5 s",
-        "topSpeed": "250 km/h",
-        "fuelType": "Petrol",
-        "transmission": "Manual",
-        "bodyType": "Naked",
-        "drivetrain": "Chain",
-        "modelYear": 2022,
-        "image": "https://images.unsplash.com/photo-1580310614729-ccd69652491d?q=80&w=1600&auto=format&fit=crop"
-      },
-      {
-        "id": "ducati-panigale-v4",
-        "brand": "Ducati",
-        "name": "Panigale V4",
-        "price": "₹27,73,000",
-        "hp": "215 hp",
-        "zero": "3.0 s",
-        "topSpeed": "299 km/h",
-        "fuelType": "Petrol",
-        "transmission": "Manual",
-        "bodyType": "Sport",
-        "drivetrain": "Chain",
-        "modelYear": 2024,
-        "image": "https://images.unsplash.com/photo-1588627541420-fce3f661b779?q=80&w=1600&auto=format&fit=crop"
-      },
-      {
-        "id": "bmw-gs-1250",
-        "brand": "BMW",
-        "name": "R 1250 GS",
-        "price": "₹20,55,000",
-        "hp": "136 hp",
-        "zero": "3.6 s",
-        "topSpeed": "220 km/h",
-        "fuelType": "Petrol",
-        "transmission": "Manual",
-        "bodyType": "Adventure",
-        "drivetrain": "Shaft",
-        "modelYear": 2021,
-        "image": "https://images.unsplash.com/photo-1558981001-5864b3250a69?q=80&w=1600&auto=format&fit=crop"
-      },
-      {
-        "id": "triumph-street-triple-rs",
-        "brand": "Triumph",
-        "name": "Street Triple RS",
-        "price": "₹11,81,000",
-        "hp": "123 hp",
-        "zero": "3.8 s",
-        "topSpeed": "250 km/h",
-        "fuelType": "Petrol",
-        "transmission": "Manual",
-        "bodyType": "Naked",
-        "drivetrain": "Chain",
-        "modelYear": 2022,
-        "image": "https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/dadd8oqv/knm/tvv/mmp/triumph-lanca-street-triple-765-rx-e-moto2-edition_3.webp"
-      },
-      {
-        "id": "royal-enfield-super-meteor-650",
+        "id": "royal-enfield-hunter-350",
         "brand": "Royal Enfield",
-        "name": "Super Meteor 650",
-        "price": "₹3,95,000",
+        "name": "Hunter 350",
+        "price": "₹1,37,648",
+        "hp": "20.2 hp",
+        "zero": "8.5 s",
+        "topSpeed": "114 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Street",
+        "drivetrain": "Chain",
+        "modelYear": 2024,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/hunter350/blue.webp"
+      },
+      {
+        "id": "royal-enfield-classic-350",
+        "brand": "Royal Enfield",
+        "name": "Classic 350",
+        "price": "₹1,85,859",
+        "hp": "20.2 hp",
+        "zero": "9.2 s",
+        "topSpeed": "120 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Cruiser",
+        "drivetrain": "Chain",
+        "modelYear": 2024,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/classic350/khakhi.webp"
+      },
+      {
+        "id": "tvs-ronin",
+        "brand": "TVS",
+        "name": "Ronin",
+        "price": "₹1,28,731",
+        "hp": "25.7 hp",
+        "zero": "7.8 s",
+        "topSpeed": "125 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Cruiser",
+        "drivetrain": "Chain",
+        "modelYear": 2024,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/ronin/silver.webp"
+      },
+      {
+        "id": "royal-enfield-bullet-350",
+        "brand": "Royal Enfield",
+        "name": "Bullet 350",
+        "price": "₹1,64,431",
+        "hp": "20.2 hp",
+        "zero": "9.0 s",
+        "topSpeed": "115 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Cruiser",
+        "drivetrain": "Chain",
+        "modelYear": 2024,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/bullet350/red.webp"
+      },
+      {
+        "id": "honda-cb350",
+        "brand": "Honda",
+        "name": "CB350",
+        "price": "₹1,97,045",
+        "hp": "20.7 hp",
+        "zero": "8.5 s",
+        "topSpeed": "130 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Cruiser",
+        "drivetrain": "Chain",
+        "modelYear": 2025,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/cb350/black.webp"
+      },
+      {
+        "id": "yamaha-r15-v4",
+        "brand": "Yamaha",
+        "name": "R15 V4",
+        "price": "₹1,71,982",
+        "hp": "18.4 hp",
+        "zero": "7.5 s",
+        "topSpeed": "142 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Sport",
+        "drivetrain": "Chain",
+        "modelYear": 2024,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/r15/black.webp"
+      },
+      {
+        "id": "royal-enfield-bullet-650",
+        "brand": "Royal Enfield",
+        "name": "Bullet 650",
+        "price": "₹3,64,865",
         "hp": "47 hp",
-        "zero": "6.1 s",
+        "zero": "5.8 s",
         "topSpeed": "165 km/h",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "bodyType": "Cruiser",
         "drivetrain": "Chain",
-        "modelYear": 2023,
-        "image": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?q=80&w=1600&auto=format&fit=crop"
+        "modelYear": 2024,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/bullet650/black.webp"
       },
       {
-        "id": "ather-450x",
-        "brand": "Ather",
-        "name": "450X",
-        "price": "₹1,45,000",
-        "hp": "8 hp",
-        "zero": "3.3 s",
-        "topSpeed": "90 km/h",
-        "fuelType": "Electric",
-        "transmission": "Automatic",
-        "bodyType": "Tourer",
-        "drivetrain": "Belt",
-        "modelYear": 2024,
-        "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/147925/450x-right-front-three-quarter.jpeg?isig=0&q=80"
+        "id": "royal-enfield-continental-gt-650",
+        "brand": "Royal Enfield",
+        "name": "Continental GT 650",
+        "price": "₹3,52,687",
+        "hp": "47 hp",
+        "zero": "5.9 s",
+        "topSpeed": "169 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Cafe Racer",
+        "drivetrain": "Chain",
+        "modelYear": 2026,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/gt650/chrome.webp"
+      },
+      {
+        "id": "bmw-s1000rr",
+        "brand": "BMW",
+        "name": "S1000 RR",
+        "price": "₹23,24,936",
+        "hp": "206.5 hp",
+        "zero": "3.1 s",
+        "topSpeed": "299 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Sport",
+        "drivetrain": "Chain",
+        "modelYear": 2025,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/white.webp"
+      },
+      {
+        "id": "kawasaki-ninja-zx-10r",
+        "brand": "Kawasaki",
+        "name": "Ninja ZX-10R",
+        "price": "₹20,79,000",
+        "hp": "193 hp",
+        "zero": "3.2 s",
+        "topSpeed": "299 km/h",
+        "fuelType": "Petrol",
+        "transmission": "Manual",
+        "bodyType": "Sport",
+        "drivetrain": "Chain",
+        "modelYear": 2025,
+        "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/zx10r/black.webp"
       }
     ],
+    "compareSpecs": {
+      "bajaj-pulsar-n160": {
+        "engine": "164.82cc Single",
+        "torque": "14.65 Nm",
+        "mileage": "45 km/l (claimed)",
+        "tankCapacity": "12 L",
+        "kerbWeight": "165 kg",
+        "wheelbase": "1,325 mm",
+        "groundClearance": "165 mm",
+        "length": "2,050 mm",
+        "width": "780 mm",
+        "emission": "BS6 Phase 2"
+      },
+      "royal-enfield-hunter-350": {
+        "engine": "349cc Single",
+        "torque": "27 Nm",
+        "mileage": "36 km/l (claimed)",
+        "tankCapacity": "13 L",
+        "kerbWeight": "177 kg",
+        "wheelbase": "1,370 mm",
+        "groundClearance": "150 mm",
+        "length": "2,050 mm",
+        "width": "785 mm",
+        "emission": "BS6 Phase 2"
+      },
+      "royal-enfield-classic-350": {
+        "engine": "349cc Single",
+        "torque": "27 Nm",
+        "mileage": "35 km/l (claimed)",
+        "tankCapacity": "13 L",
+        "kerbWeight": "195 kg",
+        "wheelbase": "1,390 mm",
+        "groundClearance": "170 mm",
+        "length": "2,140 mm",
+        "width": "800 mm",
+        "emission": "BS6 Phase 2"
+      },
+      "tvs-ronin": {
+        "engine": "225.9cc Single",
+        "torque": "19.93 Nm",
+        "mileage": "40 km/l (claimed)",
+        "tankCapacity": "12 L",
+        "kerbWeight": "159 kg",
+        "wheelbase": "1,410 mm",
+        "groundClearance": "180 mm",
+        "length": "2,090 mm",
+        "width": "805 mm",
+        "emission": "BS6 Phase 2"
+      },
+      "royal-enfield-bullet-350": {
+        "engine": "349cc Single",
+        "torque": "27 Nm",
+        "mileage": "34 km/l (claimed)",
+        "tankCapacity": "13 L",
+        "kerbWeight": "195 kg",
+        "wheelbase": "1,390 mm",
+        "groundClearance": "170 mm",
+        "length": "2,140 mm",
+        "width": "800 mm",
+        "emission": "BS6 Phase 2"
+      },
+      "yamaha-r15-v4": {
+        "engine": "155cc Single VVA",
+        "torque": "14.2 Nm",
+        "mileage": "42 km/l (claimed)",
+        "tankCapacity": "11 L",
+        "kerbWeight": "142 kg",
+        "wheelbase": "1,325 mm",
+        "groundClearance": "170 mm",
+        "length": "1,990 mm",
+        "width": "745 mm",
+        "emission": "BS6 Phase 2"
+      },
+      "royal-enfield-bullet-650": {
+        "engine": "648cc Parallel Twin",
+        "torque": "52.3 Nm",
+        "mileage": "25 km/l (claimed)",
+        "tankCapacity": "15.7 L",
+        "kerbWeight": "241 kg",
+        "wheelbase": "1,500 mm",
+        "groundClearance": "135 mm",
+        "length": "2,260 mm",
+        "width": "890 mm",
+        "emission": "BS6 Phase 2"
+      },
+      "bmw-s1000rr": {
+        "engine": "999cc Inline-4",
+        "torque": "113 Nm",
+        "mileage": "16 km/l (ARAI)",
+        "tankCapacity": "16.5 L",
+        "kerbWeight": "197 kg",
+        "wheelbase": "1,457 mm",
+        "groundClearance": "140 mm",
+        "length": "2,073 mm",
+        "width": "848 mm",
+        "emission": "BS6 Phase 2"
+      },
+      "kawasaki-ninja-zx-10r": {
+        "engine": "998cc Inline-4",
+        "torque": "112 Nm",
+        "mileage": "19.5 km/l (claimed)",
+        "tankCapacity": "17 L",
+        "kerbWeight": "207 kg",
+        "wheelbase": "1,450 mm",
+        "groundClearance": "135 mm",
+        "length": "2,085 mm",
+        "width": "750 mm",
+        "emission": "BS6 Phase 2B"
+      },
+      "honda-cb350": {
+        "engine": "348.36cc Single",
+        "torque": "29.5 Nm",
+        "mileage": "35 km/l (claimed)",
+        "tankCapacity": "15.2 L",
+        "kerbWeight": "186 kg",
+        "wheelbase": "1,441 mm",
+        "groundClearance": "165 mm",
+        "length": "2,207 mm",
+        "width": "788 mm",
+        "emission": "BS6 Phase 2B"
+      },
+      "royal-enfield-continental-gt-650": {
+        "engine": "648cc Parallel Twin",
+        "torque": "52 Nm",
+        "mileage": "25 km/l (claimed)",
+        "tankCapacity": "12.5 L",
+        "kerbWeight": "211 kg",
+        "wheelbase": "1,398 mm",
+        "groundClearance": "174 mm",
+        "length": "2,119 mm",
+        "width": "833 mm",
+        "emission": "BS6 Phase 2"
+      }
+    },
     "detailDefaults": {
       "tagline": "Built to ride. Refined to thrill.",
       "about": "A motorcycle obsessed with the details — geometry tuned for confidence, electronics tuned for fun, and finish that lasts the long road. Equally happy on a Sunday twisty as on a daily commute.",
@@ -8445,49 +8626,302 @@
       ]
     },
     "bikeDetails": {
+      "bajaj-pulsar-n160": {
+        "videoUrl": "https://youtu.be/ARJkO-i33nA",
+        "colors": [
+          {
+            "name": "Brooklyn Black",
+            "hex": "#1a1a1d",
+            "tint": "#0f0f12",
+            "blend": "multiply",
+            "tintOpacity": 0.58,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/pulsarn16/black.webp"
+          },
+          {
+            "name": "Pearl Metallic White",
+            "hex": "#eef0f2",
+            "tint": "#ffffff",
+            "blend": "screen",
+            "tintOpacity": 0.18,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/pulsarn16/white.webp"
+          },
+          {
+            "name": "Polar Sky Blue",
+            "hex": "#4a7fb5",
+            "tint": "#3f6fa0",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/pulsarn16/blue.webp"
+          },
+          {
+            "name": "Glossy Racing Red",
+            "hex": "#c8102e",
+            "tint": "#c8102e",
+            "blend": "multiply",
+            "tintOpacity": 0.48,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/pulsarn16/red.webp"
+          }
+        ]
+      },
+      "royal-enfield-hunter-350": {
+        "tagline": "The stripped-down roadster.",
+        "about": "The Hunter 350 is Royal Enfield's answer to riders who want the J-platform refinement without the chrome-heavy retro styling. Light, agile, and tuned for the city — it's the most approachable RE ever made.",
+        "showroomPrice": "₹1,37,648",
+        "onRoadPrice": "₹1,58,000",
+        "priceRangeMin": "₹1.37 L",
+        "priceRangeMax": "₹1.68 L",
+        "videoUrl": "https://youtu.be/uTzk_SyOgBQ",
+        "videoLabel": "Hunter 350 — Street Test",
+        "highlights": [
+          "20.2 BHP",
+          "0-100 in 8.5 s",
+          "349cc Single",
+          "Lightest RE"
+        ],
+        "keySpecs": [
+          {
+            "label": "Engine",
+            "value": "349cc Single",
+            "icon": "engine"
+          },
+          {
+            "label": "Power",
+            "value": "20.2 BHP @ 6100 rpm",
+            "icon": "power"
+          },
+          {
+            "label": "Torque",
+            "value": "27 Nm @ 4000 rpm",
+            "icon": "torque"
+          },
+          {
+            "label": "0 - 100 km/h",
+            "value": "8.5 s",
+            "icon": "zero"
+          },
+          {
+            "label": "Top Speed",
+            "value": "114 km/h",
+            "icon": "speed"
+          },
+          {
+            "label": "Mileage",
+            "value": "36 km/l (claimed)",
+            "icon": "fuel"
+          },
+          {
+            "label": "Fuel Type",
+            "value": "Petrol",
+            "icon": "fueltype"
+          },
+          {
+            "label": "Transmission",
+            "value": "5-spd Manual",
+            "icon": "gears"
+          },
+          {
+            "label": "Owner Rating",
+            "value": "4.4 / 5",
+            "icon": "star"
+          }
+        ],
+        "variants": [
+          {
+            "name": "Hunter 350 Retro",
+            "transmission": "5-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹1,37,648",
+            "onRoadPrice": "₹1,58,000"
+          },
+          {
+            "name": "Hunter 350 Metro",
+            "transmission": "5-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹1,54,403",
+            "onRoadPrice": "₹1,77,000",
+            "highlight": true
+          }
+        ],
+        "colors": [
+          {
+            "name": "Tokyo Black",
+            "hex": "#131417",
+            "tint": "#0a0b0d",
+            "blend": "multiply",
+            "tintOpacity": 0.6,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/hunter350/black.webp"
+          },
+          {
+            "name": "Rio White",
+            "hex": "#eef0f2",
+            "tint": "#ffffff",
+            "blend": "screen",
+            "tintOpacity": 0.18,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/hunter350/white.webp"
+          },
+          {
+            "name": "London Red",
+            "hex": "#b81f2d",
+            "tint": "#b81f2d",
+            "blend": "multiply",
+            "tintOpacity": 0.48,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/hunter350/red.webp"
+          },
+          {
+            "name": "Rebel Blue",
+            "hex": "#2f5e8c",
+            "tint": "#2a5480",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/hunter350/blue.webp"
+          }
+        ]
+      },
+      "yamaha-r15-v4": {
+        "tagline": "Track DNA. Street manners.",
+        "about": "The R15 V4 brings proper supersport styling and handling to the 150cc class. With Deltabox frame, KYB suspension, and aerodynamic bodywork derived from the R1, it's the closest thing to a mini superbike you can buy.",
+        "showroomPrice": "₹1,71,982",
+        "onRoadPrice": "₹1,95,000",
+        "priceRangeMin": "₹1.71 L",
+        "priceRangeMax": "₹1.99 L",
+        "videoUrl": "https://youtu.be/Xkx4hSLhX4k",
+        "videoLabel": "R15 V4 — Track Review",
+        "highlights": [
+          "18.4 BHP",
+          "0-100 in 7.5 s",
+          "155cc VVA",
+          "Deltabox Frame"
+        ],
+        "keySpecs": [
+          {
+            "label": "Engine",
+            "value": "155cc Single VVA",
+            "icon": "engine"
+          },
+          {
+            "label": "Power",
+            "value": "18.4 BHP @ 10000 rpm",
+            "icon": "power"
+          },
+          {
+            "label": "Torque",
+            "value": "14.2 Nm @ 7500 rpm",
+            "icon": "torque"
+          },
+          {
+            "label": "0 - 100 km/h",
+            "value": "7.5 s",
+            "icon": "zero"
+          },
+          {
+            "label": "Top Speed",
+            "value": "142 km/h",
+            "icon": "speed"
+          },
+          {
+            "label": "Mileage",
+            "value": "42 km/l (claimed)",
+            "icon": "fuel"
+          },
+          {
+            "label": "Fuel Type",
+            "value": "Petrol",
+            "icon": "fueltype"
+          },
+          {
+            "label": "Transmission",
+            "value": "6-spd Assist & Slipper",
+            "icon": "gears"
+          },
+          {
+            "label": "Owner Rating",
+            "value": "4.5 / 5",
+            "icon": "star"
+          }
+        ],
+        "variants": [
+          {
+            "name": "R15 V4",
+            "transmission": "6-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹1,71,982",
+            "onRoadPrice": "₹1,95,000"
+          },
+          {
+            "name": "R15M",
+            "transmission": "6-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹1,91,982",
+            "onRoadPrice": "₹2,17,000",
+            "highlight": true
+          }
+        ],
+        "colors": [
+          {
+            "name": "Racing Blue",
+            "hex": "#1f4ea1",
+            "tint": "#1f4ea1",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/r15/blue.webp"
+          },
+          {
+            "name": "Dark Knight",
+            "hex": "#2b2d30",
+            "tint": "#1f2123",
+            "blend": "multiply",
+            "tintOpacity": 0.55,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/r15/black.webp"
+          },
+          {
+            "name": "Metallic Red",
+            "hex": "#b51a24",
+            "tint": "#b51a24",
+            "blend": "multiply",
+            "tintOpacity": 0.48,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/r15/red.webp"
+          }
+        ]
+      },
       "bmw-s1000rr": {
         "tagline": "Litre-class. Sledgehammer attitude.",
-        "about": "The S 1000 RR has spent over a decade rewriting what a road-legal superbike can do. A 999cc inline-four that revs to the moon, ShiftCam variable valve timing for sane road manners, and an electronics suite that makes you look like a hero on track. It's brutal when you ask it to be — and surprisingly polite when you don't.",
-        "showroomPrice": "₹20,75,000",
-        "onRoadPrice": "₹23,24,000",
-        "priceRangeMin": "₹20.75 L",
-        "priceRangeMax": "₹24.50 L",
-        "videoUrl": "https://www.youtube.com/watch?v=tcpwq_n0bME",
-        "videoLabel": "S 1000 RR — Track Walk",
+        "about": "The BMW S1000 RR is the Bavarian flagship sportbike — a 999cc inline-four with ShiftCam variable valve timing, revised aero winglets for extra downforce, and a comprehensive electronics suite including traction control, cornering ABS, launch control and a bi-directional quickshifter. It competes head-on with the Ducati Panigale V4 and Kawasaki Ninja ZX-10R in India.",
+        "showroomPrice": "₹23,24,936",
+        "onRoadPrice": "₹25,87,840",
+        "priceRangeMin": "₹23.24 L",
+        "priceRangeMax": "₹28.89 L",
+        "videoUrl": "https://youtu.be/zj8Bcn_aCzc",
+        "videoLabel": "S1000 RR — Track Walk",
         "highlights": [
-          "210 BHP",
+          "206.5 BHP",
           "0-100 in 3.1 s",
           "6-spd Quickshifter",
           "Inline-4"
         ],
         "colors": [
           {
-            "name": "Light White",
-            "hex": "#f4f6f7",
-            "tint": "#ffffff",
-            "blend": "screen",
-            "tintOpacity": 0.2
-          },
-          {
-            "name": "Sao Paulo Yellow",
-            "hex": "#e8c000",
-            "tint": "#e8c000",
+            "name": "Racing Red",
+            "hex": "#c41e2a",
+            "tint": "#c41e2a",
             "blend": "multiply",
-            "tintOpacity": 0.5
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/red.webp"
           },
           {
-            "name": "Black Storm Metallic",
+            "name": "Blackstorm Metallic",
             "hex": "#101216",
             "tint": "#0a0c10",
             "blend": "multiply",
-            "tintOpacity": 0.6
+            "tintOpacity": 0.6,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/black.webp"
           },
           {
-            "name": "M Motorsport",
-            "hex": "#1c4d8c",
-            "tint": "#1c4d8c",
-            "blend": "multiply",
-            "tintOpacity": 0.55
+            "name": "Light White / M Motorsport",
+            "hex": "#f4f6f7",
+            "tint": "#ffffff",
+            "blend": "screen",
+            "tintOpacity": 0.2,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/white.webp"
           }
         ],
         "keySpecs": [
@@ -8498,7 +8932,7 @@
           },
           {
             "label": "Power",
-            "value": "210 BHP @ 13750 rpm",
+            "value": "206.51 BHP @ 13750 rpm",
             "icon": "power"
           },
           {
@@ -8513,12 +8947,12 @@
           },
           {
             "label": "Top Speed",
-            "value": "303 km/h",
+            "value": "299 km/h",
             "icon": "speed"
           },
           {
             "label": "Mileage",
-            "value": "15.5 km/l (claimed)",
+            "value": "16 km/l (ARAI)",
             "icon": "fuel"
           },
           {
@@ -8528,7 +8962,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-spd Quickshifter",
+            "value": "6-spd Manual",
             "icon": "gears"
           },
           {
@@ -8539,191 +8973,291 @@
         ],
         "variants": [
           {
-            "name": "S 1000 RR Standard",
+            "name": "S1000RR Standard",
             "transmission": "6-spd",
             "fuel": "Petrol",
-            "showroomPrice": "₹20,75,000",
-            "onRoadPrice": "₹23,24,000"
+            "showroomPrice": "₹23,24,936",
+            "onRoadPrice": "₹25,87,840"
           },
           {
-            "name": "S 1000 RR Pro",
+            "name": "S1000RR Pro",
             "transmission": "6-spd",
             "fuel": "Petrol",
-            "showroomPrice": "₹22,30,000",
-            "onRoadPrice": "₹24,98,000",
+            "showroomPrice": "₹25,99,927",
+            "onRoadPrice": "₹28,90,000",
             "highlight": true
           },
           {
-            "name": "S 1000 RR M Sport",
+            "name": "S1000RR M Sport",
             "transmission": "6-spd",
             "fuel": "Petrol",
-            "showroomPrice": "₹24,90,000",
-            "onRoadPrice": "₹27,89,000"
-          }
-        ],
-        "expertReview": {
-          "reviewer": "Vikrant Sehgal",
-          "title": "Track Editor, RideBuilders",
-          "avatar": "https://i.pravatar.cc/200?img=15",
-          "rating": 4.8,
-          "verdict": "The S 1000 RR has gone from the angriest litre-bike on the block to the most usable, without losing any of its bite. The chassis, electronics and brakes are class-leading; the engine is sublime. If you can ride it well, very few road bikes will keep up.",
-          "highlights": [
-            "Class-leading electronics",
-            "Brutal top-end pull",
-            "Quickshifter is sublime"
-          ]
-        },
-        "pros": [
-          "Engine character that pulls forever",
-          "Electronics that flatter the rider",
-          "Brilliant straight-line stability",
-          "Surprisingly comfortable for a 1000cc"
-        ],
-        "cons": [
-          "Hot on the inner thighs in traffic",
-          "Aggressive ergonomics for long highway rides",
-          "Service costs add up at full intervals"
-        ],
-        "ratings": {
-          "overall": 4.8,
-          "totalReviews": 184,
-          "breakdown": [
-            {
-              "label": "Performance",
-              "value": 5
-            },
-            {
-              "label": "Comfort",
-              "value": 4
-            },
-            {
-              "label": "Features",
-              "value": 4.8
-            },
-            {
-              "label": "Value",
-              "value": 4.4
-            },
-            {
-              "label": "Build",
-              "value": 4.8
-            }
-          ],
-          "reviews": [
-            {
-              "name": "Rajat S.",
-              "city": "Mumbai",
-              "date": "Apr 2026",
-              "rating": 5,
-              "title": "Pure rocket",
-              "body": "Every gear pull feels physically improbable. Brakes are massive, the up-and-down quickshifter is flawless. Best superbike I've owned.",
-              "owned": "1 year"
-            },
-            {
-              "name": "Nikhil P.",
-              "city": "Delhi",
-              "date": "Mar 2026",
-              "rating": 5,
-              "title": "Daily superbike",
-              "body": "Surprised by how usable it is in traffic with the rider modes. Once you find an open road, it's a different animal.",
-              "owned": "9 months"
-            },
-            {
-              "name": "Aastha G.",
-              "city": "Bengaluru",
-              "date": "Feb 2026",
-              "rating": 4,
-              "title": "Heat is real",
-              "body": "Performance is otherworldly, but be prepared for engine heat on slow days. Service interval and parts are pricey.",
-              "owned": "6 months"
-            }
-          ]
-        },
-        "faqs": [
-          {
-            "q": "Is the S 1000 RR comfortable for daily use?",
-            "a": "More than you'd expect for a litre-class superbike, thanks to rider modes and ShiftCam VVT. That said, the ergonomics are sport-biased and not ideal for hour-long traffic crawls every day."
-          },
-          {
-            "q": "Do I need an M Sport for the track?",
-            "a": "No — the Standard and Pro are more than enough for amateur track use. M Sport adds carbon wheels and an M Sport livery, which are bragging rights more than capability."
-          },
-          {
-            "q": "Is a quickshifter standard?",
-            "a": "Yes — Pro Shift Assistant (up and down) is standard across all India trims, alongside launch control and a comprehensive electronics package."
-          },
-          {
-            "q": "What's the service cost like?",
-            "a": "Expect annual service of roughly ₹25,000 – ₹40,000 depending on usage. Tyres and brake pads are the biggest consumables."
-          },
-          {
-            "q": "Is there a fuel grade requirement?",
-            "a": "BMW recommends 95+ RON. In a pinch 91 RON works but the ignition map de-tunes slightly to preserve the engine."
+            "showroomPrice": "₹28,89,862",
+            "onRoadPrice": "₹32,10,000"
           }
         ]
       },
-      "ktm-390-duke": {
-        "tagline": "Small bike. Massive attitude.",
-        "about": "The 390 Duke is the bike that taught a generation of Indian riders what a real performance machine feels like. A peppy 399cc single, sharp steel-trellis chassis, and styling that still polarises a decade in. Lightweight, brutally quick for its capacity, and built for hooliganism on every commute.",
-        "showroomPrice": "₹3,10,000",
-        "onRoadPrice": "₹3,47,200",
-        "priceRangeMin": "₹3.10 L",
-        "priceRangeMax": "₹3.55 L",
-        "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
-        "videoLabel": "390 Duke — Street Test",
+      "kawasaki-ninja-zx-10r": {
+        "tagline": "Track weapon. Road legal.",
+        "about": "The Kawasaki Ninja ZX-10R is a WorldSBK-bred litre-class superbike with a 998cc inline-four producing 193 bhp. Race-ready electronics — KRTC traction control, launch control, bi-directional quickshifter and Showa Balance Free suspension — make it a lethal track machine with surprising everyday usability.",
+        "showroomPrice": "₹20,79,000",
+        "onRoadPrice": "₹23,61,368",
+        "priceRangeMin": "₹20.79 L",
+        "priceRangeMax": "₹20.79 L",
+        "videoUrl": "https://youtu.be/GNwTvmenThs",
+        "videoLabel": "ZX-10R — Track Review",
         "highlights": [
-          "46 BHP",
-          "0-100 in 5.6 s",
-          "6-spd Quickshifter",
-          "Single-cylinder"
+          "193 BHP",
+          "0-100 in 3.2 s",
+          "Quickshifter",
+          "Inline-4"
         ],
         "colors": [
           {
-            "name": "Electronic Orange",
-            "hex": "#e6770b",
-            "tint": "#e6770b",
+            "name": "Metallic Graphite Gray / Diablo Black",
+            "hex": "#3a3a3a",
+            "tint": "#1a1a1a",
             "blend": "multiply",
-            "tintOpacity": 0.45
+            "tintOpacity": 0.55,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/zx10r/black.webp"
           },
           {
-            "name": "Atlantic Blue",
-            "hex": "#1c4f8c",
-            "tint": "#1c4f8c",
+            "name": "Lime Green",
+            "hex": "#7bc043",
+            "tint": "#7bc043",
             "blend": "multiply",
-            "tintOpacity": 0.55
-          },
-          {
-            "name": "Cerakote Silver",
-            "hex": "#a8acb1",
-            "tint": "#a8acb1",
-            "blend": "multiply",
-            "tintOpacity": 0.4
+            "tintOpacity": 0.4,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/zx10r/green.webp"
           }
         ],
         "keySpecs": [
           {
             "label": "Engine",
-            "value": "399cc Single",
+            "value": "998cc Inline-4",
             "icon": "engine"
           },
           {
             "label": "Power",
-            "value": "46 BHP @ 8500 rpm",
+            "value": "193 BHP @ 13000 rpm",
             "icon": "power"
           },
           {
             "label": "Torque",
-            "value": "39 Nm @ 7000 rpm",
+            "value": "112 Nm @ 11400 rpm",
             "icon": "torque"
           },
           {
             "label": "0 - 100 km/h",
-            "value": "5.6 s",
+            "value": "3.2 s",
             "icon": "zero"
           },
           {
             "label": "Top Speed",
-            "value": "167 km/h",
+            "value": "299 km/h",
+            "icon": "speed"
+          },
+          {
+            "label": "Mileage",
+            "value": "19.5 km/l (claimed)",
+            "icon": "fuel"
+          },
+          {
+            "label": "Fuel Type",
+            "value": "Petrol",
+            "icon": "fueltype"
+          },
+          {
+            "label": "Transmission",
+            "value": "6-spd Manual",
+            "icon": "gears"
+          },
+          {
+            "label": "Owner Rating",
+            "value": "5.0 / 5",
+            "icon": "star"
+          }
+        ],
+        "variants": [
+          {
+            "name": "Ninja ZX-10R Standard",
+            "transmission": "6-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹20,79,000",
+            "onRoadPrice": "₹23,61,368",
+            "highlight": true
+          }
+        ]
+      },
+      "honda-cb350": {
+        "tagline": "Modern retro. Classic soul.",
+        "about": "The Honda CB350 is a retro cruiser built to rival the Royal Enfield Classic 350. With bulbous fenders, a peashooter exhaust, and a refined 348.36cc air-cooled engine, it blends old-school appeal with modern tech like dual-channel ABS, Honda Selectable Torque Control, and smartphone voice control.",
+        "showroomPrice": "₹1,97,045",
+        "onRoadPrice": "₹2,28,209",
+        "priceRangeMin": "₹1.97 L",
+        "priceRangeMax": "₹2.00 L",
+        "videoUrl": "https://youtu.be/oeV6GJkR_zw",
+        "videoLabel": "CB350 — First Ride",
+        "highlights": [
+          "20.7 BHP",
+          "Dual-channel ABS",
+          "348cc Single",
+          "Slipper Clutch"
+        ],
+        "colors": [
+          {
+            "name": "Rebel Red Metallic",
+            "hex": "#8b1a1a",
+            "tint": "#8b1a1a",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/cb350/red.webp"
+          },
+          {
+            "name": "Pearl Igneous Black",
+            "hex": "#101216",
+            "tint": "#0a0c10",
+            "blend": "multiply",
+            "tintOpacity": 0.6,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/cb350/black.webp"
+          },
+          {
+            "name": "Pearl Deep Ground Gray",
+            "hex": "#5a5e63",
+            "tint": "#4a4e53",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/cb350/gray.webp"
+          }
+        ],
+        "keySpecs": [
+          {
+            "label": "Engine",
+            "value": "348.36cc Single",
+            "icon": "engine"
+          },
+          {
+            "label": "Power",
+            "value": "20.7 BHP @ 5500 rpm",
+            "icon": "power"
+          },
+          {
+            "label": "Torque",
+            "value": "29.5 Nm @ 3000 rpm",
+            "icon": "torque"
+          },
+          {
+            "label": "0 - 100 km/h",
+            "value": "8.5 s",
+            "icon": "zero"
+          },
+          {
+            "label": "Top Speed",
+            "value": "130 km/h",
+            "icon": "speed"
+          },
+          {
+            "label": "Mileage",
+            "value": "35 km/l (claimed)",
+            "icon": "fuel"
+          },
+          {
+            "label": "Fuel Type",
+            "value": "Petrol",
+            "icon": "fueltype"
+          },
+          {
+            "label": "Transmission",
+            "value": "5-spd Manual",
+            "icon": "gears"
+          },
+          {
+            "label": "Owner Rating",
+            "value": "4.5 / 5",
+            "icon": "star"
+          }
+        ],
+        "variants": [
+          {
+            "name": "CB350 DLX",
+            "transmission": "5-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹1,97,045",
+            "onRoadPrice": "₹2,28,209"
+          },
+          {
+            "name": "CB350 DLX Pro",
+            "transmission": "5-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹2,00,474",
+            "onRoadPrice": "₹2,32,000",
+            "highlight": true
+          }
+        ]
+      },
+      "royal-enfield-continental-gt-650": {
+        "tagline": "Café racer. Born to lean.",
+        "about": "The Royal Enfield Continental GT 650 is a café-racer-style middleweight with clip-on handlebars, twin exhausts, and a 648cc parallel-twin engine producing 47 bhp. Updated with LED headlamps, alloy wheel options, and refined switchgear, it's RE's most sporting twin — sharp on twisties, unmistakable in style.",
+        "showroomPrice": "₹3,52,687",
+        "onRoadPrice": "₹4,03,511",
+        "priceRangeMin": "₹3.52 L",
+        "priceRangeMax": "₹3.81 L",
+        "videoUrl": "https://youtu.be/7Ij11UaweOU",
+        "videoLabel": "Continental GT 650 — First Ride",
+        "highlights": [
+          "47 BHP",
+          "648cc Twin",
+          "Dual-channel ABS",
+          "Café Racer"
+        ],
+        "colors": [
+          {
+            "name": "Rocker Red",
+            "hex": "#c41e2a",
+            "tint": "#c41e2a",
+            "blend": "multiply",
+            "tintOpacity": 0.45,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/gt650/red.webp"
+          },
+          {
+            "name": "Slipstream Blue",
+            "hex": "#1f4d8c",
+            "tint": "#1f4d8c",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/gt650/blue.webp"
+          },
+          {
+            "name": "Chrome",
+            "hex": "#eef0f2",
+            "tint": "#ffffff",
+            "blend": "screen",
+            "tintOpacity": 0.18,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/gt650/chrome.webp"
+          }
+        ],
+        "keySpecs": [
+          {
+            "label": "Engine",
+            "value": "648cc Parallel Twin",
+            "icon": "engine"
+          },
+          {
+            "label": "Power",
+            "value": "47 BHP @ 7250 rpm",
+            "icon": "power"
+          },
+          {
+            "label": "Torque",
+            "value": "52 Nm @ 5250 rpm",
+            "icon": "torque"
+          },
+          {
+            "label": "0 - 100 km/h",
+            "value": "5.9 s",
+            "icon": "zero"
+          },
+          {
+            "label": "Top Speed",
+            "value": "169 km/h",
             "icon": "speed"
           },
           {
@@ -8738,178 +9272,7 @@
           },
           {
             "label": "Transmission",
-            "value": "6-spd Quickshifter",
-            "icon": "gears"
-          },
-          {
-            "label": "Owner Rating",
-            "value": "4.5 / 5",
-            "icon": "star"
-          }
-        ],
-        "variants": [
-          {
-            "name": "390 Duke",
-            "transmission": "6-spd",
-            "fuel": "Petrol",
-            "showroomPrice": "₹3,10,000",
-            "onRoadPrice": "₹3,47,200",
-            "highlight": true
-          },
-          {
-            "name": "390 Duke GP",
-            "transmission": "6-spd",
-            "fuel": "Petrol",
-            "showroomPrice": "₹3,38,000",
-            "onRoadPrice": "₹3,78,560"
-          }
-        ],
-        "expertReview": {
-          "reviewer": "Yash Kapoor",
-          "title": "Naked Bike Editor, RideBuilders",
-          "avatar": "https://i.pravatar.cc/200?img=22",
-          "rating": 4.6,
-          "verdict": "Every time KTM updates the 390 Duke they make it sharper, lighter on the wrists and easier to live with. The 2024 version finally has the refinement to match the manic chassis — it's the most complete sub-₹4 L performance bike on sale, full stop.",
-          "highlights": [
-            "Featherweight feel",
-            "TFT dash is excellent",
-            "Quickshifter at this price"
-          ]
-        },
-        "pros": [
-          "Class-leading power-to-weight",
-          "Sharp, eager steering",
-          "Standard up/down quickshifter",
-          "Bright TFT instrument cluster"
-        ],
-        "cons": [
-          "Vibrations at sustained highway speeds",
-          "Seat firms up after 100 km",
-          "Service-network experience varies"
-        ],
-        "ratings": {
-          "overall": 4.5,
-          "totalReviews": 412,
-          "breakdown": [
-            {
-              "label": "Performance",
-              "value": 4.8
-            },
-            {
-              "label": "Comfort",
-              "value": 3.8
-            },
-            {
-              "label": "Features",
-              "value": 4.6
-            },
-            {
-              "label": "Value",
-              "value": 4.7
-            },
-            {
-              "label": "Build",
-              "value": 4.3
-            }
-          ],
-          "reviews": [
-            {
-              "name": "Ishaan T.",
-              "city": "Hyderabad",
-              "date": "Apr 2026",
-              "rating": 5,
-              "title": "Pocket rocket",
-              "body": "Light, quick, sounds great. The quickshifter is genuinely useful even in traffic. Mileage holds up around 22-24 even with spirited riding.",
-              "owned": "8 months"
-            },
-            {
-              "name": "Priya D.",
-              "city": "Mumbai",
-              "date": "Mar 2026",
-              "rating": 4,
-              "title": "Brilliant for new riders",
-              "body": "Coming from a 200cc this feels like a leap, but in a manageable way. Vibrations above 110 km/h are the only real annoyance.",
-              "owned": "1 year"
-            }
-          ]
-        },
-        "faqs": [
-          {
-            "q": "Is the 390 Duke a good beginner bike?",
-            "a": "It's better as a second bike. The power is approachable but the chassis and brakes are aggressive — a rider with even a year of experience will get more out of it."
-          },
-          {
-            "q": "What's the real-world mileage?",
-            "a": "21–25 km/l in mixed riding. Hard riding drops it closer to 18 km/l; highway cruising lifts it to 28 km/l."
-          },
-          {
-            "q": "Is the quickshifter included in the base trim?",
-            "a": "Yes — both up and down quickshifter, ride modes, cornering ABS and the 5\" TFT are standard across all India variants."
-          },
-          {
-            "q": "How does it compare to the 390 Adventure?",
-            "a": "The Adventure shares the engine but adds wire-spoke wheels, longer-travel suspension and a more upright riding triangle. The Duke is sharper on tarmac; the Adventure is more comfortable everywhere else."
-          },
-          {
-            "q": "What's the seat height like?",
-            "a": "820 mm — taller than most commuter bikes. Riders below 5'5\" may need to consider a low-seat option or platform shoes."
-          }
-        ]
-      },
-      "kawasaki-z900": {
-        "tagline": "Sumo of the streets.",
-        "about": "Kawasaki's Z900 has always been the inline-four naked at a price that undercut the German and Italian competition by enough to make people stop and think. Smooth, fast, surprisingly easy to live with, and an exhaust note that genuinely raises the hair on your neck.",
-        "showroomPrice": "₹9,29,000",
-        "onRoadPrice": "₹10,40,500",
-        "priceRangeMin": "₹9.29 L",
-        "priceRangeMax": "₹10.80 L",
-        "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
-        "videoLabel": "Z900 — Street Walk",
-        "highlights": [
-          "125 BHP",
-          "0-100 in 3.5 s",
-          "Inline-4",
-          "Sugomi styling"
-        ],
-        "keySpecs": [
-          {
-            "label": "Engine",
-            "value": "948cc Inline-4",
-            "icon": "engine"
-          },
-          {
-            "label": "Power",
-            "value": "125 BHP @ 9500 rpm",
-            "icon": "power"
-          },
-          {
-            "label": "Torque",
-            "value": "98.6 Nm @ 7700 rpm",
-            "icon": "torque"
-          },
-          {
-            "label": "0 - 100 km/h",
-            "value": "3.5 s",
-            "icon": "zero"
-          },
-          {
-            "label": "Top Speed",
-            "value": "250 km/h",
-            "icon": "speed"
-          },
-          {
-            "label": "Mileage",
-            "value": "17 km/l (claimed)",
-            "icon": "fuel"
-          },
-          {
-            "label": "Fuel Type",
-            "value": "Petrol",
-            "icon": "fueltype"
-          },
-          {
-            "label": "Transmission",
-            "value": "6-spd Quickshifter",
+            "value": "6-spd Manual",
             "icon": "gears"
           },
           {
@@ -8917,131 +9280,153 @@
             "value": "4.6 / 5",
             "icon": "star"
           }
-        ]
-      },
-      "ducati-panigale-v4": {
-        "tagline": "Race-derived. Road-legal.",
-        "about": "The Panigale V4 is the closest you can get to MotoGP without a paddock pass. A 1103cc V4 lifted straight from the Desmosedici programme, aerodynamic winglets that actually do something, and electronics that make the whole package usable. There is nothing else like it.",
-        "showroomPrice": "₹27,73,000",
-        "onRoadPrice": "₹31,05,800",
-        "priceRangeMin": "₹27.73 L",
-        "priceRangeMax": "₹35.00 L",
-        "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
-        "videoLabel": "Panigale V4 — Reveal",
-        "highlights": [
-          "215 BHP",
-          "0-100 in 3.0 s",
-          "V4 Desmosedici",
-          "Winglets"
         ],
-        "keySpecs": [
+        "variants": [
           {
-            "label": "Engine",
-            "value": "1103cc V4",
-            "icon": "engine"
+            "name": "Continental GT 650 Standard",
+            "transmission": "6-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹3,52,687",
+            "onRoadPrice": "₹4,03,511"
           },
           {
-            "label": "Power",
-            "value": "215 BHP @ 13000 rpm",
-            "icon": "power"
+            "name": "Continental GT 650 Alloy Wheel",
+            "transmission": "6-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹3,75,226",
+            "onRoadPrice": "₹4,28,000",
+            "highlight": true
           },
           {
-            "label": "Torque",
-            "value": "123.6 Nm @ 9500 rpm",
-            "icon": "torque"
-          },
-          {
-            "label": "0 - 100 km/h",
-            "value": "3.0 s",
-            "icon": "zero"
-          },
-          {
-            "label": "Top Speed",
-            "value": "299 km/h",
-            "icon": "speed"
-          },
-          {
-            "label": "Mileage",
-            "value": "13 km/l (claimed)",
-            "icon": "fuel"
-          },
-          {
-            "label": "Fuel Type",
-            "value": "Petrol",
-            "icon": "fueltype"
-          },
-          {
-            "label": "Transmission",
-            "value": "6-spd Quickshifter",
-            "icon": "gears"
-          },
-          {
-            "label": "Owner Rating",
-            "value": "4.9 / 5",
-            "icon": "star"
+            "name": "Continental GT 650 Chrome",
+            "transmission": "6-spd",
+            "fuel": "Petrol",
+            "showroomPrice": "₹3,81,421",
+            "onRoadPrice": "₹4,35,000"
           }
         ]
       },
-      "bmw-gs-1250": {
-        "tagline": "Adventurer's choice. Continent-crusher.",
-        "about": "The GS is the bike most adventure riders measure every other ADV against. A 1254cc Boxer twin with characterful, useable torque from low revs, telelever suspension that swallows broken tarmac whole, and ergonomics that genuinely work for all-day rides. Heavy, but transcends its weight the moment it's moving.",
-        "showroomPrice": "₹20,55,000",
-        "onRoadPrice": "₹23,01,600",
-        "priceRangeMin": "₹20.55 L",
-        "priceRangeMax": "₹24.50 L",
-        "videoUrl": "https://www.youtube.com/watch?v=ahKZWcAQDU0",
-        "videoLabel": "R 1250 GS — Off-road Walk",
-        "highlights": [
-          "136 BHP",
-          "Boxer twin",
-          "Telelever front",
-          "Shaft drive"
-        ],
-        "keySpecs": [
+      "royal-enfield-classic-350": {
+        "videoUrl": "https://youtu.be/ysE5Y7z8wyU",
+        "colors": [
           {
-            "label": "Engine",
-            "value": "1254cc Boxer Twin",
-            "icon": "engine"
+            "name": "Redditch Red",
+            "hex": "#8a1c24",
+            "tint": "#8a1c24",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/classic350/red.webp"
           },
           {
-            "label": "Power",
-            "value": "136 BHP @ 7750 rpm",
-            "icon": "power"
+            "name": "Madras Red",
+            "hex": "#c8102e",
+            "tint": "#c8102e",
+            "blend": "multiply",
+            "tintOpacity": 0.48,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/classic350/white.webp"
           },
           {
-            "label": "Torque",
-            "value": "143 Nm @ 6250 rpm",
-            "icon": "torque"
+            "name": "Commando Sand",
+            "hex": "#c2b280",
+            "tint": "#c2b280",
+            "blend": "multiply",
+            "tintOpacity": 0.38,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/classic350/khakhi.webp"
+          }
+        ]
+      },
+      "tvs-ronin": {
+        "videoUrl": "https://youtu.be/ROfAegEt3Cw?list=RDROfAegEt3Cw",
+        "colors": [
+          {
+            "name": "Lightning Black",
+            "hex": "#1a1a1d",
+            "tint": "#0f0f12",
+            "blend": "multiply",
+            "tintOpacity": 0.58,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/ronin/black.webp"
           },
           {
-            "label": "0 - 100 km/h",
-            "value": "3.6 s",
-            "icon": "zero"
+            "name": "Glacier Silver",
+            "hex": "#c4c8cc",
+            "tint": "#c4c8cc",
+            "blend": "multiply",
+            "tintOpacity": 0.3,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/ronin/silver.webp"
           },
           {
-            "label": "Top Speed",
-            "value": "220 km/h",
-            "icon": "speed"
+            "name": "Nimbus Grey",
+            "hex": "#6e7378",
+            "tint": "#5a5e63",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/ronin/white.webp"
           },
           {
-            "label": "Mileage",
-            "value": "19 km/l (claimed)",
-            "icon": "fuel"
+            "name": "Midnight Blue",
+            "hex": "#1f2d4d",
+            "tint": "#1f2d4d",
+            "blend": "multiply",
+            "tintOpacity": 0.55,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/ronin/blue.webp"
+          }
+        ]
+      },
+      "royal-enfield-bullet-350": {
+        "videoUrl": "https://youtu.be/l_UQj81jqwQ?list=RDl_UQj81jqwQ",
+        "colors": [
+          {
+            "name": "Standard Black",
+            "hex": "#15161a",
+            "tint": "#0c0d10",
+            "blend": "multiply",
+            "tintOpacity": 0.6,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/bullet350/black.webp"
           },
           {
-            "label": "Fuel Type",
-            "value": "Petrol",
-            "icon": "fueltype"
+            "name": "Blue",
+            "hex": "#2b5f8a",
+            "tint": "#2b5f8a",
+            "blend": "multiply",
+            "tintOpacity": 0.58,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/bullet350/blue.webp"
           },
           {
-            "label": "Transmission",
-            "value": "6-spd Shaft Drive",
-            "icon": "gears"
+            "name": "Military Red",
+            "hex": "#7a2a26",
+            "tint": "#7a2a26",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/bullet350/red.webp"
+          }
+        ]
+      },
+      "royal-enfield-bullet-650": {
+        "videoUrl": "https://youtu.be/npESJ3iN2OU?list=RDnpESJ3iN2OU",
+        "colors": [
+          {
+            "name": "Astral Black",
+            "hex": "#1b1c1f",
+            "tint": "#0f1012",
+            "blend": "multiply",
+            "tintOpacity": 0.58,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/bullet650/black.webp"
           },
           {
-            "label": "Owner Rating",
-            "value": "4.8 / 5",
-            "icon": "star"
+            "name": "Celestial Red",
+            "hex": "#8a2a30",
+            "tint": "#8a2a30",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/bullet650/red.webp"
+          },
+          {
+            "name": "Celestial Blue",
+            "hex": "#2b5f8a",
+            "tint": "#2b5f8a",
+            "blend": "multiply",
+            "tintOpacity": 0.5,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/bullet650/blue.webp"
           }
         ]
       }

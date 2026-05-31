@@ -51,31 +51,73 @@ type CarDetailData = {
   keySpecs?: Array<{ label: string; value: string }>;
 };
 
-const carDetails = siteData.carsPage.carDetails as Record<string, CarDetailData>;
+type CompareSpecsPartial = Partial<
+  Omit<ExtraSpec, "power" | "zeroToHundred" | "topSpeed" | "transmission" | "exShowroom">
+>;
 
-const specValue = (detail: CarDetailData | undefined, label: string) =>
-  detail?.keySpecs?.find((spec) => spec.label === label)?.value;
+const specValue = (
+  detail: CarDetailData | undefined,
+  labels: string | string[]
+) => {
+  const list = Array.isArray(labels) ? labels : [labels];
+  for (const label of list) {
+    const value = detail?.keySpecs?.find((spec) => spec.label === label)?.value;
+    if (value && value !== "—") return value;
+  }
+  return undefined;
+};
+
+const carDetails = siteData.carsPage.carDetails as Record<string, CarDetailData>;
+const bikeDetails = siteData.bikesPage.bikeDetails as Record<string, CarDetailData>;
+const bikeCompareSpecs = (siteData.bikesPage as { compareSpecs?: Record<string, CompareSpecsPartial> })
+  .compareSpecs ?? {};
+
+const buildExtras = (
+  vehicle: VehicleEntry,
+  detail: CarDetailData | undefined,
+  compare: CompareSpecsPartial | undefined
+): ExtraSpec => ({
+  engine:
+    specValue(detail, ["Engine", "Motor"]) ??
+    compare?.engine ??
+    "—",
+  power: specValue(detail, "Power") ?? vehicle.hp,
+  zeroToHundred:
+    specValue(detail, ["0 - 100 km/h", "0 - 40 km/h"]) ?? vehicle.zero,
+  topSpeed: specValue(detail, "Top Speed") ?? vehicle.topSpeed,
+  transmission:
+    specValue(detail, "Transmission") ?? vehicle.transmission ?? "—",
+  torque: specValue(detail, "Torque") ?? compare?.torque ?? "—",
+  driveType: vehicle.drivetrain ?? compare?.driveType ?? "—",
+  mileage:
+    specValue(detail, ["Mileage", "Range"]) ?? compare?.mileage ?? "—",
+  tankCapacity:
+    compare?.tankCapacity ??
+    (vehicle.fuelType === "Electric" ? "—" : "See specs"),
+  exShowroom: detail?.showroomPrice ?? vehicle.price,
+  wheelbase: compare?.wheelbase ?? "See specs",
+  emission:
+    compare?.emission ??
+    (vehicle.fuelType === "Electric"
+      ? "Zero Tailpipe Emission"
+      : "BS6 Phase 2"),
+  kerbWeight: compare?.kerbWeight ?? "See specs",
+  groundClearance: compare?.groundClearance ?? "See specs",
+  length: compare?.length ?? "See specs",
+  width: compare?.width ?? "See specs",
+});
 
 const carExtrasById = cars.reduce<Record<string, ExtraSpec>>((acc, car) => {
-  const detail = carDetails[car.id];
-  acc[car.id] = {
-    engine: specValue(detail, "Engine") ?? "—",
-    power: specValue(detail, "Power") ?? car.hp,
-    zeroToHundred: specValue(detail, "0 - 100 km/h") ?? car.zero,
-    topSpeed: specValue(detail, "Top Speed") ?? car.topSpeed,
-    transmission: specValue(detail, "Transmission") ?? car.transmission ?? "—",
-    torque: specValue(detail, "Torque") ?? "—",
-    driveType: car.drivetrain ?? "—",
-    mileage: specValue(detail, "Mileage") ?? "—",
-    tankCapacity: car.fuelType === "Electric" ? "—" : "See specs",
-    exShowroom: detail?.showroomPrice ?? car.price,
-    wheelbase: "See specs",
-    emission: car.fuelType === "Electric" ? "Zero Tailpipe Emission" : "BS6 Phase 2",
-    kerbWeight: "See specs",
-    groundClearance: "See specs",
-    length: "See specs",
-    width: "See specs",
-  };
+  acc[car.id] = buildExtras(car, carDetails[car.id], undefined);
+  return acc;
+}, {});
+
+const bikeExtrasById = bikes.reduce<Record<string, ExtraSpec>>((acc, bike) => {
+  acc[bike.id] = buildExtras(
+    bike,
+    bikeDetails[bike.id],
+    bikeCompareSpecs[bike.id]
+  );
   return acc;
 }, {});
 const fallbackExtras: ExtraSpec = {
@@ -95,121 +137,6 @@ const fallbackExtras: ExtraSpec = {
   groundClearance: "—",
   length: "—",
   width: "—",
-};
-
-const bikeExtrasById: Record<string, ExtraSpec> = {
-  "bmw-s1000rr": {
-    engine: "999cc Inline-4",
-    torque: "113 Nm",
-    driveType: "Chain",
-    mileage: "15 kmpl",
-    tankCapacity: "16.5 L",
-    exShowroom: "₹20.75 L",
-    emission: "BS6",
-    kerbWeight: "197 kg",
-    wheelbase: "1,457 mm",
-    groundClearance: "140 mm",
-    length: "2,073 mm",
-    width: "848 mm",
-  },
-  "ktm-390-duke": {
-    engine: "399cc Single-Cylinder",
-    torque: "39 Nm",
-    driveType: "Chain",
-    mileage: "28 kmpl",
-    tankCapacity: "15 L",
-    exShowroom: "₹3.10 L",
-    emission: "BS6",
-    kerbWeight: "168 kg",
-    wheelbase: "1,357 mm",
-    groundClearance: "183 mm",
-    length: "2,151 mm",
-    width: "883 mm",
-  },
-  "kawasaki-z900": {
-    engine: "948cc Inline-4",
-    torque: "98.6 Nm",
-    driveType: "Chain",
-    mileage: "17 kmpl",
-    tankCapacity: "17 L",
-    exShowroom: "₹9.29 L",
-    emission: "BS6",
-    kerbWeight: "212 kg",
-    wheelbase: "1,450 mm",
-    groundClearance: "145 mm",
-    length: "2,070 mm",
-    width: "825 mm",
-  },
-  "ducati-panigale-v4": {
-    engine: "1,103cc V4",
-    torque: "123.6 Nm",
-    driveType: "Chain",
-    mileage: "14 kmpl",
-    tankCapacity: "17 L",
-    exShowroom: "₹27.73 L",
-    emission: "BS6",
-    kerbWeight: "198.5 kg",
-    wheelbase: "1,469 mm",
-    groundClearance: "120 mm",
-    length: "2,100 mm",
-    width: "810 mm",
-  },
-  "bmw-gs-1250": {
-    engine: "1,254cc Boxer Twin",
-    torque: "143 Nm",
-    driveType: "Shaft",
-    mileage: "21 kmpl",
-    tankCapacity: "20 L",
-    exShowroom: "₹20.55 L",
-    emission: "BS6",
-    kerbWeight: "249 kg",
-    wheelbase: "1,514 mm",
-    groundClearance: "185 mm",
-    length: "2,207 mm",
-    width: "952 mm",
-  },
-  "triumph-street-triple-rs": {
-    engine: "765cc Inline-3",
-    torque: "80 Nm",
-    driveType: "Chain",
-    mileage: "19 kmpl",
-    tankCapacity: "15 L",
-    exShowroom: "₹11.81 L",
-    emission: "BS6",
-    kerbWeight: "189 kg",
-    wheelbase: "1,402 mm",
-    groundClearance: "140 mm",
-    length: "2,065 mm",
-    width: "775 mm",
-  },
-  "royal-enfield-super-meteor-650": {
-    engine: "648cc Parallel Twin",
-    torque: "52.3 Nm",
-    driveType: "Chain",
-    mileage: "25 kmpl",
-    tankCapacity: "15.7 L",
-    exShowroom: "₹3.95 L",
-    emission: "BS6",
-    kerbWeight: "241 kg",
-    wheelbase: "1,500 mm",
-    groundClearance: "135 mm",
-    length: "2,260 mm",
-    width: "890 mm",
-  },
-  "ather-450x": {
-    engine: "BLDC Electric Motor",
-    torque: "26 Nm",
-    driveType: "Belt",
-    mileage: "111 km/charge",
-    tankCapacity: "—",
-    exShowroom: "₹1.45 L",
-    emission: "Zero Tailpipe Emission",
-    kerbWeight: "108 kg",
-    wheelbase: "1,296 mm",
-    groundClearance: "170 mm",
-    length: "1,891 mm",
-    width: "739 mm",
-  },
 };
 
 const getExtras = (

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Readex_Pro } from "next/font/google";
 import "./globals.css";
-import SiteLoader from "@/components/SiteLoader";
 import ScrollProgress from "@/components/ScrollProgress";
 import BackgroundLayers from "@/components/BackgroundLayers";
 import NavigationRecovery from "@/components/NavigationRecovery";
@@ -26,7 +25,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={readexPro.variable}>
       <body className="bg-black text-white antialiased">
-        <SiteLoader />
         <ScrollProgress />
         <BackgroundLayers />
         <NavigationRecovery>{children}</NavigationRecovery>

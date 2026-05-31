@@ -1,8 +1,7 @@
 "use client";
 
 import type { FC } from "react";
-import { useEffect, useMemo, useRef, useState } from "react";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import siteData from "@/data/site.json";
 import type { CarsFilterValues } from "./CarsFilterBar";
 
@@ -25,63 +24,6 @@ interface Car {
 type PageKey = "carsPage" | "bikesPage";
 
 const PAGE_SIZE = 12;
-
-const ease = [0.16, 1, 0.3, 1] as const;
-
-const cardVariants = {
-  hidden: {
-    opacity: 0,
-    y: 30,
-    scale: 1,
-  },
-  rest: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-  },
-};
-
-const bgVariants = {
-  rest: { scale: 1 },
-  hover: { scale: 1.08, transition: { duration: 0.9, ease } },
-};
-
-const titleVariants = {
-  rest: { y: 0 },
-  hover: { y: -4, transition: { duration: 0.5, ease } },
-};
-
-const detailsBtnVariants = {
-  rest: { width: 40, transition: { duration: 0.4, ease } },
-  hover: { width: 142, transition: { duration: 0.45, ease } },
-};
-
-const labelVariants = {
-  rest: {
-    maxWidth: 0,
-    opacity: 0,
-    x: -4,
-    paddingLeft: 0,
-    paddingRight: 0,
-    transition: { duration: 0.18, ease },
-  },
-  hover: {
-    maxWidth: 96,
-    opacity: 1,
-    x: 0,
-    paddingLeft: 14,
-    paddingRight: 6,
-    transition: { duration: 0.28, ease, delay: 0.06 },
-  },
-};
-
-const arrowVariants = {
-  rest: { x: 0, transition: { duration: 0.2, ease } },
-  hover: {
-    x: 0,
-    transition: { duration: 0.2, ease },
-  },
-};
 
 const BrandLogo: FC<{ brand: string }> = ({ brand }) => {
   if (brand.toLowerCase() === "bmw") {
@@ -125,22 +67,12 @@ const SpeedIcon: FC = () => (
   </svg>
 );
 
-const CarCard: FC<{ car: Car; index: number; basePath: string; isBikesPage: boolean }> = ({
-  car,
-  index,
-  basePath,
-  isBikesPage,
-}) => {
-  const cardRef = useRef<HTMLAnchorElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: cardRef,
-    offset: ["start end", "end start"],
-  });
-  const bgYRaw = useTransform(scrollYProgress, [0, 1], ["-5%", "5%"]);
-  const contentYRaw = useTransform(scrollYProgress, [0, 1], ["12px", "-12px"]);
-  const bgY = useSpring(bgYRaw, { stiffness: 90, damping: 22, mass: 0.5 });
-  const contentY = useSpring(contentYRaw, { stiffness: 90, damping: 22, mass: 0.5 });
-
+const CarCard: FC<{
+  car: Car;
+  index: number;
+  basePath: string;
+  isBikesPage: boolean;
+}> = ({ car, index, basePath, isBikesPage }) => {
   const specs = [
     { value: car.hp ?? "--", label: "Power", icon: <PowerIcon /> },
     { value: car.zero ?? "--", label: "0-100", icon: <ZeroIcon /> },
@@ -148,35 +80,23 @@ const CarCard: FC<{ car: Car; index: number; basePath: string; isBikesPage: bool
   ];
 
   return (
-    <motion.a
-      ref={cardRef}
+    <a
       href={`${basePath}/${car.id}`}
-      className="group relative block w-full overflow-hidden rounded-[22px] bg-[#0a0a0a] text-slate-100 ring-1 ring-white/10 transition-all duration-300 hover:ring-2 hover:ring-white hover:shadow-[0_0_40px_10px_rgba(255,255,255,0.4),0_0_80px_20px_rgba(255,255,255,0.2)]"
-      variants={cardVariants}
-      initial="hidden"
-      whileInView="rest"
-      viewport={{ once: true, amount: 0.15 }}
-      transition={{
-        duration: 0.6,
-        ease: [0.16, 1, 0.3, 1],
-        delay: 0.04 * (index % 4),
-      }}
+      className="group relative block w-full overflow-hidden rounded-[22px] bg-[#0a0a0a] text-slate-100 ring-1 ring-white/10 transition-all duration-300 hover:ring-2 hover:ring-white/60 animate-fade-in-up"
+      style={{ animationDelay: `${(index % 6) * 50}ms` }}
     >
       <div className={`relative ${isBikesPage ? "aspect-[4/5]" : "aspect-[16/9.4]"}`}>
-        <motion.img
+        <img
           src={car.image}
           alt={car.name}
           loading="lazy"
           decoding="async"
-          className="absolute inset-0 h-full w-full object-cover object-center"
-          variants={bgVariants}
-          style={{ y: bgY }}
+          className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).style.opacity = "0";
           }}
         />
 
-        {/* Dark cinematic overlays */}
         <div
           className="pointer-events-none absolute inset-0 z-[1]"
           style={{
@@ -185,11 +105,7 @@ const CarCard: FC<{ car: Car; index: number; basePath: string; isBikesPage: bool
           }}
         />
 
-        <motion.div
-          className="absolute inset-0 z-[2] flex flex-col justify-between p-4 md:p-[18px]"
-          style={{ y: contentY }}
-        >
-          {/* Top row */}
+        <div className="absolute inset-0 z-[2] flex flex-col justify-between p-4 md:p-[18px]">
           <div className="flex items-start justify-between">
             <span className="rounded-full bg-red-500 px-2.5 py-1 text-[9px] font-bold uppercase tracking-[0.12em] text-white shadow-[0_4px_12px_rgba(239,68,68,0.3)]">
               FEATURED
@@ -210,8 +126,7 @@ const CarCard: FC<{ car: Car; index: number; basePath: string; isBikesPage: bool
             </span>
           </div>
 
-          {/* Middle */}
-          <motion.div variants={titleVariants} className="mb-1 mt-[-6px] flex flex-1 flex-col justify-center">
+          <div className="mb-1 mt-[-6px] flex flex-1 flex-col justify-center transition-transform duration-300 group-hover:-translate-y-1">
             <div className="mb-2.5 flex items-center gap-2">
               <div className="flex h-7 w-7 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white shadow-[0_2px_6px_rgba(0,0,0,0.4)]">
                 <BrandLogo brand={car.brand} />
@@ -221,18 +136,15 @@ const CarCard: FC<{ car: Car; index: number; basePath: string; isBikesPage: bool
               </p>
             </div>
 
-            <h3
-              className="mb-2 max-w-[72%] text-[22px] font-extrabold leading-[1.05] tracking-[0.005em] text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)] md:text-[24px]"
-            >
+            <h3 className="mb-2 max-w-[72%] text-[22px] font-extrabold leading-[1.05] tracking-[0.005em] text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)] md:text-[24px]">
               {car.name}
             </h3>
 
             <p className="text-base font-bold tracking-[0.01em] text-red-500 drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
               {car.price ?? "Price on request"}
             </p>
-          </motion.div>
+          </div>
 
-          {/* Bottom */}
           <div className="flex items-center justify-between gap-2.5">
             <div className="flex flex-wrap items-center gap-2.5 md:gap-3">
               {specs.map((spec) => (
@@ -252,35 +164,26 @@ const CarCard: FC<{ car: Car; index: number; basePath: string; isBikesPage: bool
               ))}
             </div>
 
-            <motion.span
-              variants={detailsBtnVariants}
-              className="flex h-10 shrink-0 items-center overflow-hidden rounded-full bg-white p-0 text-xs font-bold tracking-[0.02em] text-slate-900 shadow-[0_8px_24px_rgba(0,0,0,0.4)]"
-              aria-hidden="true"
-            >
-              <motion.span
-                variants={labelVariants}
-                className="flex items-center overflow-hidden whitespace-nowrap"
-              >
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white text-xs font-bold tracking-[0.02em] text-slate-900 shadow-[0_8px_24px_rgba(0,0,0,0.4)] transition-all duration-300 group-hover:w-[142px] group-hover:px-4">
+              <span className="hidden whitespace-nowrap group-hover:inline mr-2">
                 View Details
-              </motion.span>
-              <motion.span variants={arrowVariants} className="flex h-10 w-10 items-center justify-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-4 w-4"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M5 12h14M13 6l6 6-6 6" />
-                </svg>
-              </motion.span>
-            </motion.span>
+              </span>
+              <svg
+                viewBox="0 0 24 24"
+                className="h-4 w-4 shrink-0"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </span>
           </div>
-        </motion.div>
+        </div>
       </div>
-    </motion.a>
+    </a>
   );
 };
 
@@ -343,18 +246,10 @@ const CarsGrid: FC<CarsGridProps> = ({
   const allCars = (
     siteData as typeof siteData & Record<PageKey, { all: Car[] }>
   )[pageKey].all;
-  const sectionRef = useRef<HTMLElement>(null);
-  const { scrollYProgress: sectionProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start end", "end start"],
-  });
-  const sectionY = useTransform(sectionProgress, [0, 1], ["36px", "-28px"]);
-  const sectionOpacity = useTransform(sectionProgress, [0, 0.22, 0.9, 1], [0.82, 1, 1, 0.95]);
-  const headerY = useTransform(sectionProgress, [0, 1], ["18px", "-14px"]);
-  const cardsY = useTransform(sectionProgress, [0, 1], ["28px", "-10px"]);
 
   const [view, setView] = useState<"grid" | "list">("grid");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
   const filteredCars = useMemo(() => {
     return allCars.filter((car) => {
       const selectedBrand = filterValues.brand ?? "All";
@@ -406,32 +301,49 @@ const CarsGrid: FC<CarsGridProps> = ({
     });
   }, [allCars, filterValues]);
 
+  const filterSnapshot = useMemo(
+    () => JSON.stringify(filterValues),
+    [filterValues]
+  );
+
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [filterValues, pageKey]);
+  }, [filterSnapshot, pageKey]);
 
   const visibleCars = useMemo(
     () => filteredCars.slice(0, visibleCount),
     [filteredCars, visibleCount]
   );
-  const hasMore = visibleCount < filteredCars.length;
+  const hasMore = visibleCars.length < filteredCars.length;
+  const loadMoreSentinelRef = useRef<HTMLDivElement>(null);
+
+  const loadMore = useCallback(() => {
+    setVisibleCount((count) => {
+      if (count >= filteredCars.length) return count;
+      return Math.min(count + PAGE_SIZE, filteredCars.length);
+    });
+  }, [filteredCars.length]);
+
+  useEffect(() => {
+    const sentinel = loadMoreSentinelRef.current;
+    if (!sentinel || !hasMore) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (!entries[0]?.isIntersecting) return;
+        loadMore();
+      },
+      { root: null, rootMargin: "280px 0px 280px 0px", threshold: 0 }
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [hasMore, loadMore, filterSnapshot, pageKey]);
 
   return (
-    <motion.section
-      ref={sectionRef}
-      className="mt-12 px-4 md:mt-16"
-      style={{ y: sectionY, opacity: sectionOpacity }}
-    >
+    <section className="relative z-10 mt-12 px-4 md:mt-16">
       <div className="w-full">
-        {/* Header row */}
-        <motion.div
-          className="mb-5 flex items-end justify-between gap-4 md:mb-6"
-          style={{ y: headerY }}
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.4 }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        >
+        <div className="mb-5 flex items-end justify-between gap-4 md:mb-6 animate-fade-in">
           <div className="flex items-baseline gap-3">
             <h2 className="text-2xl md:text-3xl font-semibold text-white" style={{ letterSpacing: "-0.02em" }}>
               {sectionTitle}
@@ -441,7 +353,6 @@ const CarsGrid: FC<CarsGridProps> = ({
             </p>
           </div>
 
-          {/* View toggle — red active state */}
           <div className="inline-flex items-center gap-1 rounded-xl bg-white/[0.04] ring-1 ring-white/10 p-1">
             <button
               type="button"
@@ -470,12 +381,9 @@ const CarsGrid: FC<CarsGridProps> = ({
               <ListIcon active={view === "list"} />
             </button>
           </div>
-        </motion.div>
+        </div>
 
-        {/* Cards */}
-        <motion.div
-          layout
-          style={{ y: cardsY }}
+        <div
           className={
             view === "grid"
               ? `grid grid-cols-1 gap-5 sm:grid-cols-2 ${isBikesPage ? "lg:grid-cols-4" : "lg:grid-cols-3"} md:gap-6`
@@ -491,42 +399,19 @@ const CarsGrid: FC<CarsGridProps> = ({
               isBikesPage={isBikesPage}
             />
           ))}
-        </motion.div>
+        </div>
 
         {hasMore && (
-          <motion.div
-            className="mt-10 md:mt-12 flex justify-center"
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.4 }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          <div
+            ref={loadMoreSentinelRef}
+            className="mt-10 flex min-h-[1px] justify-center py-8 md:mt-12"
+            aria-hidden
           >
-            <button
-              type="button"
-              onClick={() =>
-                setVisibleCount((count) =>
-                  Math.min(count + PAGE_SIZE, filteredCars.length)
-                )
-              }
-              className="group inline-flex items-center gap-2.5 px-6 py-3 text-sm md:text-base text-white/85 hover:text-white transition-colors"
-            >
-              Load More
-              <motion.span
-                aria-hidden
-                className="text-red-500"
-                initial={{ y: 0 }}
-                animate={{ y: [0, 3, 0] }}
-                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-              >
-                <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 5v14M6 13l6 6 6-6" />
-                </svg>
-              </motion.span>
-            </button>
-          </motion.div>
+            <span className="text-xs text-white/40">Loading more…</span>
+          </div>
         )}
       </div>
-    </motion.section>
+    </section>
   );
 };
 

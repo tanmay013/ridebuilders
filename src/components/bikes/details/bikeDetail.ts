@@ -9,6 +9,10 @@ import type {
   CarVariant,
   ExpertReview,
 } from "@/components/cars/details/carDetail";
+import {
+  filterFilledSpecs,
+  isFilledSpecValue,
+} from "@/components/cars/details/carDetail";
 
 /**
  * The bike detail resolver is structurally identical to {@link carDetail}.
@@ -111,11 +115,13 @@ const deriveSpecsFromBasic = (basic: BikeBasic): BikeSpec[] => [
 ];
 
 const mergeSpecs = (defaultSpecs: BikeSpec[], basicSpecs: BikeSpec[]): BikeSpec[] =>
-  defaultSpecs.map((spec) => {
-    if (spec.value && spec.value !== "—") return spec;
-    const fromBasic = basicSpecs.find((s) => s.label === spec.label);
-    return fromBasic && fromBasic.value !== "—" ? fromBasic : spec;
-  });
+  filterFilledSpecs(
+    defaultSpecs.map((spec) => {
+      if (isFilledSpecValue(spec.value)) return spec;
+      const fromBasic = basicSpecs.find((s) => s.label === spec.label);
+      return fromBasic && isFilledSpecValue(fromBasic.value) ? fromBasic : spec;
+    })
+  );
 
 const resolveBasic = (bikemodel: string): BikeBasic | null => {
   const found = allBasics.find((b) => b.id === bikemodel);
@@ -180,7 +186,9 @@ export const getBikeDetail = (bikemodel: string): BikeDetail | null => {
       (override.colors as BikeColor[]) ??
       (defaults.colors as BikeColor[]) ??
       [],
-    keySpecs: overrideSpecs ?? mergeSpecs(defaultSpecs, derivedSpecs),
+    keySpecs: filterFilledSpecs(
+      overrideSpecs ?? mergeSpecs(defaultSpecs, derivedSpecs)
+    ),
     variants: (override.variants as BikeVariant[]) ?? buildDefaultVariants(basic),
     expertReview:
       (override.expertReview as ExpertReview) ??
