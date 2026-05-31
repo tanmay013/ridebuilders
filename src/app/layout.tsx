@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Readex_Pro } from "next/font/google";
 import "./globals.css";
+import Analytics from "@/components/analytics/Analytics";
 import ScrollProgress from "@/components/ScrollProgress";
 import BackgroundLayers from "@/components/BackgroundLayers";
 import NavigationRecovery from "@/components/NavigationRecovery";
@@ -28,6 +29,7 @@ export default function RootLayout({
         <ScrollProgress />
         <BackgroundLayers />
         <NavigationRecovery>{children}</NavigationRecovery>
+        <Analytics />
       </body>
     </html>
   );
