@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "ridebuilders — every car. every bike. all in one place.",
   description:
     "research, compare, and explore cars and two-wheelers — specs, reviews, pricing insights, 360° views, and city-based estimates to help you decide before you ever visit a showroom.",
+  icons: {
+    icon: [{ url: "/favicon.ico", sizes: "any" }],
+    apple: [{ url: "/favicon.ico" }],
+  },
 };
 
 export default function RootLayout({
