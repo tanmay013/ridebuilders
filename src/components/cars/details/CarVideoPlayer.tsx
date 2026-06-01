@@ -28,7 +28,7 @@ const CarVideoPlayer: FC<CarVideoPlayerProps> = ({
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 7000);
+    }, 6000);
 
     return () => clearTimeout(timer);
   }, []);
