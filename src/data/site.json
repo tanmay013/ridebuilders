@@ -161,54 +161,58 @@
   "vehicles": [
     {
       "id": 1,
-      "name": "Porsche 911 GT3",
-      "price": "₹2.4 Cr",
-      "image": "/posshegt3.png",
-      "category": "car",
-      "watermark": "GT3",
+      "slug": "bmw-s1000rr",
+      "name": "BMW S1000 RR",
+      "price": "₹23.2 L",
+      "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/white.webp",
+      "category": "bike",
+      "watermark": "S1000RR",
       "specs": [
-        "502 HP",
-        "RWD",
-        "3.4s 0–100"
+        "207 HP",
+        "299 km/h",
+        "3.1s 0–100"
       ]
     },
     {
       "id": 2,
-      "name": "Kawasaki Ninja H2",
-      "price": "₹35 L",
-      "image": "https://i.pinimg.com/736x/63/99/89/639989b4eb07bfdf91bdbd1af3f0f7b0.jpg",
+      "slug": "kawasaki-ninja-zx-10r",
+      "name": "Kawasaki Ninja ZX-10R",
+      "price": "₹20.8 L",
+      "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/zx10r/black.webp",
       "category": "bike",
-      "watermark": "H2",
+      "watermark": "ZX-10R",
       "specs": [
-        "310 HP",
-        "Supercharged",
-        "400+ km/h"
+        "193 HP",
+        "299 km/h",
+        "3.2s 0–100"
       ]
     },
     {
       "id": 3,
-      "name": "BMW R 1250 GS",
-      "price": "₹21 L",
-      "image": "https://i.pinimg.com/1200x/4b/31/ee/4b31ee03e9acd91e0141fab059e776e7.jpg",
-      "category": "bike",
-      "watermark": "GS",
+      "slug": "bmw-m4-competition",
+      "name": "BMW M4 Competition",
+      "price": "₹1.55 Cr",
+      "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/bmwm4/bmwm4-white.webp",
+      "category": "car",
+      "watermark": "M4",
       "specs": [
-        "136 HP",
-        "Boxer engine",
-        "Adventure"
+        "523 HP",
+        "AWD",
+        "3.5s 0–100"
       ]
     },
     {
       "id": 4,
-      "name": "Ferrari 296 GTB",
-      "price": "₹5.40 Cr",
-      "image": "https://i.pinimg.com/736x/59/3a/17/593a1737b189e2b9f9c612bf1292012b.jpg",
+      "slug": "porsche-911-carrera",
+      "name": "Porsche 911 Carrera",
+      "price": "₹2.00 Cr",
+      "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/cars/carrera911/carrera911-black.webp",
       "category": "car",
-      "watermark": "296",
+      "watermark": "911",
       "specs": [
-        "830 HP",
-        "Hybrid",
-        "0–100 in 2.9s"
+        "380 HP",
+        "RWD",
+        "4.1s 0–100"
       ]
     }
   ],

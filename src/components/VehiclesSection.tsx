@@ -7,6 +7,7 @@ import siteData from "@/data/site.json";
 
 interface Vehicle {
   id: number;
+  slug: string;
   name: string;
   price: string;
   image: string;
@@ -42,7 +43,11 @@ const VehicleCard: FC<VehicleCardProps> = ({ vehicle, index }) => {
   return (
     <motion.a
       ref={ref}
-      href={`#vehicle-${vehicle.id}`}
+      href={
+        vehicle.category === "car"
+          ? `/cars/${vehicle.slug}`
+          : `/bikes/${vehicle.slug}`
+      }
       initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
