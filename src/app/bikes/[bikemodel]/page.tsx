@@ -29,7 +29,7 @@ interface BikeDetailPageProps {
 export default function BikeDetailPage({ params }: BikeDetailPageProps) {
   const { bikemodel } = use(params);
   const detail = getBikeDetail(bikemodel);
-  const [priceMode, setPriceMode] = useState<PriceMode>("onRoad");
+  const [priceMode, setPriceMode] = useState<PriceMode>("showroom");
 
   if (!detail) {
     notFound();

@@ -16,13 +16,38 @@ interface CarAboutProps {
 
 const easeOut = [0.16, 1, 0.3, 1] as const;
 
+/** Parse an Indian price string ("₹3,70,000", "₹3.70 L", "₹2.4 Cr") to rupees. */
+const parsePrice = (price?: string): number | null => {
+  if (!price) return null;
+  const cleaned = price.replace(/[₹,\s]/g, "");
+  const lower = cleaned.toLowerCase();
+  if (lower.includes("cr")) {
+    const n = parseFloat(lower);
+    return Number.isFinite(n) ? Math.round(n * 1_00_00_000) : null;
+  }
+  if (/l(akh)?/.test(lower)) {
+    const n = parseFloat(lower);
+    return Number.isFinite(n) ? Math.round(n * 1_00_000) : null;
+  }
+  const digits = cleaned.replace(/[^\d.]/g, "");
+  if (!digits) return null;
+  const n = Number(digits);
+  return Number.isFinite(n) ? Math.round(n) : null;
+};
+
+const formatPrice = (n: number): string => {
+  if (n >= 1_00_00_000) return `₹${(n / 1_00_00_000).toFixed(2)} Cr`;
+  if (n >= 1_00_000) return `₹${(n / 1_00_000).toFixed(2)} L`;
+  return `₹${n.toLocaleString("en-IN")}`;
+};
+
 const CarAbout: FC<CarAboutProps> = ({
   detail,
   priceMode,
   onPriceModeChange,
   kind = "car",
 }) => {
-  const { basic, about, highlights, priceNote } = detail;
+  const { basic, about, highlights, priceNote, variants } = detail;
   const sectionRef = useRef<HTMLElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -37,12 +62,37 @@ const CarAbout: FC<CarAboutProps> = ({
   const textY = useTransform(smooth, [0, 1], [25, -25]);
   const cardY = useTransform(smooth, [0, 1], [40, -40]);
 
-  const displayPrice =
-    priceMode === "onRoad" ? detail.onRoadPrice : detail.showroomPrice;
-  const altPrice =
-    priceMode === "onRoad" ? detail.showroomPrice : detail.onRoadPrice;
-  const altLabel =
-    priceMode === "onRoad" ? "Ex-showroom" : "On-road";
+  // Derive prices from the variant table (the verified source of truth) so the
+  // card always matches "Pricing & variants" and responds to the toggle.
+  const showroomValues = variants
+    .map((v) => parsePrice(v.showroomPrice))
+    .filter((n): n is number => n !== null);
+  const onRoadValues = variants
+    .map((v) => parsePrice(v.onRoadPrice))
+    .filter((n): n is number => n !== null);
+
+  const activeValues = priceMode === "onRoad" ? onRoadValues : showroomValues;
+  const rangeMin = activeValues.length
+    ? formatPrice(Math.min(...activeValues))
+    : priceMode === "onRoad"
+      ? detail.onRoadPrice
+      : detail.priceRangeMin;
+  const rangeMax = activeValues.length
+    ? formatPrice(Math.max(...activeValues))
+    : priceMode === "onRoad"
+      ? detail.onRoadPrice
+      : detail.priceRangeMax;
+
+  const showroomBase = showroomValues.length
+    ? formatPrice(Math.min(...showroomValues))
+    : detail.showroomPrice;
+  const onRoadBase = onRoadValues.length
+    ? formatPrice(Math.min(...onRoadValues))
+    : detail.onRoadPrice;
+
+  const displayPrice = priceMode === "onRoad" ? onRoadBase : showroomBase;
+  const altPrice = priceMode === "onRoad" ? showroomBase : onRoadBase;
+  const altLabel = priceMode === "onRoad" ? "Ex-showroom" : "On-road";
 
   return (
     <section
@@ -116,11 +166,11 @@ const CarAbout: FC<CarAboutProps> = ({
               <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-white/55">
                 Price range
               </p>
-              <PriceToggle
+              {/* <PriceToggle
                 value={priceMode}
                 onChange={onPriceModeChange}
                 size="sm"
-              />
+              /> */}
             </div>
 
             <div className="mt-5">
@@ -128,9 +178,9 @@ const CarAbout: FC<CarAboutProps> = ({
                 className="text-4xl font-semibold tracking-tight text-white md:text-5xl"
                 style={{ letterSpacing: "-0.025em" }}
               >
-                {detail.priceRangeMin}
+                {rangeMin}
                 <span className="px-2 text-white/35">–</span>
-                {detail.priceRangeMax}
+                {rangeMax}
               </p>
               <p className="mt-2 text-xs text-white/55">
                 {priceMode === "onRoad" ? "On-road, Delhi" : "Ex-showroom, Delhi"} • {detail.variants.length} variants

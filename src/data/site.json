@@ -297,9 +297,9 @@
     "videoSrc": "/hero.webm"
   },
   "contact": {
-    "phone": "+91 80 1234 5678",
-    "email": "hello@ridebuilders.in",
-    "address": "Bengaluru, India"
+    "phone": "+91 80 XXXX XXXX",
+    "email": "tanmaypth2017@gmail.com",
+    "address": "Gurugram, India"
   },
   "carsPage": {
     "hero": {
@@ -8053,7 +8053,7 @@
       "eyebrow": "Bikes",
       "headline": "Find the perfect bike. \n Built for your ride.",
       "description": "From city commuters to track-ready beasts.",
-      "image": "https://img.magnific.com/free-photo/man-racing-dirt-bike-fantasy-environment_23-2151500487.jpg?t=st=1778229572~exp=1778233172~hmac=3232c1e88ca85d559b0d6066772248aa1297f7ec03e8721b283a43f97361d710&w=2000"
+      "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/general/bikeCategory.webp"
     },
     "filters": [
       {
@@ -8904,12 +8904,12 @@
         ],
         "colors": [
           {
-            "name": "Racing Red",
-            "hex": "#c41e2a",
-            "tint": "#c41e2a",
-            "blend": "multiply",
-            "tintOpacity": 0.45,
-            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/red.webp"
+            "name": "Light White / M Motorsport",
+            "hex": "#f4f6f7",
+            "tint": "#ffffff",
+            "blend": "screen",
+            "tintOpacity": 0.2,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/white.webp"
           },
           {
             "name": "Blackstorm Metallic",
@@ -8920,12 +8920,12 @@
             "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/black.webp"
           },
           {
-            "name": "Light White / M Motorsport",
-            "hex": "#f4f6f7",
-            "tint": "#ffffff",
-            "blend": "screen",
-            "tintOpacity": 0.2,
-            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/white.webp"
+            "name": "Sport",
+            "hex": "#101216",
+            "tint": "#0a0c10",
+            "blend": "multiply",
+            "tintOpacity": 0.6,
+            "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/bikes/s1000rr/sport.webp"
           }
         ],
         "keySpecs": [
@@ -9441,7 +9441,7 @@
       "eyebrow": "About RideBuilders",
       "headline": "Built by people\nwho live to drive.",
       "description": "We're a small crew obsessed with cars, bikes, and the stories machines tell. RideBuilders exists to make every spec, every price, and every comparison — honest, beautiful, and fast.",
-      "image": "https://img.magnific.com/free-photo/traveling-with-off-road-car_23-2151472951.jpg?t=st=1778236056~exp=1778239656~hmac=bb15ff653cdf6a444c955296c207a4fe5ccb15beb72a95a367777bc0e5e1a080&w=2000"
+      "image": "https://pub-c0bc1213f7f04d23b277daa869577174.r2.dev/general/sunset.webp"
     },
     "mission": {
       "eyebrow": "Our Mission",
@@ -9592,8 +9592,8 @@
       },
       {
         "label": "Email",
-        "value": "hello@ridebuilders.in",
-        "href": "mailto:hello@ridebuilders.in",
+        "value": "tanmaypth2017@gmail.com",
+        "href": "mailto:tanmaypth2017@gmail.com",
         "note": "We reply within one business day"
       },
       {
@@ -9901,7 +9901,7 @@
           },
           {
             "q": "How do I delete my account?",
-            "a": "Email us at hello@ridebuilders.in from your registered email and we'll wipe your account and all associated data within 7 days."
+            "a": "Email us at tanmaypth2017@gmail.com from your registered email and we'll wipe your account and all associated data within 7 days."
           }
         ]
       },
@@ -9946,7 +9946,7 @@
         },
         {
           "heading": "Your rights",
-          "body": "You can ask for a copy of everything we hold on you, ask us to correct it, or ask us to delete it — all by emailing hello@ridebuilders.in from the email tied to your account. We respond within seven business days."
+          "body": "You can ask for a copy of everything we hold on you, ask us to correct it, or ask us to delete it — all by emailing tanmaypth2017@gmail.com from the email tied to your account. We respond within seven business days."
         },
         {
           "heading": "Cookies",
@@ -10218,10 +10218,6 @@
           {
             "label": "Compare",
             "href": "/compare"
-          },
-          {
-            "label": "Categories",
-            "href": "#categories"
           }
         ]
       },
